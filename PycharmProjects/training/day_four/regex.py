@@ -83,10 +83,15 @@ if mat:
     print ("It matched ...", mat.group(2))#2
 else:
     print ("No match")
+
 '''email match'''
 
 #pat1 = re.compile('([a-z0-9_]+)@(.+)')
-target = 'abc_1234@hotstar.comkil'
+#pat1 = re.compile('([a-z0-9_]+)@(.+)')
+pat1 = re.compile('([a-z0-9_]+)@([a-z]+)(.com$)')
+
+
+target = 'abc_1234@hotstar.comkkh'
 match = pat1.search(target)
 if match:
     print ("Mail id matched ", match.group(0)) # entire mail id
@@ -102,3 +107,21 @@ if pat1.search(cell):
     print ("it matched")
 else:
     print ("Not matched")
+
+'''Question mark match'''
+pat1 = re.compile('^-?[0-9]+$') # - is optional
+cell = input("Enter cell num")
+if pat1.search(cell):
+    print ("Cell no matched")
+else:
+    print ("Cell num not matched")
+
+#pat1 = re.compile('[bwgduwaaa]x?') # specifies 'a' and matches 'a' zero or one time
+pat1 = re.compile('[bwhjggjihk]?x')
+#CHECKS FOR X REPITITION AS ZERO OR ONE TIME AND PRINTS MATCHED
+#X IS OPTIONAL ...IT CHECKS WHETHER ANY CHAR IN THE GIVEN STRING IS PRESENT IN THE [] GIVEN ANAD MATCHES IF PRESENT
+if pat1.search('zjxjxxxjfa'):
+    print ("Char a  matched")
+else:
+    print ("Char a not matched")
+
