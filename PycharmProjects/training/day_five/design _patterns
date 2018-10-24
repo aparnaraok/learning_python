@@ -1,0 +1,14 @@
+singleton
+Only one object exists for a class
+
+Garbage collector
+
+import gc
+dir(gc)
+
+reimport the module:
+reload(module_name)
+
+Instead of referring to the ID's are same or not, check the state and behaviour
+
+gang of 4 design patterns periodic table

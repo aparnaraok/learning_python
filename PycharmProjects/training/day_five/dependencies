@@ -1,0 +1,39 @@
+beer recipe csv github
+sudo /etc/init.d/mysql  //To check whether the mysql server is installed in system
+sudo apt-get update
+sudo apt-get install mysql-server //To install mysql-server
+
+
+steps to install:
+
+sudo apt-get -f install
+sudo apt-get install mysql-server
+
+//Logging into mysql
+mysql -u root -p
+
+CREATE USER 'demo'@'localhost' IDENTIFIED BY 'demo';
+create database test
+show databases
+grant all privileges on *.* to 'demo@'localhost'
+ctrl + D
+
+mysql -u demo -p
+password : demo
+
+sudo pip3 install pymysql
+
+
+mysql .>>>> use test;
+create table pets(name varchar(20), owner varchar(20), age int)
+insert into pets("simba", "Morpheus", 8)
+
+
+
+print (cursor.fetchall().__doc__)
+
+
+
+#unix
+pstree
+whwen u execute a comand in cmd prompt, the cmd prompt is itself a process which is called as shell/bash
