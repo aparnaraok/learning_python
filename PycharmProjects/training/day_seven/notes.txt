@@ -1,0 +1,7 @@
+wc -l <file name>
+ls (stdout changes| wc -l(stdin changes)
+
+os.system()...doesn't print any output
+
+#Lists only py files
+ls *.py
