@@ -1,0 +1,15 @@
+adapterpattern.py
+allout.txt
+answer_correction.py
+answers.csv
+applefactory.py
+build.py
+Computer_factory.py
+__init__.py
+logging_example.out
+model.csv
+mylogging.py
+output.txt
+unix_alarm.py
+unix_ex1.py
+unix_signal.py

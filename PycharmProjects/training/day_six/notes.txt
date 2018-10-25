@@ -1,0 +1,15 @@
+in factory method, object will be created whwnver reqd
+one for db connectiviy and the other for processing data
+
+Abstract factory:
+
+
+Builder pattern:
+while using pipeline (seq of activities need to be done)
+whereas factory is used only once
+
+Prototype pattern
+deepcopy
+
+Adaptor pattern
+connects 2 interfaces
