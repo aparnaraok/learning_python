@@ -1,0 +1,78 @@
+wc -l <file name>
+ls (stdout changes| wc -l(stdin changes)
+
+os.system()...doesn't print any output
+
+#Lists only py files
+ls *.py
+#two related command exceuted in its parent shell using a pipe is nothing but unnamed pipe
+
+named pipes communicated bw two unrelated processess
+
+we write and aother reads
+can be achieved in python using mkfifo
+interprocess comm using pipe is one -way traffic
+
+#Terminal 1 / Process 1
+mkfifo np1
+ls -l np1
+echo hello > np1
+
+#by typing the above command the processess strucks and goes on
+
+#Terminal 2 / Process 2:
+cat np1
+
+Hello
+
+This is called as named pipe.
+
+if you give the same command like in terminal 2:
+echo hello > np1
+
+the process ends in both terminal 1 and termonal 2.
+
+
+
+T1 :
+cat np1
+
+T2:
+echo helloworld > np1
+
+#Immediately observed in T1
+
+
+
+one process cannot look/ write into other process data.
+This could be achieved via pipe
+
+or by sharing memory between processes
+pipe for unidirectional comm
+
+
+for bidir comm, we requrie shared memory
+one process creates a shared memory which could be accessed by other processes.
+
+shmget #creates a shared mem
+shmdt #attached the sm to other memmory
+message queue#msgget attach and delete
+gets the message queue using a key
+process are on same host.
+
+if on diff host, socket used
+
+
+#modules:
+os
+sys
+shutil
+subprocess
+logging
+time
+pickle
+re
+socket
+thread,threading
+
+IJN(Imperior Japanese Navy)

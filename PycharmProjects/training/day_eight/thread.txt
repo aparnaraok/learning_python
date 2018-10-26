@@ -1,0 +1,19 @@
+the main thread creates child threads and allows child threads to other processes whereas main thread goes back to accept
+
+disadv:
+
+scheduling
+resource sharing
+synchronisation
+
+one thread is executed at a time in python
+
+
+mutex
+
+#thread is almost like defining a function
+python interpreter allows only one thread to execute
+if one thread is blocked,then other thread can execute(adv)
+
+if a process is blocked in CPU, it throws out that process.
+#virtual parallel execution

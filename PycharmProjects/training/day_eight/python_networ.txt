@@ -1,0 +1,183 @@
+SUN microsystems (Stanford University Network)
+created a first network Unix
+and connected a wide variety of nw's
+
+2 main issues:
+addressing
+data transport
+
+ftp www.gnu.org
+normal : https service
+in termonal : ftp service
+
+cat /etc/services
+
+below 1024 port is problocked whenver for our use.
+
+3.Nw addressing
+
+name sservices:
+nslookup
+
+
+cisco@cisco-ThinkPad-T430:~$ nslookup
+> ns1.google.com
+Server:		127.0.1.1
+Address:	127.0.1.1#53
+
+Non-authoritative answer:
+Name:	ns1.google.com
+Address: 216.239.32.10
+
+cisco@cisco-ThinkPad-T430:~$ nslookup www.google.com
+Server:		127.0.1.1
+Address:	127.0.1.1#53
+
+Non-authoritative answer:
+Name:	www.google.com
+Address: 172.217.26.164
+
+use 172.217.26.164 to access www.google.com
+
+
+
+domain name is converted to IP address using DNS.
+ns1 - name server 1
+
+view active nw connections:
+netstat -a
+
+13 name servers across globe
+
+
+4.client/server concept
+req/resp
+
+4.usng telnet in debug mode
+it checks whether any sserver connection is open/not
+
+
+telnet www.python.org 80
+ctrl]
+>>telnet > quit
+
+cisco@cisco-ThinkPad-T430:~$ telnet www.python.org 80
+Trying 2a04:4e42:25::223...
+Connected to dualstack.python.map.fastly.net.
+Escape character is '^]'.
+^]
+telnet> quit
+Connection closed.
+cisco@cisco-ThinkPad-T430:~$
+cisco@cisco-ThinkPad-T430:~$
+cisco@cisco-ThinkPad-T430:~$ telnet www.google.com 22
+Trying 2404:6800:4007:811::2004...
+
+every server must have a port num.
+
+server is always 23 for telnet
+21 ftp
+
+This is only way to check whether the port is open/not.
+or else we need to login to remote server locaton...which is quite uncommon
+
+
+
+
+6.Data transport:
+Streams (TCP) connection-oriented #most common
+Datagrams (UDP)connectionless unreliable protocol
+
+
+7. Sockets:
+a comm endpoint
+
+create a socket:
+import socket
+s = socket.socket(addr_family, type)
+
+socket.AF_INET
+socket.AF_INET6
+
+type:
+SOCK_STREAM
+SOCK_DATA
+
+#ijn25
+
+server's port num is fixed which should be known by the client.
+create a socket bind the same to port num and listen and accept for connection.
+
+ftp ftp.gnu.org
+#Each client will be given dedicated connection to the socket.(wr to pid)
+
+telnet 127.0.0.1 10000
+netstat -a | grep 10000
+
+TCP:
+server :
+socket--bind--listen--accept--recv--send
+
+client:
+socket--connect--send---recv
+setsockopt
+
+types of sockets:
+datagram
+
+UDP----There is no queue
+socket---bind
+
+client:
+socket---sendto----recvfrom
+
+just sends and receives packets
+
+iptables -L #returns the firewall status
+
+find /var -type s -ls 2> /dev/null  #prints the error if any
+ls -l /tmp #if s comes , it is called socket
+
+cisco@cisco-ThinkPad-T430:~$ ls -l /run
+total 32
+-rw-r--r--  1 root  root     4 Oct 26 09:38 acpid.pid
+srw-rw-rw-  1 root  root     0 Oct 26 09:38 acpid.socket
+-rw-------  1 root  root     0 Oct 26 09:39 agetty.reload
+drwxr-xr-x  2 root  root    40 Oct 26 09:38 alsa
+drwxr-xr-x  2 avahi avahi   80 Oct 26 13:28 avahi-daemon
+-rw-r--r--  1 root  root     4 Oct 26 09:38 crond.pid
+----------  1 root  root     0 Oct 26 09:38 crond.reboot
+drwxr-xr-x  3 root  lp     120 Oct 26 09:43 cups
+drwxr-xr-x  2 root  root    60 Oct 26 09:38 dbus
+-rw-r--r--  1 root  root     5 Oct 26 13:28 dhclient6-wlp3s0.pid
+-rw-r--r--  1 root  root     5 Oct 26 14:45 dhclient-wlp3s0.pid
+lrwxrwxrwx  1 root  root    25 Oct 26 09:38 initctl -> /run/systemd/initctl/fifo
+drwxr-xr-x  2 root  root    80 Oct 26 09:38 initramfs
+-rw-r--r--  1 root  root     4 Oct 26 09:38 irqbalance.pid
+drwx--x--x  3 root  root    60 Oct 26 09:38 lightdm
+-rw-r--r--  1 root  root     4 Oct 26 09:38 lightdm.pid
+drwxrwxrwt  4 root  root   100 Oct 26 09:38 lock
+drwxr-xr-x  3 root  root    60 Oct 26 09:38 log
+-rw-r--r--  1 root  root     0 Oct 26 09:43 mlocate.daily.lock
+drwxr-xr-x  2 root  root    60 Oct 26 09:38 mount
+drwxr-xr-x  2 mysql mysql  100 Oct 26 09:38 mysqld
+drwxr-xr-x  2 root  root   100 Oct 26 09:38 network
+drwxr-xr-x  2 root  root   100 Oct 26 13:28 NetworkManager
+drwxr-xr-x  2 root  root    40 Oct 26 09:38 plymouth
+drwxr-xr-x  2 root  root    40 Oct 26 09:38 pppconfig
+drwxr-xr-x  3 root  root   100 Oct 26 09:40 resolvconf
+-rw-r--r--  1 root  root     3 Oct 26 09:38 rsyslogd.pid
+drwxr-xr-x  2 root  root    40 Oct 26 09:38 sendsigs.omit.d
+lrwxrwxrwx  1 root  root     8 Oct 26 09:38 shm -> /dev/shm
+srw-rw-rw-  1 root  root     0 Oct 26 09:38 snapd-snap.socket
+srw-rw-rw-  1 root  root     0 Oct 26 09:38 snapd.socket
+drwx--x--x  3 root  root    60 Oct 26 09:38 sudo
+drwxr-xr-x 16 root  root   380 Oct 26 09:38 systemd
+drwxr-xr-x  2 root  root    60 Oct 26 09:38 thermald
+drwxr-xr-x  2 root  root    60 Oct 26 09:38 tmpfiles.d
+drwxr-xr-x  7 root  root   220 Oct 26 13:27 udev
+drwx------  2 root  root    40 Oct 26 09:39 udisks2
+drwxr-xr-x  3 root  root    60 Oct 26 09:40 user
+-rw-rw-r--  1 root  utmp  1536 Oct 26 09:39 utmp
+drwxr-xr-x  2 root  root    60 Oct 26 09:38 uuidd
+drwxr-x---  2 root  root    60 Oct 26 09:38 wpa_supplicant
