@@ -1,0 +1,5 @@
+::
+
+    >>> from doc_test import my_function
+    >>> my_function(2,3)
+    6
