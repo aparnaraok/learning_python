@@ -2,7 +2,7 @@ import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(("", 9001)) #bind the socket to some port 9001
 s.listen(5) #size of the queue is 5
-s.settimeout(5)
+#s.settimeout(5)
 while True:
     print("Hello ...entered the loop")
     print (s.accept.__doc__)
@@ -13,11 +13,18 @@ while True:
     c.send(b"Hello "+bytes(a[0],'utf-8'))
     c.close()
 
+#open 2 terminals
+#In 1st terminal >>>run..python tcp_server.py
+#In 2nd terminam>>> telnet 127.0.0.1 9001
+
 #>>>telnet 127.0.0.1 9001
 
 # cisco@cisco-ThinkPad-T430:~$ netstat -a | grep 9001
 # tcp        0      0 localhost:9001          localhost:59670         TIME_WAIT
 
+
+#Terminal 1 : python tcp_server.py
+#In terminal 2 :
 
 # cisco@cisco-ThinkPad-T430:~$ telnet 127.0.0.1 9001
 # Trying 127.0.0.1...
