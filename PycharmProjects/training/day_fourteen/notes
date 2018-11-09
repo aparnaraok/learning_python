@@ -1,0 +1,76 @@
+sudo apt-get install apache2
+/etc/init.d/apache2 status
+
+cisco@cisco-ThinkPad-T430:~$ /etc/init.d/apache2 status
+● apache2.service - LSB: Apache2 web server
+   Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/apache2.service.d
+           └─apache2-systemd.conf
+   Active: active (running) since Thu 2018-11-08 10:11:38 IST; 16s ago
+     Docs: man:systemd-sysv-generator(8)
+   CGroup: /system.slice/apache2.service
+           ├─5508 /usr/sbin/apache2 -k start
+           ├─5511 /usr/sbin/apache2 -k start
+           └─5512 /usr/sbin/apache2 -k start
+
+Nov 08 10:11:37 cisco-ThinkPad-T430 systemd[1]: Starting LSB: Apache2 web server...
+Nov 08 10:11:37 cisco-ThinkPad-T430 apache2[5485]:  * Starting Apache httpd web server apache2
+Nov 08 10:11:37 cisco-ThinkPad-T430 apache2[5485]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. ...s message
+Nov 08 10:11:38 cisco-ThinkPad-T430 apache2[5485]:  *
+Nov 08 10:11:38 cisco-ThinkPad-T430 systemd[1]: Started LSB: Apache2 web server.
+Hint: Some lines were ellipsized, use -l to show in full.
+
+
+
+127.0.0.1 #type in browser
+
+sudo su -
+cd /var/www
+ls
+
+script -f ~cisco/outputs
+
+mkdir cgi-bin
+chmod 1777 cgi-bin
+
+
+which python3
+/usr/bin/python3
+
+sudo gedit hello.cgi
+#!/usr/bin/python3
+
+ctrl+shift+s (in cgi-bin)
+cd cgi-bin
+
+
+
+cd mysite
+python manage.py runserver #defaults to 8000
+https://127.0.0.0:8000
+
+#python module need not be loaded again and again.
+
+python manage.py runserver 0:8080 #run in some other ports
+
+
+plone
+#content management system
+
+Frameworks never take any input...
+
+
+
+python manage.py startapp myapp
+
+
+c -input
+v-output
+m -process
+
+m + v = template (MTV architecture)
+
+
+template always holds the context(key-val pair)
+
+to access more obj....create a template and access for loop.
