@@ -1,0 +1,11 @@
+rule
+
+Converter:
+
+@app.route(/hello/) -->correct way of defining
+@app.route(/hello) --->throws an error if we give /hello/
+
+For dynamic url:
+url_for
+
+http://127.0.0.1:5000/hello/1
