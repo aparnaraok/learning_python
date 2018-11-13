@@ -1,0 +1,43 @@
+Machine Learning
+
+Bias and variance
+
+higher bias--algnot complex
+High variance---> overfitting
+
+conditional prob(white and black balls)
+joint prob(tossing a coin)
+
+clustering (based on some factor like age group..)
+Association(Amazon way)
+
+Dimensionality reduction:
+---subfield of unsuoervised learning
+Principal component analysis(PCA)
+
+Data mining(unsupervised learning)
+
+Data model(mean median..)
+Alg model(regression linear reg corelation)
+
+Deep Learning(subfield of ML)
+
+pip3 install scikit-learn / sklearn
+
+
+sigmoid fn
+(becomes 1 when z is infinity)
+
+cost fn(idea to minimize the cost)--->Gradient Desant
+
+Decision Tree Learning
+
+Information gain
+
+
+Entropy
+
+Homogenous---E = 0
+equally divided sample-->E=1
+
+E(P)-E(0) = Infor gain
