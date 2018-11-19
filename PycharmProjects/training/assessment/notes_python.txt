@@ -1,0 +1,26 @@
+shallow copy---points to same ref
+deep copy---separate instances will be created
+
+shallow copy--> is and equal
+deep copy---> only equal
+
+
+
+any---->any numbers can be prsenern (can be zero somewhere in the list)
+all---->all ele should be numbers
+
+if None is there, it will create all objects type.
+
+U1(str + int)
+
+array multiplication (both arrays should be of same size)
+
+matrix mul
+
+star (arr)(corresponding ele mul)
+dot (matrix mul)(can be of diff sizes)
+
+All identity matrix are idempotent.
+All idempotent matrix are not identity.
+
+idempotent(m*m = m)
