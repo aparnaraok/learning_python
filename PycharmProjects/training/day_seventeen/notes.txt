@@ -1,0 +1,10 @@
+chi square test---> gets samples with 99.5% accuracy
+(Unsupervised)
+
+Dimensionality reduction
+
+Trying to find if any correlation bw features and combining the same and getting the resutant feature
+
+Pearson correaltion coefficient(only linear)-->scipy
+
+Principal Component Analysis(PCA)
