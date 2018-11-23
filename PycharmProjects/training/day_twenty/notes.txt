@@ -1,0 +1,14 @@
+Boston housing dataset:
+
+https://archive.ics.uci.edu/ml/datasets.html
+
+https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
+
+using RANSAC
+
+outliers(out of required threshold)
+inliers(those who accept data within the threshold)
+
+Inc in threshold inc the slope
+Inc the num of samples dec the slope
+
