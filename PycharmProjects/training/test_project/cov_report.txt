@@ -1,0 +1,104 @@
+Name                                       Stmts   Miss  Cover   Missing
+------------------------------------------------------------------------
+my_test_project\__init__.py                    0      0   100%
+my_test_project\sample_dir\__init__.py         4      0   100%
+my_test_project\sample_dir\sample_add.py      11      0   100%
+my_test_project\sample_dir\sample_sub.py       8      0   100%
+my_test_project\tests\__init__.py              0      0   100%
+my_test_project\tests\test_add.py             19      0   100%
+my_test_project\tests\test_sub.py             15      3    80%   21-23
+------------------------------------------------------------------------
+TOTAL                                         57      3    95%
+
+(venv) C:\Users\user\PycharmProjects\my_project>py.test --cov-report term --cov=my_test_project/
+============================= test session starts =============================
+platform win32 -- Python 3.7.0, pytest-4.0.2, py-1.7.0, pluggy-0.8.0
+rootdir: C:\Users\user\PycharmProjects\my_project, inifile:
+plugins: cov-2.6.0
+collected 5 items                                                              
+
+my_test_project\tests\test_add.py ...                                    [ 60%]
+my_test_project\tests\test_sub.py .F                                     [100%]
+
+================================== FAILURES ===================================
+_________________________________ test_1_add __________________________________
+
+    def test_1_add():
+>      add_obj = SampleAdd(20,30)
+E      NameError: name 'SampleAdd' is not defined
+
+my_test_project\tests\test_sub.py:20: NameError
+
+----------- coverage: platform win32, python 3.7.0-final-0 -----------
+Name                                       Stmts   Miss  Cover
+--------------------------------------------------------------
+my_test_project\__init__.py                    0      0   100%
+my_test_project\sample_dir\__init__.py         4      0   100%
+my_test_project\sample_dir\sample_add.py      11      0   100%
+my_test_project\sample_dir\sample_sub.py       8      0   100%
+my_test_project\tests\__init__.py              0      0   100%
+my_test_project\tests\test_add.py             19      0   100%
+my_test_project\tests\test_sub.py             15      3    80%
+--------------------------------------------------------------
+TOTAL                                         57      3    95%
+
+===================== 1 failed, 4 passed in 0.35 seconds ======================
+
+(venv) C:\Users\user\PycharmProjects\my_project>coverage report -m
+Name                                       Stmts   Miss  Cover   Missing
+------------------------------------------------------------------------
+my_test_project\__init__.py                    0      0   100%
+my_test_project\sample_dir\__init__.py         4      0   100%
+my_test_project\sample_dir\sample_add.py      11      0   100%
+my_test_project\sample_dir\sample_sub.py       8      0   100%
+my_test_project\tests\__init__.py              0      0   100%
+my_test_project\tests\test_add.py             19      0   100%
+my_test_project\tests\test_sub.py             15      3    80%   21-23
+------------------------------------------------------------------------
+TOTAL                                         57      3    95%
+
+(venv) C:\Users\user\PycharmProjects\my_project>py.test -
+
+
+
+
+
+
+
+
+
+
+========================== 5 passed in 0.34 seconds ===========================
+
+(venv) C:\Users\user\PycharmProjects\my_project>py.test --cov-report term --cov=my_test_project/
+============================= test session starts =============================
+platform win32 -- Python 3.7.0, pytest-4.0.2, py-1.7.0, pluggy-0.8.0
+rootdir: C:\Users\user\PycharmProjects\my_project, inifile:
+plugins: cov-2.6.0
+collected 2 items / 1 errors                                                   
+
+=================================== ERRORS ====================================
+_____________ ERROR collecting my_test_project/tests/test_add.py ______________
+ImportError while importing test module 'C:\Users\user\PycharmProjects\my_project\my_test_project\tests\test_add.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+my_test_project\tests\test_add.py:9: in <module>
+    from sample_dir.sample_add import SampleAdd
+E   ModuleNotFoundError: No module named 'sample_dir'
+
+----------- coverage: platform win32, python 3.7.0-final-0 -----------
+Name                                       Stmts   Miss  Cover
+--------------------------------------------------------------
+my_test_project\__init__.py                    0      0   100%
+my_test_project\sample_dir\__init__.py         4      0   100%
+my_test_project\sample_dir\sample_add.py      11      2    82%
+my_test_project\sample_dir\sample_sub.py       8      0   100%
+my_test_project\tests\__init__.py              0      0   100%
+my_test_project\tests\test_add.py             22     19    14%
+my_test_project\tests\test_sub.py             18      0   100%
+--------------------------------------------------------------
+TOTAL                                         63     21    67%
+
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 0.41 seconds ===========================
+
