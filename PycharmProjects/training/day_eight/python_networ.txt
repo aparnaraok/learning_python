@@ -8,15 +8,15 @@ data transport
 
 ftp www.gnu.org
 normal : https service
-in termonal : ftp service
+in terminal : ftp service
 
 cat /etc/services
 
-below 1024 port is problocked whenver for our use.
+below 1024 port is pre-blocked whenver for our use.
 
 3.Nw addressing
 
-name sservices:
+named services:
 nslookup
 
 
@@ -54,7 +54,7 @@ netstat -a
 req/resp
 
 4.usng telnet in debug mode
-it checks whether any sserver connection is open/not
+it checks whether any server connection is open/not
 
 
 telnet www.python.org 80
@@ -90,14 +90,15 @@ Datagrams (UDP)connectionless unreliable protocol
 
 
 7. Sockets:
-a comm endpoint
+a communication endpoint
 
 create a socket:
 import socket
 s = socket.socket(addr_family, type)
 
-socket.AF_INET
-socket.AF_INET6
+addr_family:
+socket.AF_INET (ipv4)
+socket.AF_INET6 (ipv6)
 
 type:
 SOCK_STREAM

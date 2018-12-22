@@ -1,0 +1,8 @@
+Joins:
+
+inner join---intersection
+outerjoin---union
+
+#concat...default outer
+#merge..default inner
+

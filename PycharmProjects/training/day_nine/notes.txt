@@ -1,0 +1,34 @@
+https://realpython.com/python-debugging-pdb/
+https://en.wikipedia.org/wiki/Imperial_Japanese_Navy
+
+debugging:
+to find logical error when the pgm is running correctly bt no expected op
+
+pdb.run()
+
+
+ptrace(process tracer)
+a parent can look into chld stack to look whats happening
+run()checks what are the values that are not showing up correctly.
+
+Why interprocess comm is reqd:(for the process to comm with each other using)
+pipe (similar to file)
+shared memory (Both process can read and write)
+
+message queue
+
+so oly in process pgm, we track x with the help of a file.
+
+pdb.set_trace():
+
+can put in any func in any line
+which when hits that place, starts the debugger.
+
+file  :dict_pdb.py
+
+pdb.post_mortem():
+
+
+
+
+

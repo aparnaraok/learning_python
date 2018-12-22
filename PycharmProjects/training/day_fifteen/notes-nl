@@ -1,0 +1,120 @@
+Machine Learning
+
+Bias and variance
+
+higher bias--algnot complex
+High variance---> overfitting
+
+conditional prob(white and black balls)
+joint prob(tossing a coin)
+
+clustering (based on some factor like age group..)
+Association(Amazon way)
+
+Dimensionality reduction:
+---subfield of unsuoervised learning
+Principal component analysis(PCA)
+
+Data mining(unsupervised learning)
+
+Data model(mean median..)
+Alg model(regression linear reg corelation)
+
+Deep Learning(subfield of ML)
+
+pip3 install scikit-learn / sklearn
+
+
+sigmoid fn
+(becomes 1 when z is infinity)
+
+cost fn(idea to minimize the cost)--->Gradient Desant
+
+Decision Tree Learning
+
+Information gain
+
+
+Entropy
+
+Homogenous---E = 0
+equally divided sample-->E=1
+
+E(P)-E(0) = Infor gain
+
+
+Perceptron:
+Which method to use (mention for sdpecified output)
+should give to computer
+
+ytest --y
+ycap---output(predicted)
+
+etatheta--learning rate(efficient if ths is min)
+
+50:100--->2nd 2 samples
+tells which is more contributing feature---coeff
+
+in ytst--x test output willbe der
+ypred---y;s predicted output
+
+diff should be min(may be zero)
+change max iter or eta if not satisfied
+
+Normally------>training > testing output
+
+ppn:
+random state = 0
+if 0///takes input in order
+if other..takes input in random manner
+rare parameter...(if 1 means ..it reads only one as always in output..doesn't know about other inputs)
+
+
+if no of features is high....>then decision tree classifier is not recommended
+ip-->f1f2 & f3f4--->f1 and f2 and f3 and f4
+it should have found out in the 1st level itself
+
+
+Imputer(filters the impurities from the input)
+if the missing value is Nan...it will try to get the mean of the numbers
+credit card age prediction.
+default axis = 0 (col) and axis = 1(row)
+
+if we send the bulk date(xtrain) as input and giving alg ands predicting it..it is less efficient
+Hence we need to standardize the input.
+
+
+0,1,2,3,4,5
+0-mean([0,1,2,3,4,5)- std([0,1,2,3,4,5])
+
+df[1] = normalized
+df[2] = standardized
+only statndardize is applicable for input data set.
+can't used for output.
+
+x[:,0] --->considers from first col
+Label encoder is used to map letters with numbers (if the dict size is large)
+
+
+#To change col data to row data
+one hot encoder(converts to sparse matrix)
+LXLM
+100
+010
+001
+
+if no of cols is hogh...then SMOTE is used
+
+
+Logistic regression:
+l1&l2 ---->penalty
+c = 1.0
+ coef---Weightages to the features(will select based on the predicted weightage of the features)
+
+
+ RFE(recursive feature elimination)
+ which featues weightage is less---eliminate
+
+ if the cols are high and its values are less....>then eliminate this
+
+

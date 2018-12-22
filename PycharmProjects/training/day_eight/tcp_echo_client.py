@@ -34,8 +34,15 @@ while True:
         # Clean up the connection
         connection.close()
 
+#open 2 terminals
+#In 1st terminal >>>run..python tcp_echo_client.py
+#In 2nd terminam>>> telnet 127.0.0.1 10001
+
+
+
 #telnet 127.0.0.1 10001
 
+#In terminal 1:
 
 # cisco@cisco-ThinkPad-T430:~$ telnet 127.0.0.1 10001
 # Trying 127.0.0.1...
@@ -51,7 +58,7 @@ while True:
 # telnet> quit
 # Connection closed.
 
-
+#python tcp_echo_client.py
 # sending data back to the client
 # received b'APARNA\r\n'
 # sending data back to the client

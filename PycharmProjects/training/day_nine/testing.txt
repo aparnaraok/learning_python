@@ -1,0 +1,19 @@
+Testing:
+doc testing (Black box testing since we dont much access the code)
+unit testing (White Box testing where we have access to the code)
+
+Unittest:
+
+
+TDD(Test Driven Development):
+Test first ..code next (test fails-->go for debugger)
+
+
+Dive into python3 roman numerals
+http://getpython3.com/diveintopython3/unit-testing.html
+https://github.com/kennethreitz-archive/dive-into-python3/blob/master/examples/roman1.py
+
+
+Nose Fixtures
+setup/teardown
+class--functions--module

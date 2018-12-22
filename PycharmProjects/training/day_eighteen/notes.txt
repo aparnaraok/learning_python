@@ -1,0 +1,7 @@
+https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
+
+
+Confusion matrix:
+2 *(TP/TP+FP * (TP/FN+TP))/ (TP/TP+FP) + TP/(FN +TP))  = 1
+
+ROC curve

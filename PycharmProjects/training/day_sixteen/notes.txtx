@@ -1,0 +1,15 @@
+;
+penalty
+
+l1 - linear (Can easily predict which x is showing waht values)
+l2 - quadratic (rate of change....no change when x becomes 0)
+
+increasing the lineraization, decreasing the variance --decreasing the overfitting
+bias -underfitting
+variance - overfitting
+
+increasing lambda...increase regularisaion strenth--decreas var
+
+drasticially decrase c means inc bias
+
+https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8

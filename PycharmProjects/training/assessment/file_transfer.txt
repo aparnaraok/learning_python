@@ -1,0 +1,9 @@
+Create client and server:
+
+Server:
+should respond with the capitalized letters of the string scanning with "the" and return all the lines in a list and copy to a file.
+
+
+using sftp
+
+use logging as decorator

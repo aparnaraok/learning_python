@@ -17,6 +17,9 @@ while True:
 #no connection is established
 #only sends and receives packets
 
+#Terminal 1 :
 # cisco@cisco-ThinkPad-T430:~/PycharmProjects/training/day_eight$ python3 udp_server.py
+
+#Terminal 2:
 # cisco@cisco-ThinkPad-T430:~/PycharmProjects/training/day_eight$ python3 socket_udp_client_echo.py
 # b'WELCOME TO PYTHO'

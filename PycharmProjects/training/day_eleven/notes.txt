@@ -1,0 +1,6 @@
+pandas:
+
+dataframe supports alpha indexing too
+
+axis = 0....rows
+axis = 1...cols

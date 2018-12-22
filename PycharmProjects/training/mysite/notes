@@ -1,0 +1,132 @@
+sudo apt-get install apache2
+/etc/init.d/apache2 status
+
+cisco@cisco-ThinkPad-T430:~$ /etc/init.d/apache2 status
+● apache2.service - LSB: Apache2 web server
+   Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/apache2.service.d
+           └─apache2-systemd.conf
+   Active: active (running) since Thu 2018-11-08 10:11:38 IST; 16s ago
+     Docs: man:systemd-sysv-generator(8)
+   CGroup: /system.slice/apache2.service
+           ├─5508 /usr/sbin/apache2 -k start
+           ├─5511 /usr/sbin/apache2 -k start
+           └─5512 /usr/sbin/apache2 -k start
+
+Nov 08 10:11:37 cisco-ThinkPad-T430 systemd[1]: Starting LSB: Apache2 web server...
+Nov 08 10:11:37 cisco-ThinkPad-T430 apache2[5485]:  * Starting Apache httpd web server apache2
+Nov 08 10:11:37 cisco-ThinkPad-T430 apache2[5485]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. ...s message
+Nov 08 10:11:38 cisco-ThinkPad-T430 apache2[5485]:  *
+Nov 08 10:11:38 cisco-ThinkPad-T430 systemd[1]: Started LSB: Apache2 web server.
+Hint: Some lines were ellipsized, use -l to show in full.
+
+
+
+127.0.0.1 #type in browser
+
+sudo su -
+cd /var/www
+ls
+
+script -f ~cisco/outputs
+
+mkdir cgi-bin
+chmod 1777 cgi-bin
+
+
+which python3
+/usr/bin/python3
+
+sudo gedit hello.cgi
+#!/usr/bin/python3
+
+ctrl+shift+s (in cgi-bin)
+cd cgi-bin
+
+
+
+cd mysite
+python manage.py runserver #defaults to 8000
+https://127.0.0.0:8000
+
+#python module need not be loaded again and again.
+
+python manage.py runserver 0:8080 #run in some other ports
+
+
+plone
+#content management system
+
+Frameworks never take any input...
+
+
+
+python manage.py startapp myapp
+
+
+c -input
+v-output
+m -process
+
+m + v = template (MTV architecture)
+
+
+template always holds the context(key-val pair)
+
+to access more obj....create a template and access for loop.
+
+
+cisco@cisco-ThinkPad-T430:~/PycharmProjects/training/mysite$ python3 manage.py makemigrations
+Migrations for 'myapp':
+  myapp/migrations/0001_initial.py
+    - Create model Author
+    - Create model Book
+    - Create model Publisher
+    - Add field publisher to book
+cisco@cisco-ThinkPad-T430:~/PycharmProjects/training/mysite$ python3 manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, myapp, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying myapp.0001_initial... OK
+  Applying sessions.0001_initial... OK
+
+
+  In [4]: from myapp.models import Publisher
+
+In [5]: p1 = Publisher(name='abc', address='75 street', city='chennai', country='India', website=
+   ...: 'http://www.google.com')
+
+In [6]: p1.save()
+
+
+
+#superuser creation:
+
+python3 manage.py runserver createsuperuser
+https://127.0.0.1:8000/admin
+
+username : cisco
+password : cisco
+
+will login and u can add in admin.py whatever u wN
+
+
+
+in the website..add user
+
+username : aparna@9894
+password : *anagel1
