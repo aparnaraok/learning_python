@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: black;
+}
+
+.right {
+  right: 0;
+  background-color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 300px;
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+<div class="split left">
+  <div class="centered">
+    <!--<img src="img_avatar2.png" alt="Avatar woman">-->
+    <h2>Input JSON</h2>
+    <p>{"input_data":[{"bw_mbps":2.0,"customer_segment":"Enterprise ? Government\/PSU","sales_org":"Enterprise","product_name":"Global VPN","local_loop_interface":"100-Base-TX","last_mile_contract_term":"1 Year","site_id":"1011720|77.1|28.6","prospect_name":"Temp","burstable_bw":2,"resp_city":"DELHI","account_id_with_18_digit":"0012000000GSDzVAAX","opportunity_term":12,"quotetype_quote":"New Order","connection_type":"Standard","sum_no_of_sites_uni_len":1,"cpe_variant":"C867VAE-K9","cpe_management_type":"full_managed","cpe_supply_type":"rental","topology":"primary_active","pool_size":29,"additional_ip":4,"latitude_final":28.558312,"longitude_final":77.094343,"feasibility_response_created_date":"2018-07-12"},{"bw_mbps":2.0,"customer_segment":"Enterprise ? Government\/PSU","sales_org":"Enterprise","product_name":"Global VPN","local_loop_interface":"100-Base-TX","last_mile_contract_term":"1 Year","site_id":"1011722|77.2|28.6","prospect_name":"Temp","burstable_bw":2,"resp_city":"DELHI","account_id_with_18_digit":"0012000000GSDzVAAX","opportunity_term":12,"quotetype_quote":"New Order","connection_type":"Standard","sum_no_of_sites_uni_len":1,"cpe_variant":"C867VAE-K9","cpe_management_type":"full_managed","cpe_supply_type":"rental","topology":"primary_active","pool_size":29,"additional_ip":4,"latitude_final":28.586551,"longitude_final":77.210667,"feasibility_response_created_date":"2018-07-12"},{"bw_mbps":2.0,"customer_segment":"Enterprise ? Government\/PSU","sales_org":"Enterprise","product_name":"Global VPN","local_loop_interface":"100-Base-TX","last_mile_contract_term":"1 Year","site_id":"1011724|77.2|28.6","prospect_name":"Temp","burstable_bw":2,"resp_city":"DELHI","account_id_with_18_digit":"0012000000GSDzVAAX","opportunity_term":12,"quotetype_quote":"New Order","connection_type":"Standard","sum_no_of_sites_uni_len":1,"cpe_variant":"C867VAE-K9","cpe_management_type":"full_managed","cpe_supply_type":"rental","topology":"primary_active","pool_size":29,"additional_ip":4,"latitude_final":28.583077,"longitude_final":77.213155,"feasibility_response_created_date":"2018-07-12"},{"bw_mbps":2.0,"customer_segment":"Enterprise ? Government\/PSU","sales_org":"Enterprise","product_name":"Global VPN","local_loop_interface":"100-Base-TX","last_mile_contract_term":"1 Year","site_id":"1011725|75.8|26.8","prospect_name":"Temp","burstable_bw":2,"resp_city":"DELHI","account_id_with_18_digit":"0012000000GSDzVAAX","opportunity_term":12,"quotetype_quote":"New Order","connection_type":"Standard","sum_no_of_sites_uni_len":1,"cpe_variant":"C867VAE-K9","cpe_management_type":"full_managed","cpe_supply_type":"rental","topology":"primary_active","pool_size":29,"additional_ip":4,"latitude_final":26.828007,"longitude_final":75.806048,"feasibility_response_created_date":"2018-07-12"},{"bw_mbps":2.0,"customer_segment":"Enterprise ? Government\/PSU","sales_org":"Enterprise","product_name":"Global VPN","local_loop_interface":"100-Base-TX","last_mile_contract_term":"1 Year","site_id":"1011726|80.9|26.8","prospect_name":"Temp","burstable_bw":2,"resp_city":"DELHI","account_id_with_18_digit":"0012000000GSDzVAAX","opportunity_term":12,"quotetype_quote":"New Order","connection_type":"Standard","sum_no_of_sites_uni_len":1,"cpe_variant":"C867VAE-K9","cpe_management_type":"full_managed","cpe_supply_type":"rental","topology":"primary_active","pool_size":29,"additional_ip":4,"latitude_final":26.761742,"longitude_final":80.885674,"feasibility_response_created_date":"2018-07-12"},{"bw_mbps":2.0,"customer_segment":"Enterprise ? Government\/PSU","sales_org":"Enterprise","product_name":"Global VPN","local_loop_interface":"100-Base-TX","last_mile_contract_term":"1 Year","site_id":"1011727|82.9|25.4","prospect_name":"Temp","burstable_bw":2,"resp_city":"DELHI","account_id_with_18_digit":"0012000000GSDzVAAX","opportunity_term":12,"quotetype_quote":"New Order","connection_type":"Standard","sum_no_of_sites_uni_len":1,"cpe_variant":"C867VAE-K9","cpe_management_type":"full_managed","cpe_supply_type":"rental","topology":"primary_active","pool_size":29,"additional_ip":4,"latitude_final":25.448473,"longitude_final":82.856077,"feasibility_response_created_date":"2018-07-12"},{"bw_mbps":2.0,"customer_segment":"Enterprise ? Government\/PSU","sales_org":"Enterprise","product_name":"Global VPN","local_loop_interface":"100-Base-TX","last_mile_contract_term":"1 Year","site_id":"1011729|77.2|31.9","prospect_name":"Temp","burstable_bw":2,"resp_city":"DELHI","account_id_with_18_digit":"0012000000GSDzVAAX","opportunity_term":12,"quotetype_quote":"New Order","connection_type":"Standard","sum_no_of_sites_uni_len":1,"cpe_variant":"C867VAE-K9","cpe_management_type":"full_managed","cpe_supply_type":"rental","topology":"primary_active","pool_size":29,"additional_ip":4,"latitude_final":31.877101,"longitude_final":77.151893,"feasibility_response_created_date":"2018-07-12"},{"bw_mbps":2.0,"customer_segment":"Enterprise ? Government\/PSU","sales_org":"Enterprise","product_name":"Global VPN","local_loop_interface":"100-Base-TX","last_mile_contract_term":"1 Year","site_id":"1011731|73.9|24.6","prospect_name":"Temp","burstable_bw":2,"resp_city":"DELHI","account_id_with_18_digit":"0012000000GSDzVAAX","opportunity_term":12,"quotetype_quote":"New Order","connection_type":"Standard","sum_no_of_sites_uni_len":1,"cpe_variant":"C867VAE-K9","cpe_management_type":"full_managed","cpe_supply_type":"rental","topology":"primary_active","pool_size":29,"additional_ip":4,"latitude_final":24.619993,"longitude_final":73.890407,"feasibility_response_created_date":"2018-07-12"},{"bw_mbps":2.0,"customer_segment":"Enterprise ? Government\/PSU","sales_org":"Enterprise","product_name":"Global VPN","local_loop_interface":"100-Base-TX","last_mile_contract_term":"1 Year","site_id":"1011733|78.2|26.3","prospect_name":"Temp","burstable_bw":2,"resp_city":"DELHI","account_id_with_18_digit":"0012000000GSDzVAAX","opportunity_term":12,"quotetype_quote":"New Order","connection_type":"Standard","sum_no_of_sites_uni_len":1,"cpe_variant":"C867VAE-K9","cpe_management_type":"full_managed","cpe_supply_type":"rental","topology":"primary_active","pool_size":29,"additional_ip":4,"latitude_final":26.285654,"longitude_final":78.216846,"feasibility_response_created_date":"2018-07-12"},{"bw_mbps":2.0,"customer_segment":"Enterprise ? Government\/PSU","sales_org":"Enterprise","product_name":"Global VPN","local_loop_interface":"100-Base-TX","last_mile_contract_term":"1 Year","site_id":"1011735|77.1|28.6","prospect_name":"Temp","burstable_bw":2,"resp_city":"DELHI","account_id_with_18_digit":"0012000000GSDzVAAX","opportunity_term":12,"quotetype_quote":"New Order","connection_type":"Standard","sum_no_of_sites_uni_len":1,"cpe_variant":"C867VAE-K9","cpe_management_type":"full_managed","cpe_supply_type":"rental","topology":"primary_active","pool_size":29,"additional_ip":4,"latitude_final":28.558312,"longitude_final":77.094343,"feasibility_response_created_date":"2018-07-12"}]}</p>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <img src="workflow.svg" alt="Avatar man">
+    <h2>John Doe</h2>
+    <p>Some text here too.</p>
+  </div>
+</div>
+     
+</body>
+</html> 

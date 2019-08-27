@@ -1,0 +1,220 @@
+[2019-08-07 09:46:10,020] {jobs.py:398} INFO - Started process (PID=28450) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:46:10,024] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:46:10,025] {logging_mixin.py:95} INFO - [2019-08-07 09:46:10,025] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:46:10,040] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:46:10,080] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.060 seconds
+[2019-08-07 09:47:00,048] {jobs.py:398} INFO - Started process (PID=28516) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:47:00,052] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:47:00,053] {logging_mixin.py:95} INFO - [2019-08-07 09:47:00,053] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:47:00,067] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:47:00,106] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.057 seconds
+[2019-08-07 09:47:50,143] {jobs.py:398} INFO - Started process (PID=28574) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:47:50,160] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:47:50,161] {logging_mixin.py:95} INFO - [2019-08-07 09:47:50,161] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:47:50,198] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:47:50,280] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.137 seconds
+[2019-08-07 09:48:40,185] {jobs.py:398} INFO - Started process (PID=28640) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:48:40,194] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:48:40,195] {logging_mixin.py:95} INFO - [2019-08-07 09:48:40,195] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:48:40,222] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:48:40,284] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.099 seconds
+[2019-08-07 09:49:30,195] {jobs.py:398} INFO - Started process (PID=28698) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:49:30,205] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:49:30,206] {logging_mixin.py:95} INFO - [2019-08-07 09:49:30,206] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:49:30,238] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:49:30,314] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.119 seconds
+[2019-08-07 09:50:20,260] {jobs.py:398} INFO - Started process (PID=28764) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:50:20,272] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:50:20,274] {logging_mixin.py:95} INFO - [2019-08-07 09:50:20,273] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:50:20,310] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:50:20,398] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.137 seconds
+[2019-08-07 09:51:10,282] {jobs.py:398} INFO - Started process (PID=28822) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:51:10,293] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:51:10,294] {logging_mixin.py:95} INFO - [2019-08-07 09:51:10,294] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:51:10,328] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:51:10,397] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.115 seconds
+[2019-08-07 09:52:00,330] {jobs.py:398} INFO - Started process (PID=28888) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:52:00,342] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:52:00,343] {logging_mixin.py:95} INFO - [2019-08-07 09:52:00,343] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:52:00,381] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:52:00,458] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.128 seconds
+[2019-08-07 09:52:50,365] {jobs.py:398} INFO - Started process (PID=28946) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:52:50,377] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:52:50,379] {logging_mixin.py:95} INFO - [2019-08-07 09:52:50,378] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:52:50,416] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:52:50,503] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.138 seconds
+[2019-08-07 09:53:40,399] {jobs.py:398} INFO - Started process (PID=29012) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:53:40,410] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:53:40,412] {logging_mixin.py:95} INFO - [2019-08-07 09:53:40,411] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:53:40,448] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:53:40,513] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.115 seconds
+[2019-08-07 09:54:30,435] {jobs.py:398} INFO - Started process (PID=29070) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:54:30,447] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:54:30,448] {logging_mixin.py:95} INFO - [2019-08-07 09:54:30,448] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:54:30,486] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:54:30,561] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.126 seconds
+[2019-08-07 09:55:20,469] {jobs.py:398} INFO - Started process (PID=29136) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:55:20,481] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:55:20,483] {logging_mixin.py:95} INFO - [2019-08-07 09:55:20,482] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:55:20,523] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:55:20,606] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.137 seconds
+[2019-08-07 09:56:10,492] {jobs.py:398} INFO - Started process (PID=29202) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:56:10,504] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:56:10,505] {logging_mixin.py:95} INFO - [2019-08-07 09:56:10,505] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:56:10,543] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:56:10,619] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.127 seconds
+[2019-08-07 09:57:00,545] {jobs.py:398} INFO - Started process (PID=29260) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:57:00,561] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:57:00,562] {logging_mixin.py:95} INFO - [2019-08-07 09:57:00,562] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:57:00,596] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:57:00,670] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.126 seconds
+[2019-08-07 09:57:50,580] {jobs.py:398} INFO - Started process (PID=29326) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:57:50,592] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:57:50,593] {logging_mixin.py:95} INFO - [2019-08-07 09:57:50,593] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:57:50,633] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:57:50,720] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.140 seconds
+[2019-08-07 09:58:40,645] {jobs.py:398} INFO - Started process (PID=29384) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:58:40,656] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:58:40,657] {logging_mixin.py:95} INFO - [2019-08-07 09:58:40,657] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:58:40,693] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:58:40,765] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.120 seconds
+[2019-08-07 09:59:30,663] {jobs.py:398} INFO - Started process (PID=29450) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:59:30,674] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 09:59:30,676] {logging_mixin.py:95} INFO - [2019-08-07 09:59:30,676] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:59:30,712] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 09:59:30,788] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.126 seconds
+[2019-08-07 10:00:20,692] {jobs.py:398} INFO - Started process (PID=29508) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:00:20,704] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:00:20,705] {logging_mixin.py:95} INFO - [2019-08-07 10:00:20,705] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:00:20,743] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:00:20,828] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.136 seconds
+[2019-08-07 10:01:10,718] {jobs.py:398} INFO - Started process (PID=29574) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:01:10,730] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:01:10,732] {logging_mixin.py:95} INFO - [2019-08-07 10:01:10,731] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:01:10,770] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:01:10,846] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.128 seconds
+[2019-08-07 10:02:00,724] {jobs.py:398} INFO - Started process (PID=29632) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:02:00,736] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:02:00,738] {logging_mixin.py:95} INFO - [2019-08-07 10:02:00,738] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:02:00,782] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:02:00,856] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.131 seconds
+[2019-08-07 10:02:50,792] {jobs.py:398} INFO - Started process (PID=29698) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:02:50,808] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:02:50,810] {logging_mixin.py:95} INFO - [2019-08-07 10:02:50,809] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:02:50,845] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:02:50,932] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.140 seconds
+[2019-08-07 10:03:40,853] {jobs.py:398} INFO - Started process (PID=29756) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:03:40,864] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:03:40,866] {logging_mixin.py:95} INFO - [2019-08-07 10:03:40,866] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:03:40,906] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:03:40,982] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.129 seconds
+[2019-08-07 10:04:30,866] {jobs.py:398} INFO - Started process (PID=29822) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:04:30,879] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:04:30,880] {logging_mixin.py:95} INFO - [2019-08-07 10:04:30,880] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:04:30,920] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:04:31,004] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.138 seconds
+[2019-08-07 10:05:20,894] {jobs.py:398} INFO - Started process (PID=29880) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:05:20,907] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:05:20,908] {logging_mixin.py:95} INFO - [2019-08-07 10:05:20,908] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:05:20,940] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:05:21,026] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.131 seconds
+[2019-08-07 10:06:10,924] {jobs.py:398} INFO - Started process (PID=29946) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:06:10,935] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:06:10,937] {logging_mixin.py:95} INFO - [2019-08-07 10:06:10,936] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:06:10,970] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:06:11,044] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.120 seconds
+[2019-08-07 10:07:00,956] {jobs.py:398} INFO - Started process (PID=30012) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:07:00,969] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:07:00,970] {logging_mixin.py:95} INFO - [2019-08-07 10:07:00,970] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:07:01,010] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:07:01,087] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.131 seconds
+[2019-08-07 10:07:50,998] {jobs.py:398} INFO - Started process (PID=30070) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:07:51,010] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:07:51,012] {logging_mixin.py:95} INFO - [2019-08-07 10:07:51,011] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:07:51,049] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:07:51,134] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.136 seconds
+[2019-08-07 10:08:41,057] {jobs.py:398} INFO - Started process (PID=30136) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:08:41,068] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:08:41,070] {logging_mixin.py:95} INFO - [2019-08-07 10:08:41,069] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:08:41,109] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:08:41,177] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.120 seconds
+[2019-08-07 10:09:31,062] {jobs.py:398} INFO - Started process (PID=30194) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:09:31,074] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:09:31,075] {logging_mixin.py:95} INFO - [2019-08-07 10:09:31,075] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:09:31,112] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:09:31,189] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.128 seconds
+[2019-08-07 10:10:21,109] {jobs.py:398} INFO - Started process (PID=30260) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:10:21,121] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:10:21,123] {logging_mixin.py:95} INFO - [2019-08-07 10:10:21,122] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:10:21,163] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:10:21,251] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.142 seconds
+[2019-08-07 10:11:11,148] {jobs.py:398} INFO - Started process (PID=30318) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:11:11,160] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:11:11,161] {logging_mixin.py:95} INFO - [2019-08-07 10:11:11,161] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:11:11,200] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:11:11,274] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.126 seconds
+[2019-08-07 10:12:01,184] {jobs.py:398} INFO - Started process (PID=30387) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:12:01,196] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:12:01,197] {logging_mixin.py:95} INFO - [2019-08-07 10:12:01,197] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:12:01,237] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:12:01,312] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.128 seconds
+[2019-08-07 10:12:51,218] {jobs.py:398} INFO - Started process (PID=30475) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:12:51,235] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:12:51,236] {logging_mixin.py:95} INFO - [2019-08-07 10:12:51,236] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:12:51,271] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:12:51,358] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.140 seconds
+[2019-08-07 10:13:41,277] {jobs.py:398} INFO - Started process (PID=30551) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:13:41,288] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:13:41,289] {logging_mixin.py:95} INFO - [2019-08-07 10:13:41,289] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:13:41,326] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:13:41,397] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.120 seconds
+[2019-08-07 10:14:31,297] {jobs.py:398} INFO - Started process (PID=30609) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:14:31,309] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:14:31,311] {logging_mixin.py:95} INFO - [2019-08-07 10:14:31,310] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:14:31,350] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:14:31,431] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.134 seconds
+[2019-08-07 10:15:21,326] {jobs.py:398} INFO - Started process (PID=30675) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:15:21,337] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:15:21,339] {logging_mixin.py:95} INFO - [2019-08-07 10:15:21,339] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:15:21,376] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:15:21,463] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.137 seconds
+[2019-08-07 10:16:11,362] {jobs.py:398} INFO - Started process (PID=30733) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:16:11,373] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:16:11,374] {logging_mixin.py:95} INFO - [2019-08-07 10:16:11,374] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:16:11,410] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:16:11,483] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.122 seconds
+[2019-08-07 10:17:01,386] {jobs.py:398} INFO - Started process (PID=30799) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:17:01,398] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:17:01,399] {logging_mixin.py:95} INFO - [2019-08-07 10:17:01,399] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:17:01,434] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:17:01,510] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.125 seconds
+[2019-08-07 10:17:51,435] {jobs.py:398} INFO - Started process (PID=30865) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:17:51,447] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:17:51,448] {logging_mixin.py:95} INFO - [2019-08-07 10:17:51,448] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:17:51,486] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:17:51,573] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.138 seconds
+[2019-08-07 10:18:41,495] {jobs.py:398} INFO - Started process (PID=30923) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:18:41,506] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:18:41,508] {logging_mixin.py:95} INFO - [2019-08-07 10:18:41,507] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:18:41,544] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:18:41,607] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.112 seconds
+[2019-08-07 10:19:31,518] {jobs.py:398} INFO - Started process (PID=30989) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:19:31,530] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:19:31,531] {logging_mixin.py:95} INFO - [2019-08-07 10:19:31,531] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:19:31,569] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:19:31,646] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.128 seconds
+[2019-08-07 10:20:21,538] {jobs.py:398} INFO - Started process (PID=31047) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:20:21,548] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:20:21,549] {logging_mixin.py:95} INFO - [2019-08-07 10:20:21,549] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:20:21,581] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:20:21,662] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.125 seconds
+[2019-08-07 10:21:11,587] {jobs.py:398} INFO - Started process (PID=31113) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:21:11,599] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:21:11,600] {logging_mixin.py:95} INFO - [2019-08-07 10:21:11,600] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:21:11,637] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:21:11,714] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.127 seconds
+[2019-08-07 10:22:01,604] {jobs.py:398} INFO - Started process (PID=31219) to work on /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:22:01,620] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/dag_1.py for tasks to queue
+[2019-08-07 10:22:01,622] {logging_mixin.py:95} INFO - [2019-08-07 10:22:01,621] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:22:01,658] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_python_operator33']) retrieved from /home/aprao/airflow_test/dags/dag_1.py
+[2019-08-07 10:22:01,731] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/dag_1.py took 0.127 seconds

@@ -1,0 +1,62 @@
+[2019-07-31 16:03:58,219] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_dag_2.sleep_for_0 2019-07-31T00:00:00+00:00 [queued]>
+[2019-07-31 16:03:58,232] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_dag_2.sleep_for_0 2019-07-31T00:00:00+00:00 [queued]>
+[2019-07-31 16:03:58,232] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-31 16:03:58,232] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-07-31 16:03:58,232] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-31 16:03:58,262] {__init__.py:1374} INFO - Executing <Task(PythonOperator): sleep_for_0> on 2019-07-31T00:00:00+00:00
+[2019-07-31 16:03:58,262] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'example_dag_2', 'sleep_for_0', '2019-07-31T00:00:00+00:00', '--job_id', '12', '--raw', '-sd', 'DAGS_FOLDER/dag_2.py', '--cfg_path', '/tmp/tmpsxu9cria']
+[2019-07-31 16:03:59,647] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 /home/aprao/.local/lib/python3.6/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/aprao/airflow/airflow.cfg and /home/aprao/airflow_test/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/aprao/airflow_test/airflow.cfg, and you should remove the other file
+[2019-07-31 16:03:59,648] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   category=DeprecationWarning,
+[2019-07-31 16:04:00,442] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 [2019-07-31 16:04:00,441] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-07-31 16:04:01,323] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 [2019-07-31 16:04:01,288] {cli_action_loggers.py:70} ERROR - Failed on pre-execution callback using <function default_action_log at 0x7f39d6052c80>
+[2019-07-31 16:04:01,323] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 Traceback (most recent call last):
+[2019-07-31 16:04:01,323] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 753, in _commit_impl
+[2019-07-31 16:04:01,324] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     self.engine.dialect.do_commit(self.connection)
+[2019-07-31 16:04:01,324] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 489, in do_commit
+[2019-07-31 16:04:01,324] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     dbapi_connection.commit()
+[2019-07-31 16:04:01,324] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 sqlite3.OperationalError: disk I/O error
+[2019-07-31 16:04:01,324] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 
+[2019-07-31 16:04:01,324] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 The above exception was the direct cause of the following exception:
+[2019-07-31 16:04:01,324] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 
+[2019-07-31 16:04:01,324] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 Traceback (most recent call last):
+[2019-07-31 16:04:01,324] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/airflow/utils/cli_action_loggers.py", line 68, in on_pre_execution
+[2019-07-31 16:04:01,325] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     cb(**kwargs)
+[2019-07-31 16:04:01,325] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/airflow/utils/cli_action_loggers.py", line 99, in default_action_log
+[2019-07-31 16:04:01,325] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     session.add(log)
+[2019-07-31 16:04:01,325] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/usr/lib/python3.6/contextlib.py", line 88, in __exit__
+[2019-07-31 16:04:01,325] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     next(self.gen)
+[2019-07-31 16:04:01,325] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/airflow/utils/db.py", line 44, in create_session
+[2019-07-31 16:04:01,325] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     session.commit()
+[2019-07-31 16:04:01,325] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1023, in commit
+[2019-07-31 16:04:01,326] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     self.transaction.commit()
+[2019-07-31 16:04:01,326] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 491, in commit
+[2019-07-31 16:04:01,326] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     t[1].commit()
+[2019-07-31 16:04:01,326] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1708, in commit
+[2019-07-31 16:04:01,326] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     self._do_commit()
+[2019-07-31 16:04:01,326] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1739, in _do_commit
+[2019-07-31 16:04:01,326] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     self.connection._commit_impl()
+[2019-07-31 16:04:01,326] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 755, in _commit_impl
+[2019-07-31 16:04:01,326] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     self._handle_dbapi_exception(e, None, None, None, None)
+[2019-07-31 16:04:01,327] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1458, in _handle_dbapi_exception
+[2019-07-31 16:04:01,327] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     util.raise_from_cause(sqlalchemy_exception, exc_info)
+[2019-07-31 16:04:01,327] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 296, in raise_from_cause
+[2019-07-31 16:04:01,327] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     reraise(type(exception), exception, tb=exc_tb, cause=cause)
+[2019-07-31 16:04:01,327] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 276, in reraise
+[2019-07-31 16:04:01,327] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     raise value.with_traceback(tb)
+[2019-07-31 16:04:01,327] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 753, in _commit_impl
+[2019-07-31 16:04:01,327] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     self.engine.dialect.do_commit(self.connection)
+[2019-07-31 16:04:01,328] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 489, in do_commit
+[2019-07-31 16:04:01,328] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0     dbapi_connection.commit()
+[2019-07-31 16:04:01,328] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error (Background on this error at: http://sqlalche.me/e/e3q8)
+[2019-07-31 16:04:01,334] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 [2019-07-31 16:04:01,333] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_2.py
+[2019-07-31 16:04:01,390] {base_task_runner.py:101} INFO - Job 12: Subtask sleep_for_0 [2019-07-31 16:04:01,389] {cli.py:517} INFO - Running <TaskInstance: example_dag_2.sleep_for_0 2019-07-31T00:00:00+00:00 [running]> on host BYOD-APRAO.localdomain
+[2019-07-31 16:04:01,410] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=example_dag_2
+AIRFLOW_CTX_TASK_ID=sleep_for_0
+AIRFLOW_CTX_EXECUTION_DATE=2019-07-31T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill_2019-07-31T00:00:00+00:00
+[2019-07-31 16:04:01,411] {logging_mixin.py:95} INFO - /home/aprao/airflow_test
+[2019-07-31 16:04:01,411] {python_operator.py:113} INFO - Done. Returned value was: None
+[2019-07-31 16:04:03,193] {logging_mixin.py:95} INFO - [2019-07-31 16:04:03,192] {jobs.py:2562} INFO - Task exited with return code 0

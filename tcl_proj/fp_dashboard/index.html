@@ -1,0 +1,617 @@
+ <!DOCTYPE html>
+    <html>
+        <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+                <!--<img src="logo.png" alt="Tata Communications" width=100 height=50 align=center>-->
+
+                <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+                <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+                <!-- Latest compiled and minified CSS -->
+                <link rel="stylesheet" href="http://rtx-swtl-wiki.fnc.net.local/release-notes/bootstrap-3.3.6-dist/css/bootstrap.min.css"/>
+                <!--<link rel="stylesheet" href="css/custom.css"/>-->
+                <!-- Optional theme -->
+                <link rel="stylesheet" href="http://rtx-swtl-wiki.fnc.net.local/release-notes/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" />
+                <!-- Latest compiled and minified JavaScript -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                <script src="http://rtx-swtl-wiki.fnc.net.local/release-notes/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@2.7.3/dist/Chart.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.5.0"></script>
+
+        </head>
+
+
+        <body>
+                <div id="wrapper">
+                        <div id="page-wrapper">
+                                <div class="container-fluid">
+                                        <div class="row" >
+                                                <div class="col-md-12">
+                                                        <!--<center><h3><strong>Feasibility and Pricing Dashboard<strong></h3></center>-->
+                                                        <center><img src="logo.png" alt="Tata Communications" ><h3><strong>Feasibility and Pricing Dashboard<strong></h3></center>
+                                                </div>
+                                        </div>
+                                        <!--
+                                        <div class="row">
+                                                <div data-role="header" style="border:none !important">
+                                                        <div class="col-md-6">
+                                                                <button id="btnExport" onclick="fnExcelReport('myTable', 'pivot_table.xls');" style="float: right;"> Export to Excel </button>
+                                                        </div>
+                                                </div>
+                                        </div>-->
+
+                                        <div class="row">
+                                                <div class="col-md-6"><h4><strong>Feasibility Price Status</strong></h4>
+                                                <!--<div class="col-md-6">-->
+                                                        <table class="table table-bordered ui-responsive ui-shadow" id="myTable" data-role="table"><thead>
+                                <tr class="success">
+                                        <th data-priority="1"><span title="Product Name">Product Name</span></th>
+                                        <th data-priority="2"><span title="FMP">FMP</span></th>
+                                        <th data-priority="2"><span title="MFMP">MFMP</span></th>
+                                        <th data-priority="2"><span title="FP">FP</span></th>
+                                        <th data-priority="2"><span title="MFP">MFP</span></th>
+
+                                </tr>
+                                </thead>
+                        <tbody> <tr  bgcolor="FFFFFF">
+                              <td><strong>IAS</strong></td>
+                              <td>113</td>
+                              <td>72</td>
+                              <td>16</td>
+                              <td>0</td>
+                              </tr><tr  bgcolor="FFFFFF">
+                              <td><strong>GVPN</strong></td>
+                              <td>6</td>
+                              <td>2</td>
+                              <td>4</td>
+                              <td>0</td>
+                              </tr><tr  bgcolor="FFFFFF">
+                              <td><strong>NPL</strong></td>
+                              <td>145</td>
+                              <td>13</td>
+                              <td>60</td>
+                              <td>6</td>
+                              </tr></div></tbody></table></div><div class="col-md-6"><h4><strong>MRC Deviation Share</strong></h4><table class="table table-bordered ui-responsive ui-shadow"
+                                    id="myTable" 
+                                    data-role="table"><thead>
+                                        <tr class="success">
+                                                <th data-priority="1"><span title="MRC Deviation Slab">MRC Deviation Slab</span></th>
+                                                <th data-priority="2"><span title="Share">Share</span></th>
+                                        </tr>
+                                </thead>
+                                <tbody> <tr  bgcolor="FFFFFF">
+                              <td><strong>10-20</strong></td>
+                              <td>10%</td>
+                              </tr><tr  bgcolor="FFFFFF">
+                              <td><strong>20-30</strong></td>
+                              <td>20%</td>
+                              </tr><tr  bgcolor="FFFFFF">
+                              <td><strong>30-40</strong></td>
+                              <td>30%</td>
+                              </tr><tr  bgcolor="FFFFFF">
+                              <td><strong>40-50</strong></td>
+                              <td>40%</td>
+                              </tr></div></tbody></table></div><div class = col-md-6><h4><strong>Feasibility Price Status Summary based on site level</strong></h4> 
+                            <canvas id="chart_0" width="50000" height="30000"></canvas>
+                                <script type="text/javascript">
+                                    // Our labels along the x-axis
+                                    //var row_labels = ["10-20","20-30","30-40"];
+                                    var row_labels = ['IAS', 'GVPN', 'NPL'];
+                                    // For drawing the lines
+                                    // var fmp = [86,114,106];
+                                    var attr_1 = [16, 4, 60];
+                                    // var mfmp = [282,350,411];
+                                    var attr_2 = [113, 6, 145];
+                                    var attr_3 = [0, 0, 6];
+                                    var attr_4 = [72, 2, 13];
+                                    var ctx = document.getElementById("chart_0");
+                                    var myChart = new Chart(ctx, {
+                                            type: 'horizontalBar',
+                                            data: {
+                                            labels:row_labels,
+                                            datasets: [
+                                                { 
+                                                    data: attr_1,
+                                                    label: "Zero touch feasibility; Zero touch pricing(FP)",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#000000",
+                                                    backgroundColor:"green",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_2,
+                                                    label: "Manual pricing; Zero touch feasibility(FMP)",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#3e95cd",
+                                                    backgroundColor:"blue",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_3,
+                                                    label: "Zero touch pricing; manual feasibility (MFP)",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#3e95cd",
+                                                    backgroundColor:"orange",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_4,
+                                                    label: "Manual pricing; Manual feasibility (MFMP)",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#3e95cd",
+                                                    backgroundColor:"red",
+                                                    fill: false
+                                                }
+                                        ]
+                                    }
+                                });
+                            </script>
+                        </div><div class = col-md-6><h4><strong>Feasibility Price Status Summary based on order level</strong></h4> 
+                            <canvas id="chart_01" width="50000" height="30000"></canvas>
+                                <script type="text/javascript">
+                                    // Our labels along the x-axis
+                                    //var row_labels = ["10-20","20-30","30-40"];
+                                    var row_labels = ['Custom Configuration 1', 'Managed Single Internet Access', 'Private Line - NPL', 'Single Internet Access', 'Single managed GVPN', 'Single Unmanaged GVPN'];
+                                    // For drawing the lines
+                                    // var fmp = [86,114,106];
+                                    var attr_1 = [4, 3, 88, 13, 1, 0];
+                                    // var mfmp = [282,350,411];
+                                    var attr_2 = [20, 6, 154, 89, 0, 3];
+                                    var attr_3 = [0, 0, 6, 0, 0, 0];
+                                    var attr_4 = [7, 2, 18, 23, 0, 1];
+                                    var ctx = document.getElementById("chart_01");
+                                    var myChart = new Chart(ctx, {
+                                            type: 'horizontalBar',
+                                            data: {
+                                            labels:row_labels,
+                                            datasets: [
+                                                { 
+                                                    data: attr_1,
+                                                    label: "Zero touch feasibility; Zero touch pricing(FP)",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#000000",
+                                                    backgroundColor:"green",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_2,
+                                                    label: "Manual pricing; Zero touch feasibility(FMP)",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#3e95cd",
+                                                    backgroundColor:"blue",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_3,
+                                                    label: "Zero touch pricing; manual feasibility (MFP)",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#3e95cd",
+                                                    backgroundColor:"orange",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_4,
+                                                    label: "Manual pricing; Manual feasibility (MFMP)",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#3e95cd",
+                                                    backgroundColor:"red",
+                                                    fill: false
+                                                }
+                                        ]
+                                    }
+                                });
+                            </script>
+                        </div><div class = col-md-8><h4><strong>Overall universe spread – ACV, ARC, NRC</strong></h4> 
+                            <canvas id="chart_2" width="50000" height="30000"></canvas>
+                                <script type="text/javascript">
+                                    // Our labels along the x-axis
+                                    //var row_labels = ["10-20","20-30","30-40"];
+                                    var row_labels = ['>(100)%', '>(50-100)%', '>(15-50)%', '>(5-15)%', '>(0-5)%', '<(0-5)%', '<(5-15)%', '<(15-50)%', '<(50-100)%'];
+                                    // For drawing the lines
+                                    // var fmp = [86,114,106];
+                                    var attr_1 = [38, 72, 86, 32, 69, 31, 27, 55, 27];
+                                    // var mfmp = [282,350,411];
+                                    var attr_2 = [8, 86, 66, 23, 85, 29, 23, 81, 36];
+                                    var attr_3 = [89, 0, 45, 8, 223, 3, 1, 21, 47];
+                                    var ctx = document.getElementById("chart_2");
+                                    var myChart = new Chart(ctx, {
+                                            type: 'horizontalBar',
+                                            data: {
+                                            labels:row_labels,
+                                            datasets: [
+                                                { 
+                                                    data: attr_1,
+                                                    label: "ACV",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#000000",
+                                                    backgroundColor:"green",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_2,
+                                                    label: "ARC",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#3e95cd",
+                                                    backgroundColor:"blue",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_3,
+                                                    label: "NRC",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#3e95cd",
+                                                    backgroundColor:"orange",
+                                                    fill: false
+                                                }
+                                        ]
+                                    }
+                                });
+                            </script>
+                        </div><div class = col-md-6><h4><strong>Pricing and Feasibility Summary based on product level</strong></h4> 
+                            <canvas id="chart_1" width="50000" height="30000"></canvas>
+                                <script type="text/javascript">
+                                    // Our labels along the x-axis
+                                    //var row_labels = ["10-20","20-30","30-40"];
+                                    var row_labels = ['Manual pricing; manual feasibility', 'Manual pricing; zero touch feasibility', 'Zero touch pricing; manual feasibility', 'Zero touch pricing; zero touch feasibility'];
+                                    // For drawing the lines
+                                    // var fmp = [86,114,106];
+                                    var attr_1 = [72, 113, 0, 16];
+                                    // var mfmp = [282,350,411];
+                                    var attr_2 = [13, 145, 6, 60];
+                                    var attr_3 = [2, 6, 0, 4];
+                                    var ctx = document.getElementById("chart_1");
+                                    var myChart = new Chart(ctx, {
+                                            type: 'horizontalBar',
+                                            data: {
+                                            labels:row_labels,
+                                            datasets: [
+                                                { 
+                                                    data: attr_1,
+                                                    label: "IAS",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#000000",
+                                                    backgroundColor:"green",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_2,
+                                                    label: "NPL",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#3e95cd",
+                                                    backgroundColor:"blue",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_3,
+                                                    label: "GVPN",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "#3e95cd",
+                                                    backgroundColor:"orange",
+                                                    fill: false
+                                                }                                               
+                                        ]
+                                    }
+                                });
+                            </script>
+                        </div><div class = col-md-6><h4><strong>Deviation between Optimus and Actual Price (Based on Component Level)</strong></h4> 
+                        <canvas id="chart_3" width="50000" height="30000"></canvas>
+                            <script type="text/javascript">
+                                // Our labels along the x-axis
+                                //var row_labels = ["10-20","20-30","30-40"];
+                                var row_labels = ['Port', 'Last Mile', 'CPE'];
+                                // For drawing the lines
+                                // var fmp = [86,114,106];
+                                var attr_1 = [218, 29, 51];
+                                // var mfmp = [282,350,411];
+                                var attr_2 = [18, 44, 19];
+                                var ctx = document.getElementById("chart_3");
+                                var myChart = new Chart(ctx, {
+                                        type: 'horizontalBar',
+                                        data: {
+                                        labels:row_labels,
+                                        datasets: [
+                                            { 
+                                                data: attr_1,
+                                                label: "ARC",
+                                                datalabels: {
+                                                    color: '#FFCE56',
+                                                },
+                                                indexLabel : attr_1,
+                                                borderColor: "#000000",
+                                                backgroundColor:"green",
+                                                fill: false
+                                            },
+                                            { 
+                                                data: attr_2,
+                                                label: "NRC",
+                                                datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                indexLabel:attr_2,
+                                                borderColor: "#3e95cd",
+                                                backgroundColor:"blue",
+                                                fill: false
+                                            }
+                                    ]
+                                }
+                            });
+                        </script>
+                    </div><div class = col-md-8><h4><strong>Overall F & P Timeline report</strong></h4> 
+                            <canvas id="chart_6" width="50000" height="30000"></canvas>
+                                <script type="text/javascript">
+                                    // Our labels along the x-axis
+                                    //var row_labels = ["10-20","20-30","30-40"];
+                                    var row_labels = ['Aug-2018', 'Sep-2018', 'Oct-2018', 'Nov-2018', 'Dec-2018', 'Jan-2019', 'Feb-2019', 'Mar-2019', 'Apr-2019', 'May-2019', 'Jun-2019'];
+                                    // For drawing the lines
+                                    // var fmp = [86,114,106];
+                                    var attr_1 = [0, 0, 4, 2, 5, 19, 19, 23, 13, 24, 2];
+                                    // var mfmp = [282,350,411];
+                                    var attr_2 = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0];
+                                    var attr_3 = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0];
+                                    var attr_4 = [1, 1, 3, 0, 0, 1, 1, 0, 3, 6, 0];
+                                    var attr_5 = [0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0];
+                                    var attr_6 = [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0];
+                                    var attr_7 = [1, 0, 0, 0, 0, 1, 0, 0, 0, 3, 2];
+                                    var attr_8 = [0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0];
+                                    var attr_9 = [0, 0, 0, 0, 2, 0, 0, 0, 4, 0, 0];
+                                    var attr_10 = [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0];
+
+                                    var ctx = document.getElementById("chart_6");
+                                    var myChart = new Chart(ctx, {
+                                            type: 'line',
+                                            data: {
+                                            labels:row_labels,
+                                            datasets: [
+                                                { 
+                                                    data: attr_1,
+                                                    label: "IAS-FMP-onnet-wireline",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "orange",
+                                                    backgroundColor:"orange",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_2,
+                                                    label: "IAS-FMP-onnet-wireless",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "blue",
+                                                    backgroundColor:"blue",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_3,
+                                                    label: "IAS-FMP-offnet-wireless",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "navy",
+                                                    backgroundColor:"navy",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_4,
+                                                    label: "IAS-FP-onnet-wireline",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "purple",
+                                                    backgroundColor:"purple",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_5,
+                                                    label: "IAS-MFMP-offnet-wireless",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "green",
+                                                    backgroundColor:"green",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_6,
+                                                    label: "IAS-MFMP-onnet-wireless",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "aqua",
+                                                    backgroundColor:"aqua",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_7,
+                                                    label: "IAS-MFMP-onnet-wireline",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "teal",
+                                                    backgroundColor:"teal",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_8,
+                                                    label: "GVPN-FP-onnet-wireless",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "yellow",
+                                                    backgroundColor:"yellow",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_9,
+                                                    label: "GVPN-FMP-onnet-wireline",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "olive",
+                                                    backgroundColor:"olive",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_10,
+                                                    label: "GVPN-MFMP-onnet-wireline",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "lime",
+                                                    backgroundColor:"lime",
+                                                    fill: false
+                                                }
+                                        ]
+                                    }
+                                });
+                            </script>
+                        </div><div class = col-md-8><h4><strong>Overall F & P Timeline report for NPL</strong></h4> 
+                            <canvas id="chart_7" width="50000" height="30000"></canvas>
+                                <script type="text/javascript">
+                                    // Our labels along the x-axis
+                                    //var row_labels = ["10-20","20-30","30-40"];
+                                    var row_labels = ['Aug-2018', 'Sep-2018', 'Oct-2018', 'Nov-2018', 'Dec-2018', 'Jan-2019', 'Feb-2019', 'Mar-2019', 'Apr-2019', 'May-2019', 'Jun-2019'];
+                                    // For drawing the lines
+                                    // var fmp = [86,114,106];
+                                    var attr_1 = [0, 0, 0, 0, 0, 0, 1, 7, 20, 79, 38];
+                                    // var mfmp = [282,350,411];
+                                    var attr_2 = [0, 0, 0, 0, 0, 0, 7, 8, 11, 23, 11];
+                                    var attr_3 = [0, 0, 0, 0, 0, 0, 0, 1, 1, 4, 0];
+                                    var attr_4 = [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2];
+                                    var ctx = document.getElementById("chart_7");
+                                    var myChart = new Chart(ctx, {
+                                            type: 'line',
+                                            data: {
+                                            labels:row_labels,
+                                            datasets: [
+                                                { 
+                                                    data: attr_1,
+                                                    label: "NPL-FMP",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "green",
+                                                    backgroundColor:"green",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_2,
+                                                    label: "NPL-FP",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "blue",
+                                                    backgroundColor:"blue",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_3,
+                                                    label: "NPL-MFMP",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "red",
+                                                    backgroundColor:"red",
+                                                    fill: false
+                                                },
+                                                { 
+                                                    data: attr_4,
+                                                    label: "NPL-MFP",
+                                                    datalabels: {
+                                                        color: '#FFCE56',
+                                                    },
+                                                    borderColor: "orange",
+                                                    backgroundColor:"orange",
+                                                    fill: false
+                                                }
+                                        ]
+                                    }
+                                });
+                            </script>
+                        </div>
+                             
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <script>
+                function fnExcelReport(tableID, filename)
+                {
+                var tab_text = '<table border="1px" style="font-size:20px" ">';
+                var textRange; 
+                var j = 0;
+                var tab = document.getElementById(tableID); // id of table
+                var lines = tab.rows.length;
+
+                // the first headline of the table
+                if (lines > 0) {
+                        tab_text = tab_text + '<tr bgcolor="#DFDFDF">' + tab.rows[0].innerHTML + '</tr>';
+                }
+
+                // table data lines, loop starting from 1
+                for (j = 1 ; j < lines; j++) {     
+                        tab_text = tab_text + "<tr>" + tab.rows[j].innerHTML + "</tr>";
+                }
+                tab_text = tab_text + "</table>";
+                tab_text = tab_text.replace(/<A[^>]*>|<\/A>/g, "");             //remove if u want links in your table
+                tab_text = tab_text.replace(/<img[^>]*>/gi,"");                 // remove if u want images in your table
+                tab_text = tab_text.replace(/<input[^>]*>|<\/input>/gi, "");    // reomves input params
+                // console.log(tab_text); // activate so see the result (press F12 in browser)
+                tab_text = tab_text.split(String.fromCharCode(8195)).join('&emsp;');
+                var ua = window.navigator.userAgent;
+                var msie = ua.indexOf("MSIE "); 
+
+                // if Internet Explorer
+                if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+                        txtArea1.document.open("txt/html","replace");
+                        txtArea1.document.write(tab_text);
+                        txtArea1.document.close();
+                        txtArea1.focus(); 
+                        sa = txtArea1.document.execCommand("SaveAs", true, filename);
+                }  
+                else { // other browser not tested on IE 11
+                        var link = document.createElement("a");
+                        link.download = filename;
+                        link.href = 'data:application/vnd.ms-excel,' + encodeURIComponent(tab_text)
+                        link.click();
+                }
+                }
+        </script>
+</body>
+</html>

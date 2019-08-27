@@ -1,0 +1,78 @@
+Tables covered for pricing ILL:
+
+DB : 
+
+MySQL()
+user='optimus_user', 
+password='Tata123', 
+dbname='optimus_abstract_uat2', 
+host='INP44XDDB2552')
+
+
+Tables used:
+
+opportunity_with_products_data
+live_inventory_data
+customer_data
+20181024_ILL_rate_card
+ILL_Price_book
+CPE_Price_book
+Historic_Customer_Type_Upd_ILL(historical bm data)
+ILL_AccountID_CUID_RCID(le to rcid)
+
+select Partner_Level, Profile, Commission  from Partner_CommissionProfile_Mapping
+
+!= sell_with
+
+select Profile, Product_Type, Dis_Port_ARC, Dis_Port_NRC, Dis_Port_Backup_ARC, Dis_Port_Backup_NRC, Dis_MAN_NRC, Dis_MAN_ARC, Dis_UBR_PMP_NRC, Dis_UBR_PMP_ARC, Dis_P2P_ARC, Dis_P2P_NRC, Dis_CPE_Install_NRC, Dis_CPE_Outright_NRC, Dis_CPE_Rental_ARC, Dis_Management_ARC, Dis_Additional_IP_ARC, Region
+                                           from Partner_SellThrough_Discount'
+
+
+select * from Partner_SellThrough_Incremental_Discount
+
+select * from Partner_SellThrough_Max_Discoun
+
+select * from Partner_SellWith_Commission
+
+
+
+sell_with - partner commission
+sell_through - discount and incremental discount
+
+
+
+bm_data$additional_IP_ARC <- ifelse(tolower(bm_data$additional_ip_flag)=="yes",
+                                      ifelse(tolower(bm_data$ip_address_arrangement)=="ipv4",
+                                             ifelse(bm_data$ipv4_address_pool_size==0,
+                                                    as.numeric(bm_data$no_of_additional_ip)*4500,
+                                                    2^(32-as.numeric(bm_data$ipv4_address_pool_size)) * 4500),
+                                             0),
+                                      0)
+  bm_data$additional_IP_MRC <- bm_data$additional_IP_ARC/12
+
+
+
+
+if(nrow(p1) & nrow(p2)){
+        ILL_ARC_per_mb <- (p2$ILL_ARC - p1$ILL_ARC)/(p2$Speed - p1$Speed)
+        p1$ILL_ARC <- p1$ILL_ARC + ILL_ARC_per_mb*(as.numeric(BW_requested) - p1$Speed)
+        p1$ILL_NRC <- p1$ILL_NRC
+        p1$Speed <- NULL
+      }
+      # new code here
+      if(BW_requested> max(price_book_select$Speed)){
+        max_BW = max(price_book_select$Speed)
+        max_ARC = max(price_book_select$ILL_ARC)
+        ILL_ARC_per_mb =(max_ARC/max_BW) 
+        p1$ILL_ARC = ILL_ARC_per_mb* BW_requested
+        p1$ILL_NRC <- NA#p1$ILL_NRC
+        p1$Speed <- BW_requested
+      }
+
+
+
+# Compute Last_Mile_Cost_NRC
+  TCV <- (bm_data$Last_Mile_Cost_ARC +  bm_data$ILL_Port_ARC_Adjusted)*(bm_data$opportunityTerm/12) + bm_data$Last_Mile_Cost_NRC + bm_data$ILL_Port_NRC_Adjusted
+  bm_data$sp_lm_nrc_ospcapex_onwl <- ifelse(as.numeric(bm_data$lm_nrc_ospcapex_onwl)<=(TCV/3),
+                                            0,
+                                            as.numeric(bm_data$lm_nrc_ospcapex_onwl)-(TCV/3))

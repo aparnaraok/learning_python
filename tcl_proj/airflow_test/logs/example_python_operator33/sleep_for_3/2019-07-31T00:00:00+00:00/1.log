@@ -1,0 +1,7 @@
+[2019-07-31 17:04:19,637] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_python_operator33.sleep_for_3 2019-07-31T00:00:00+00:00 [queued]>
+[2019-07-31 17:04:19,643] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_python_operator33.sleep_for_3 2019-07-31T00:00:00+00:00 [queued]>
+[2019-07-31 17:04:19,644] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-31 17:04:19,644] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-07-31 17:04:19,644] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------

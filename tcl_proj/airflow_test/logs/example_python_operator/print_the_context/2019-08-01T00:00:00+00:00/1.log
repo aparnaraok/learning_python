@@ -1,0 +1,56 @@
+[2019-08-01 09:38:03,579] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_python_operator.print_the_context 2019-08-01T00:00:00+00:00 [queued]>
+[2019-08-01 09:38:03,585] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_python_operator.print_the_context 2019-08-01T00:00:00+00:00 [queued]>
+[2019-08-01 09:38:03,585] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-08-01 09:38:03,585] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-08-01 09:38:03,585] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-08-01 09:38:03,602] {__init__.py:1374} INFO - Executing <Task(PythonOperator): print_the_context> on 2019-08-01T00:00:00+00:00
+[2019-08-01 09:38:03,603] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'example_python_operator', 'print_the_context', '2019-08-01T00:00:00+00:00', '--job_id', '31', '--raw', '-sd', '/home/aprao/.local/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py', '--cfg_path', '/tmp/tmp8ks1ydxj']
+[2019-08-01 09:38:04,125] {base_task_runner.py:101} INFO - Job 31: Subtask print_the_context /home/aprao/.local/lib/python3.6/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/aprao/airflow/airflow.cfg and /home/aprao/airflow_test/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/aprao/airflow_test/airflow.cfg, and you should remove the other file
+[2019-08-01 09:38:04,126] {base_task_runner.py:101} INFO - Job 31: Subtask print_the_context   category=DeprecationWarning,
+[2019-08-01 09:38:04,422] {base_task_runner.py:101} INFO - Job 31: Subtask print_the_context [2019-08-01 09:38:04,422] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-08-01 09:38:04,782] {base_task_runner.py:101} INFO - Job 31: Subtask print_the_context [2019-08-01 09:38:04,782] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/.local/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+[2019-08-01 09:38:04,808] {base_task_runner.py:101} INFO - Job 31: Subtask print_the_context [2019-08-01 09:38:04,808] {cli.py:517} INFO - Running <TaskInstance: example_python_operator.print_the_context 2019-08-01T00:00:00+00:00 [running]> on host BYOD-APRAO.localdomain
+[2019-08-01 09:38:04,815] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=example_python_operator
+AIRFLOW_CTX_TASK_ID=print_the_context
+AIRFLOW_CTX_EXECUTION_DATE=2019-08-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill_2019-08-01T00:00:00+00:00
+[2019-08-01 09:38:04,816] {logging_mixin.py:95} INFO - {'END_DATE': '2019-08-01',
+ 'conf': <module 'airflow.configuration' from '/home/aprao/.local/lib/python3.6/site-packages/airflow/configuration.py'>,
+ 'dag': <DAG: example_python_operator>,
+ 'dag_run': <DagRun example_python_operator @ 2019-08-01 00:00:00+00:00: backfill_2019-08-01T00:00:00+00:00, externally triggered: False>,
+ 'ds_nodash': '20190801',
+ 'end_date': '2019-08-01',
+ 'execution_date': <Pendulum [2019-08-01T00:00:00+00:00]>,
+ 'inlets': [],
+ 'latest_date': '2019-08-01',
+ 'macros': <module 'airflow.macros' from '/home/aprao/.local/lib/python3.6/site-packages/airflow/macros/__init__.py'>,
+ 'next_ds': None,
+ 'next_ds_nodash': None,
+ 'next_execution_date': None,
+ 'outlets': [],
+ 'params': {},
+ 'prev_ds': None,
+ 'prev_ds_nodash': None,
+ 'prev_execution_date': None,
+ 'run_id': 'backfill_2019-08-01T00:00:00+00:00',
+ 'tables': None,
+ 'task': <Task(PythonOperator): print_the_context>,
+ 'task_instance': <TaskInstance: example_python_operator.print_the_context 2019-08-01T00:00:00+00:00 [running]>,
+ 'task_instance_key_str': 'example_python_operator__print_the_context__20190801',
+ 'templates_dict': None,
+ 'test_mode': False,
+ 'ti': <TaskInstance: example_python_operator.print_the_context 2019-08-01T00:00:00+00:00 [running]>,
+ 'tomorrow_ds': '2019-08-02',
+ 'tomorrow_ds_nodash': '20190802',
+ 'ts': '2019-08-01T00:00:00+00:00',
+ 'ts_nodash': '20190801T000000',
+ 'ts_nodash_with_tz': '20190801T000000+0000',
+ 'var': {'json': None, 'value': None},
+ 'yesterday_ds': '2019-07-31',
+ 'yesterday_ds_nodash': '20190731'}
+[2019-08-01 09:38:04,816] {logging_mixin.py:95} INFO - 2019-08-01
+[2019-08-01 09:38:04,816] {python_operator.py:113} INFO - Done. Returned value was: Whatever you return gets printed in the logs
+[2019-08-01 09:38:08,574] {logging_mixin.py:95} INFO - [2019-08-01 09:38:08,573] {jobs.py:2562} INFO - Task exited with return code 0

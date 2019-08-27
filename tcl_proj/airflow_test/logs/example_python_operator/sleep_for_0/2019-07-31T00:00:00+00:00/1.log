@@ -1,0 +1,21 @@
+[2019-07-31 10:57:37,190] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_python_operator.sleep_for_0 2019-07-31T00:00:00+00:00 [queued]>
+[2019-07-31 10:57:37,204] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_python_operator.sleep_for_0 2019-07-31T00:00:00+00:00 [queued]>
+[2019-07-31 10:57:37,204] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-31 10:57:37,204] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-07-31 10:57:37,205] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-31 10:57:37,235] {__init__.py:1374} INFO - Executing <Task(PythonOperator): sleep_for_0> on 2019-07-31T00:00:00+00:00
+[2019-07-31 10:57:37,236] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'example_python_operator', 'sleep_for_0', '2019-07-31T00:00:00+00:00', '--job_id', '4', '--raw', '-sd', '/home/aprao/.local/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py', '--cfg_path', '/tmp/tmpgpigeaoz']
+[2019-07-31 10:57:38,417] {base_task_runner.py:101} INFO - Job 4: Subtask sleep_for_0 /home/aprao/.local/lib/python3.6/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/aprao/airflow/airflow.cfg and /home/aprao/airflow_test/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/aprao/airflow_test/airflow.cfg, and you should remove the other file
+[2019-07-31 10:57:38,417] {base_task_runner.py:101} INFO - Job 4: Subtask sleep_for_0   category=DeprecationWarning,
+[2019-07-31 10:57:39,173] {base_task_runner.py:101} INFO - Job 4: Subtask sleep_for_0 [2019-07-31 10:57:39,172] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-07-31 10:57:39,762] {base_task_runner.py:101} INFO - Job 4: Subtask sleep_for_0 [2019-07-31 10:57:39,760] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/.local/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+[2019-07-31 10:57:39,808] {base_task_runner.py:101} INFO - Job 4: Subtask sleep_for_0 [2019-07-31 10:57:39,808] {cli.py:517} INFO - Running <TaskInstance: example_python_operator.sleep_for_0 2019-07-31T00:00:00+00:00 [running]> on host BYOD-APRAO.localdomain
+[2019-07-31 10:57:39,825] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=example_python_operator
+AIRFLOW_CTX_TASK_ID=sleep_for_0
+AIRFLOW_CTX_EXECUTION_DATE=2019-07-31T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill_2019-07-31T00:00:00+00:00
+[2019-07-31 10:57:39,826] {python_operator.py:113} INFO - Done. Returned value was: None
+[2019-07-31 10:57:42,195] {logging_mixin.py:95} INFO - [2019-07-31 10:57:42,192] {jobs.py:2562} INFO - Task exited with return code 0

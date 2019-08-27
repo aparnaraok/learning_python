@@ -1,0 +1,78 @@
+{
+	"parameters": {
+		"fetch_conn": {
+			"read_from_file": true,
+			"read_from_db": false,
+			"file_properties": {
+				"oracle": [{
+					"read_mode": false,
+					"file_path": "oracle.csv"
+				}],
+				"sql": [{
+					"read_mode": true,
+					"file_path": "sql.csv"
+				}],
+				"postgres": [{
+					"read_mode": false,
+					"file_path": "postgres.csv"
+				}]
+			},
+			"db_properties": {
+				"oracle": [{
+					"name": "oracle",
+					"hostname": "127.0.0.1",
+					"port": 3200,
+					"database_type": "db",
+					"database_name": "oracle_db",
+					"username": "user",
+					"password": "pass"
+				}],
+				"mysql": [{
+					"name": "mysql",
+					"hostname": "127.0.0.1",
+					"port": 3306,
+					"database_type": "db",
+					"database_name": "mysql_db",
+					"username": "user",
+					"password": "pass"
+				}],
+				"postgres": [{
+					"name": "postgres",
+					"hostname": "127.0.0.1",
+					"port": 5432,
+					"database_type": "db",
+					"database_name": "postgres_db",
+					"username": "user",
+					"password": "pass"
+				}]
+			}
+		},
+		"data_properties": {
+			"data_fetch": {
+				"code_properties": {}
+			},
+			"data_transform": {
+				"code_properties": {}
+			}
+		},
+		"model_properties": {
+			"model_read": {
+				"code_properties": {}
+			},
+			"model_train": {
+				"code_properties": {}
+			},
+			"model_type": {
+				"model": [{}, {}]
+			},
+			"model_test": {
+				"type": {},
+				"code_properties": {}
+			},
+			"model_performance": {
+				"type": {},
+				"code_properties": {}
+			}
+		}
+	}
+}

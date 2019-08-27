@@ -1,0 +1,63 @@
+# set error parameter
+  err <<- FALSE
+  version <- 3.8
+
+
+ #2. Define Filenames
+  ILL_CPE_Discount_Rates <- "ILL_CPE_Node_Prediction.rda"
+  adjustment_data_name <- "ILL_Error_Adjustment.rda"
+  ILL_model_object_name <- "ILL_RF_Model_oct_16_may_18.rda"
+  Train_data_sample_name <- "train_data_sample_june2018.rda"
+  
+  #3. Input JSON
+  JSON_filename <- "test.json"
+
+
+ #4. Set Flags & constant variables
+  RATE_CARD_AVAILABLE <- FALSE
+  CPE_PRICE_AVAILABLE <- FALSE
+  LM_COST_AVAILABLE <- FALSE
+  DEBUG_MODE <- FALSE
+  ETL_CONNECTION <- TRUE
+  ETL_col_names <- c("seq_no", "etl_batch_id", "etl_load_dt", "created_dt", "updated_dt", "src_system")
+
+ #++++++++++++++++++++++++++++++++++++++++++++++++++++
+  #     Port CONSTANT VARIABLES
+  #+++++++++++++++++++++++++++++++++++++++++++++++++++++
+  PORT_NRC_CHARGE <- 5000
+  
+  PORT_NRC_CHARGE_1_TO_100MB <- 5000
+  PORT_NRC_CHARGE_101_TO_300MB <- 10000
+  PORT_NRC_CHARGE_300_TO_1000MB <- 15000
+  PORT_NRC_CHARGE_GT_THAN_1000MB <- 20000
+  
+  LM_PORT_NRC_CHARGE_ONRF <- 15000
+  
+  LM_ARC_DISCOUNT_ONNET_RF <- 0.25
+  
+  MAST_HEIGHT_PER_METER_COST <- 4700
+  #++++++++++++++++++++++++++++++++++++++++++++++++++++
+  #     CPE CONSTANT VARIABLES
+  #+++++++++++++++++++++++++++++++++++++++++++++++++++++
+  USD_2_INR_CONVERSION <- 74
+  
+  CPE_HW_MARKUP <- 0.35 #40%
+  CPE_VENDOR_DISCOUNT <- 0.03 #3%
+  CPE_HW_DISCOUNT_CEILING <- 1 #100%
+  CPE_HW_DDP <- 0.061
+  
+  CPE_SUPPORT_MARKUP <- 0.35
+  CPE_SUPPORT_DISCOUNT_CEILING <- 1
+  
+  CPE_INSTALL_MARKUP <- CPE_HW_MARKUP
+  CPE_DEFAULT_MARKUP <- 0.15
+  CPE_INSTALL_DISCOUNT <- 0.25
+  CPE_INSTALL_DISCOUNT_CEILING <- 1
+  
+  CPE_MANAGEMENT_MARKUP <- 0
+  CPE_MANAGEMENT_DISCOUNT_CEILING <- 0.5
+  
+  COC <- 0.12
+  CPE_OVERALL_DISCOUNT_CEILING <- 0.25
+  
+  DOA <- 0.95

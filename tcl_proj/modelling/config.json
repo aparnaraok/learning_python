@@ -1,0 +1,157 @@
+{
+	"parameters": {
+		"database_select": {"oracle": false,
+							"postgres": false,
+							"mysql": true},
+		"database": {"oracle":[{
+							"name":"oracle",
+							"hostname": "127.0.0.1",
+							"port": 3200,
+							"database_type": "db",
+							"database_name":"oracle_db",
+							"username": "user",
+							"password": "pass",
+							"read_from_file" : false,
+							"filepath" : "",
+							"filename" : ""
+							}],
+					 "postgres":[{
+							"name":"postgres",
+							"hostname": "127.0.0.1",
+							"port": 5432,
+							"database_type": "db",
+							"database_name":"postgres_db",
+							"username": "user",
+							"password": "pass"
+							}],
+					 "mysql":[{
+							"name":"mysql",
+							"hostname": "127.0.0.1",
+							"port": 3306,
+							"database_type": "db",
+							"database_name":"mysql_db",
+							"username": "user",
+							"password": "pass"
+							}]
+					},
+		"file" : {"data_file_properties": [{
+							"directory": "",
+							"read_from_dir" : true,
+							"col_delimiter" : ",",
+							"filename" : "filename.csv",
+							"row_delimiter" : "\r\n"
+								}],
+					"model_file_properties" : [{}]
+
+		},
+		"data_fetch_code": {
+			"enabled": true,
+			"language": "python",
+			"filepath": "D:/Modelling/code/",
+			"filename": "dataFetch",
+			"class": "fetchData",
+			"method": "readTable"
+		},
+		"data_transform_code": {
+			"enabled": true,
+			"language": "python",
+			"filepath": "D:/Modelling/code/",
+			"filename": "dataTransform",
+			"class": "transformData",
+			"method": "transData"
+		},
+		"model_training_code": {
+			"enabled": true,
+			"language": "R",
+			"filepath": "D:/Modelling/code/",
+			"filename": "modelTrain.R",
+			"class": "modelTrain",
+			"method": "trainModel"
+		},
+		"model_read": {
+			"enabled": true,
+			"build_language": "R",
+			"filepath": "",
+			"filename": "",
+			"extension": "",
+			"model_type": "random forest"
+		},
+		"model": {"random forest classifier":
+							{"bootstrap": true,
+							"criterion": "mse",
+							"max_depth": "None",
+							"max_features": "auto",
+							"max_leaf_nodes": "None",
+							"min_impurity_decrease": 0.0,
+							"min_impurity_split": "None",
+							"min_samples_leaf": 1,
+							"min_samples_split": 2,
+							"min_weight_fraction_leaf": 0.0,
+							"n_estimators": 10,
+							"n_jobs": 1,
+							"oob_score": false,
+							"random_state": 42,
+							"verbose": 0,
+							"warm_start": false,
+							"class_weight": "balanced"
+							},
+					"random forest regressor":
+							{"bootstrap": true,
+							"criterion": "mse",
+							"max_depth": "None",
+							"max_features": "auto",
+							"max_leaf_nodes": "None",
+							"min_impurity_decrease": 0.0,
+							"min_impurity_split": "None",
+							"min_samples_leaf": 1,
+							"min_samples_split": 2,
+							"min_weight_fraction_leaf": 0.0,
+							"n_estimators": 10,
+							"n_jobs": 1,
+							"oob_score": false,
+							"random_state": 42,
+							"verbose": 0,
+							"warm_start": false
+							},
+					"decision tree":
+							{"class_weight": "None",
+							"criterion": "gini",
+							"max_depth": "None",
+							"max_features": "None",
+							"max_leaf_nodes": "None",
+							"min_impurity_split": "1e-07",
+							"min_samples_leaf": 1,
+							"min_samples_split": 2,
+							"min_weight_fraction_leaf": 0.0,
+							"presort": false,
+							"random_state": "None",
+							"splitter": "best"
+							}
+			},
+		"model_testing": {
+			"cross_validation": true,
+			"ABTesting": true
+		},
+		"model_testing_code": {
+			"enabled": false,
+			"language": "R",
+			"filepath": "D:/Modelling/code/",
+			"filename": "modelTest.py",
+			"class": "modelTest",
+			"method": "testModel"
+		},
+		"model_performance": {
+			"confusion_matrix": true,
+			"gain": true,
+			"lift": true
+		},
+		"model_performance_code": {
+			"enabled": false,
+			"language": "Python",
+			"filepath": "D:/Modelling/code/",
+			"filename": "modelPerf.py",
+			"class": "modelPerf",
+			"method": "perfModel"
+		}
+	}
+}

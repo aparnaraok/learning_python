@@ -1,0 +1,220 @@
+[2019-08-07 09:46:20,024] {jobs.py:398} INFO - Started process (PID=28460) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:46:20,028] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:46:20,029] {logging_mixin.py:95} INFO - [2019-08-07 09:46:20,029] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:46:20,045] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:46:20,083] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.059 seconds
+[2019-08-07 09:47:10,066] {jobs.py:398} INFO - Started process (PID=28526) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:47:10,071] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:47:10,072] {logging_mixin.py:95} INFO - [2019-08-07 09:47:10,072] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:47:10,092] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:47:10,130] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.064 seconds
+[2019-08-07 09:48:00,154] {jobs.py:398} INFO - Started process (PID=28592) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:48:00,166] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:48:00,167] {logging_mixin.py:95} INFO - [2019-08-07 09:48:00,167] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:48:00,208] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:48:00,283] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.130 seconds
+[2019-08-07 09:48:50,194] {jobs.py:398} INFO - Started process (PID=28650) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:48:50,205] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:48:50,207] {logging_mixin.py:95} INFO - [2019-08-07 09:48:50,206] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:48:50,249] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:48:50,334] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.140 seconds
+[2019-08-07 09:49:40,220] {jobs.py:398} INFO - Started process (PID=28716) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:49:40,231] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:49:40,233] {logging_mixin.py:95} INFO - [2019-08-07 09:49:40,233] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:49:40,322] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:49:40,378] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.158 seconds
+[2019-08-07 09:50:30,266] {jobs.py:398} INFO - Started process (PID=28774) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:50:30,278] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:50:30,279] {logging_mixin.py:95} INFO - [2019-08-07 09:50:30,279] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:50:30,320] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:50:30,396] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.130 seconds
+[2019-08-07 09:51:20,297] {jobs.py:398} INFO - Started process (PID=28840) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:51:20,308] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:51:20,310] {logging_mixin.py:95} INFO - [2019-08-07 09:51:20,310] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:51:20,351] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:51:20,435] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.139 seconds
+[2019-08-07 09:52:10,334] {jobs.py:398} INFO - Started process (PID=28898) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:52:10,345] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:52:10,347] {logging_mixin.py:95} INFO - [2019-08-07 09:52:10,347] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:52:10,389] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:52:10,469] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.135 seconds
+[2019-08-07 09:53:00,373] {jobs.py:398} INFO - Started process (PID=28964) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:53:00,385] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:53:00,386] {logging_mixin.py:95} INFO - [2019-08-07 09:53:00,386] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:53:00,427] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:53:00,502] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.129 seconds
+[2019-08-07 09:53:50,410] {jobs.py:398} INFO - Started process (PID=29022) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:53:50,422] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:53:50,423] {logging_mixin.py:95} INFO - [2019-08-07 09:53:50,423] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:53:50,464] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:53:50,554] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.145 seconds
+[2019-08-07 09:54:40,453] {jobs.py:398} INFO - Started process (PID=29088) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:54:40,470] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:54:40,471] {logging_mixin.py:95} INFO - [2019-08-07 09:54:40,471] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:54:40,511] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:54:40,586] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.134 seconds
+[2019-08-07 09:55:30,478] {jobs.py:398} INFO - Started process (PID=29146) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:55:30,490] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:55:30,491] {logging_mixin.py:95} INFO - [2019-08-07 09:55:30,491] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:55:30,536] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:55:30,611] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.134 seconds
+[2019-08-07 09:56:20,517] {jobs.py:398} INFO - Started process (PID=29212) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:56:20,528] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:56:20,530] {logging_mixin.py:95} INFO - [2019-08-07 09:56:20,529] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:56:20,570] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:56:20,658] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.141 seconds
+[2019-08-07 09:57:10,552] {jobs.py:398} INFO - Started process (PID=29270) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:57:10,564] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:57:10,565] {logging_mixin.py:95} INFO - [2019-08-07 09:57:10,565] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:57:10,605] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:57:10,681] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.129 seconds
+[2019-08-07 09:58:00,590] {jobs.py:398} INFO - Started process (PID=29336) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:58:00,602] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:58:00,603] {logging_mixin.py:95} INFO - [2019-08-07 09:58:00,603] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:58:00,644] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:58:00,718] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.128 seconds
+[2019-08-07 09:58:50,631] {jobs.py:398} INFO - Started process (PID=29394) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:58:50,643] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:58:50,644] {logging_mixin.py:95} INFO - [2019-08-07 09:58:50,644] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:58:50,685] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:58:50,773] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.142 seconds
+[2019-08-07 09:59:40,690] {jobs.py:398} INFO - Started process (PID=29460) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:59:40,701] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 09:59:40,702] {logging_mixin.py:95} INFO - [2019-08-07 09:59:40,702] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:59:40,742] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 09:59:40,811] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.121 seconds
+[2019-08-07 10:00:30,688] {jobs.py:398} INFO - Started process (PID=29526) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:00:30,704] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:00:30,705] {logging_mixin.py:95} INFO - [2019-08-07 10:00:30,705] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:00:30,743] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:00:30,818] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.130 seconds
+[2019-08-07 10:01:20,737] {jobs.py:398} INFO - Started process (PID=29584) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:01:20,754] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:01:20,755] {logging_mixin.py:95} INFO - [2019-08-07 10:01:20,755] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:01:20,794] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:01:20,882] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.145 seconds
+[2019-08-07 10:02:10,754] {jobs.py:398} INFO - Started process (PID=29650) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:02:10,764] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:02:10,766] {logging_mixin.py:95} INFO - [2019-08-07 10:02:10,765] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:02:10,810] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:02:10,885] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.131 seconds
+[2019-08-07 10:03:00,803] {jobs.py:398} INFO - Started process (PID=29708) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:03:00,815] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:03:00,817] {logging_mixin.py:95} INFO - [2019-08-07 10:03:00,816] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:03:00,859] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:03:00,935] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.132 seconds
+[2019-08-07 10:03:50,828] {jobs.py:398} INFO - Started process (PID=29774) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:03:50,841] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:03:50,843] {logging_mixin.py:95} INFO - [2019-08-07 10:03:50,842] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:03:50,888] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:03:50,977] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.149 seconds
+[2019-08-07 10:04:40,902] {jobs.py:398} INFO - Started process (PID=29832) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:04:40,914] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:04:40,916] {logging_mixin.py:95} INFO - [2019-08-07 10:04:40,915] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:04:40,959] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:04:41,033] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.131 seconds
+[2019-08-07 10:05:30,905] {jobs.py:398} INFO - Started process (PID=29898) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:05:30,916] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:05:30,918] {logging_mixin.py:95} INFO - [2019-08-07 10:05:30,918] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:05:30,959] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:05:31,033] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.129 seconds
+[2019-08-07 10:06:20,932] {jobs.py:398} INFO - Started process (PID=29956) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:06:20,943] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:06:20,945] {logging_mixin.py:95} INFO - [2019-08-07 10:06:20,944] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:06:20,984] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:06:21,071] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.140 seconds
+[2019-08-07 10:07:10,967] {jobs.py:398} INFO - Started process (PID=30022) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:07:10,980] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:07:10,982] {logging_mixin.py:95} INFO - [2019-08-07 10:07:10,981] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:07:11,025] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:07:11,095] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.128 seconds
+[2019-08-07 10:08:01,005] {jobs.py:398} INFO - Started process (PID=30080) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:08:01,014] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:08:01,015] {logging_mixin.py:95} INFO - [2019-08-07 10:08:01,015] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:08:01,044] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:08:01,125] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.120 seconds
+[2019-08-07 10:08:51,046] {jobs.py:398} INFO - Started process (PID=30146) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:08:51,057] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:08:51,059] {logging_mixin.py:95} INFO - [2019-08-07 10:08:51,058] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:08:51,103] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:08:51,185] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.140 seconds
+[2019-08-07 10:09:41,102] {jobs.py:398} INFO - Started process (PID=30204) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:09:41,114] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:09:41,115] {logging_mixin.py:95} INFO - [2019-08-07 10:09:41,115] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:09:41,157] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:09:41,227] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.125 seconds
+[2019-08-07 10:10:31,117] {jobs.py:398} INFO - Started process (PID=30270) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:10:31,133] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:10:31,134] {logging_mixin.py:95} INFO - [2019-08-07 10:10:31,134] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:10:31,172] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:10:31,244] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.128 seconds
+[2019-08-07 10:11:21,143] {jobs.py:398} INFO - Started process (PID=30336) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:11:21,161] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:11:21,162] {logging_mixin.py:95} INFO - [2019-08-07 10:11:21,162] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:11:21,201] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:11:21,277] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.134 seconds
+[2019-08-07 10:12:11,177] {jobs.py:398} INFO - Started process (PID=30400) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:12:11,189] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:12:11,190] {logging_mixin.py:95} INFO - [2019-08-07 10:12:11,190] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:12:11,231] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:12:11,302] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.125 seconds
+[2019-08-07 10:13:01,226] {jobs.py:398} INFO - Started process (PID=30500) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:13:01,238] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:13:01,240] {logging_mixin.py:95} INFO - [2019-08-07 10:13:01,239] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:13:01,280] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:13:01,356] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.130 seconds
+[2019-08-07 10:13:51,258] {jobs.py:398} INFO - Started process (PID=30561) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:13:51,270] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:13:51,271] {logging_mixin.py:95} INFO - [2019-08-07 10:13:51,271] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:13:51,314] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:13:51,402] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.144 seconds
+[2019-08-07 10:14:41,324] {jobs.py:398} INFO - Started process (PID=30627) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:14:41,336] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:14:41,337] {logging_mixin.py:95} INFO - [2019-08-07 10:14:41,337] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:14:41,379] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:14:41,451] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.127 seconds
+[2019-08-07 10:15:31,329] {jobs.py:398} INFO - Started process (PID=30685) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:15:31,341] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:15:31,343] {logging_mixin.py:95} INFO - [2019-08-07 10:15:31,342] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:15:31,383] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:15:31,459] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.130 seconds
+[2019-08-07 10:16:21,364] {jobs.py:398} INFO - Started process (PID=30751) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:16:21,376] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:16:21,378] {logging_mixin.py:95} INFO - [2019-08-07 10:16:21,378] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:16:21,419] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:16:21,508] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.144 seconds
+[2019-08-07 10:17:11,411] {jobs.py:398} INFO - Started process (PID=30809) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:17:11,419] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:17:11,420] {logging_mixin.py:95} INFO - [2019-08-07 10:17:11,420] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:17:11,460] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:17:11,535] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.124 seconds
+[2019-08-07 10:18:01,446] {jobs.py:398} INFO - Started process (PID=30875) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:18:01,458] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:18:01,460] {logging_mixin.py:95} INFO - [2019-08-07 10:18:01,460] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:18:01,502] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:18:01,576] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.131 seconds
+[2019-08-07 10:18:51,486] {jobs.py:398} INFO - Started process (PID=30933) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:18:51,498] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:18:51,500] {logging_mixin.py:95} INFO - [2019-08-07 10:18:51,499] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:18:51,539] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:18:51,626] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.140 seconds
+[2019-08-07 10:19:41,546] {jobs.py:398} INFO - Started process (PID=30999) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:19:41,560] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:19:41,561] {logging_mixin.py:95} INFO - [2019-08-07 10:19:41,560] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:19:41,597] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:19:41,668] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.122 seconds
+[2019-08-07 10:20:31,558] {jobs.py:398} INFO - Started process (PID=31057) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:20:31,570] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:20:31,572] {logging_mixin.py:95} INFO - [2019-08-07 10:20:31,572] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:20:31,619] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:20:31,695] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.137 seconds
+[2019-08-07 10:21:21,623] {jobs.py:398} INFO - Started process (PID=31123) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:21:21,635] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:21:21,637] {logging_mixin.py:95} INFO - [2019-08-07 10:21:21,636] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:21:21,682] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:21:21,755] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.133 seconds
+[2019-08-07 10:22:11,620] {jobs.py:398} INFO - Started process (PID=31237) to work on /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:22:11,632] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/lm_cost_func.py for tasks to queue
+[2019-08-07 10:22:11,634] {logging_mixin.py:95} INFO - [2019-08-07 10:22:11,633] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:22:11,665] {jobs.py:1723} INFO - DAG(s) dict_keys(['lm_cost_dag']) retrieved from /home/aprao/airflow_test/dags/lm_cost_func.py
+[2019-08-07 10:22:11,736] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/lm_cost_func.py took 0.117 seconds

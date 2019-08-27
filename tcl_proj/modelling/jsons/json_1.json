@@ -1,0 +1,184 @@
+{
+	"parameters": {
+		"fetch_conn": {
+			"read_from_file": true,
+			"read_from_db": false,
+			"file_properties": {
+				"oracle": [{
+					"read_mode": false,
+					"file_path": "oracle.csv"
+				}],
+				"sql": [{
+					"read_mode": true,
+					"file_path": "sql.csv"
+				}],
+				"postgres": [{
+					"read_mode": false,
+					"file_path": "postgres.csv"
+				}]
+			},
+			"db_properties": {
+				"oracle": [{
+					"name": "oracle",
+					"hostname": "127.0.0.1",
+					"port": 3200,
+					"database_type": "db",
+					"database_name": "oracle_db",
+					"username": "user",
+					"password": "pass"
+				}],
+				"mysql": [{
+					"name": "mysql",
+					"hostname": "127.0.0.1",
+					"port": 3306,
+					"database_type": "db",
+					"database_name": "mysql_db",
+					"username": "user",
+					"password": "pass"
+				}],
+				"postgres": [{
+					"name": "postgres",
+					"hostname": "127.0.0.1",
+					"port": 5432,
+					"database_type": "db",
+					"database_name": "postgres_db",
+					"username": "user",
+					"password": "pass"
+				}]
+			}
+		},
+		"data_properties": {
+			"data_fetch": {
+				"code_properties": {
+					"enabled": true,
+					"language": "python",
+					"filepath": "D:/Modelling/code/",
+					"filename": "fetch_data_code.py",
+					"class": "FetchData",
+					"method": "fetch_data"
+				}
+			},
+			"data_transform": {
+				"code_properties": {
+					"enabled": true,
+					"language": "python",
+					"filepath": "D:/Modelling/code/",
+					"filename": "transform_data_code.py",
+					"class": "TransformData",
+					"method": "transform_data"
+				}
+			}
+		},
+		"model_properties": {
+			"model_train": {
+				"code_properties": {
+					"enabled": true,
+					"language": "R",
+					"filepath": "D:/Modelling/code/",
+					"filename": "train_model.R",
+					"classname": "TrainModel",
+					"method": "train_model"
+				}
+			},
+			"model_read": {
+				"code_properties": {
+					"enabled": true,
+					"build_language": "R",
+					"filepath": "",
+					"filename": "",
+					"extension": "",
+					"model_type": "random forest"
+				}
+			},
+			"model_type": {
+				"model": [{
+						"random forest classifier": {
+							"bootstrap": true,
+							"criterion": "mse",
+							"max_depth": "None",
+							"max_features": "auto",
+							"max_leaf_nodes": "None",
+							"min_impurity_decrease": 0.0,
+							"min_impurity_split": "None",
+							"min_samples_leaf": 1,
+							"min_samples_split": 2,
+							"min_weight_fraction_leaf": 0.0,
+							"n_estimators": 10,
+							"n_jobs": 1,
+							"oob_score": false,
+							"random_state": 42,
+							"verbose": 0,
+							"warm_start": false,
+							"class_weight": "balanced"
+						}
+					},
+					{
+						"random forest regressor": {
+							"bootstrap": true,
+							"criterion": "mse",
+							"max_depth": "None",
+							"max_features": "auto",
+							"max_leaf_nodes": "None",
+							"min_impurity_decrease": 0.0,
+							"min_impurity_split": "None",
+							"min_samples_leaf": 1,
+							"min_samples_split": 2,
+							"min_weight_fraction_leaf": 0.0,
+							"n_estimators": 10,
+							"n_jobs": 1,
+							"oob_score": false,
+							"random_state": 42,
+							"verbose": 0,
+							"warm_start": false
+						}
+					},
+					{
+						"decision tree": {
+							"class_weight": "None",
+							"criterion": "gini",
+							"max_depth": "None",
+							"max_features": "None",
+							"max_leaf_nodes": "None",
+							"min_impurity_split": "1e-07",
+							"min_samples_leaf": 1,
+							"min_samples_split": 2,
+							"min_weight_fraction_leaf": 0.0,
+							"presort": false,
+							"random_state": "None",
+							"splitter": "best"
+						}
+					}
+				]
+			},
+			"model_test": {
+				"type": {
+					"cross_validation": true,
+					"ABTesting": true
+				},
+				"code_properties": {
+					"enabled": false,
+					"language": "R",
+					"filepath": "D:/Modelling/code/",
+					"filename": "model_test.py",
+					"class": "TestModel",
+					"method": "test_model"
+				}
+			},
+			"model_performance": {
+				"type": {
+					"confusion_matrix": true,
+					"gain": true,
+					"lift": true
+				},
+				"code_properties": {
+					"enabled": false,
+					"language": "Python",
+					"filepath": "D:/Modelling/code/",
+					"filename": "model_performance.py",
+					"class": "ModelPerformance",
+					"method": "get_model_performance"
+				}
+			}
+		}
+	}
+}

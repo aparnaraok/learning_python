@@ -1,0 +1,69 @@
+[2019-08-01 13:02:03,090] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_json_dag.check_rules 2019-08-01T00:00:00+00:00 [queued]>
+[2019-08-01 13:02:03,098] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_json_dag.check_rules 2019-08-01T00:00:00+00:00 [queued]>
+[2019-08-01 13:02:03,099] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-08-01 13:02:03,099] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-08-01 13:02:03,099] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-08-01 13:02:03,129] {__init__.py:1374} INFO - Executing <Task(PythonOperator): check_rules> on 2019-08-01T00:00:00+00:00
+[2019-08-01 13:02:03,130] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'example_json_dag', 'check_rules', '2019-08-01T00:00:00+00:00', '--job_id', '67', '--raw', '-sd', 'DAGS_FOLDER/dag_parse_json.py', '--cfg_path', '/tmp/tmpglsl6vrg']
+[2019-08-01 13:02:04,438] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules /home/aprao/.local/lib/python3.6/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/aprao/airflow/airflow.cfg and /home/aprao/airflow_test/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/aprao/airflow_test/airflow.cfg, and you should remove the other file
+[2019-08-01 13:02:04,438] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   category=DeprecationWarning,
+[2019-08-01 13:02:05,076] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules [2019-08-01 13:02:05,075] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-08-01 13:02:05,929] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules [2019-08-01 13:02:05,927] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_parse_json.py
+[2019-08-01 13:02:05,980] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules [2019-08-01 13:02:05,980] {cli.py:517} INFO - Running <TaskInstance: example_json_dag.check_rules 2019-08-01T00:00:00+00:00 [running]> on host BYOD-APRAO.localdomain
+[2019-08-01 13:02:05,999] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=example_json_dag
+AIRFLOW_CTX_TASK_ID=check_rules
+AIRFLOW_CTX_EXECUTION_DATE=2019-08-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill_2019-08-01T00:00:00+00:00
+[2019-08-01 13:02:06,000] {logging_mixin.py:95} INFO - Entering into the Print JSON context.....
+[2019-08-01 13:02:06,000] {logging_mixin.py:95} INFO - Current working dir >>>> /home/aprao/airflow_test/dags
+[2019-08-01 13:02:06,000] {logging_mixin.py:95} INFO - ['__pycache__', 'dag_1.py', 'dag_2.py', 'dag_3.py', 'dag_parse_json.py', 'dag_sample_rules.py', 'input.json', 'output.json']
+[2019-08-01 13:02:06,001] {logging_mixin.py:95} INFO - Initializing the rules engine ......
+[2019-08-01 13:02:06,001] {logging_mixin.py:95} INFO - Test rules is >>>>> ['int_flag', 'int_flag', 'float_flag', 'int_flag', 'string']
+[2019-08-01 13:02:06,003] {python_operator.py:113} INFO - Done. Returned value was: {'a': 10, 'b': 20, 'c': 30.0, 'd': 40, 'e': 'fifty', 'tr': ['int_flag', 'int_flag', 'float_flag', 'int_flag', 'string']}
+[2019-08-01 13:02:06,176] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules Traceback (most recent call last):
+[2019-08-01 13:02:06,177] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 753, in _commit_impl
+[2019-08-01 13:02:06,177] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     self.engine.dialect.do_commit(self.connection)
+[2019-08-01 13:02:06,177] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 489, in do_commit
+[2019-08-01 13:02:06,177] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     dbapi_connection.commit()
+[2019-08-01 13:02:06,177] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules sqlite3.OperationalError: disk I/O error
+[2019-08-01 13:02:06,178] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules 
+[2019-08-01 13:02:06,178] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules The above exception was the direct cause of the following exception:
+[2019-08-01 13:02:06,178] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules 
+[2019-08-01 13:02:06,178] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules Traceback (most recent call last):
+[2019-08-01 13:02:06,178] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/usr/bin/airflow", line 32, in <module>
+[2019-08-01 13:02:06,178] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     args.func(args)
+[2019-08-01 13:02:06,178] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-08-01 13:02:06,178] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     return f(*args, **kwargs)
+[2019-08-01 13:02:06,179] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/airflow/bin/cli.py", line 523, in run
+[2019-08-01 13:02:06,179] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     _run(args, dag, ti)
+[2019-08-01 13:02:06,179] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/airflow/bin/cli.py", line 442, in _run
+[2019-08-01 13:02:06,179] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     pool=args.pool,
+[2019-08-01 13:02:06,179] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-08-01 13:02:06,179] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     return func(*args, **kwargs)
+[2019-08-01 13:02:06,179] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/airflow/models/__init__.py", line 1510, in _run_raw_task
+[2019-08-01 13:02:06,180] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     session.commit()
+[2019-08-01 13:02:06,180] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1023, in commit
+[2019-08-01 13:02:06,180] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     self.transaction.commit()
+[2019-08-01 13:02:06,180] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 491, in commit
+[2019-08-01 13:02:06,180] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     t[1].commit()
+[2019-08-01 13:02:06,180] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1708, in commit
+[2019-08-01 13:02:06,180] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     self._do_commit()
+[2019-08-01 13:02:06,180] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1739, in _do_commit
+[2019-08-01 13:02:06,180] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     self.connection._commit_impl()
+[2019-08-01 13:02:06,181] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 755, in _commit_impl
+[2019-08-01 13:02:06,181] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     self._handle_dbapi_exception(e, None, None, None, None)
+[2019-08-01 13:02:06,181] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1458, in _handle_dbapi_exception
+[2019-08-01 13:02:06,181] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     util.raise_from_cause(sqlalchemy_exception, exc_info)
+[2019-08-01 13:02:06,181] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 296, in raise_from_cause
+[2019-08-01 13:02:06,181] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     reraise(type(exception), exception, tb=exc_tb, cause=cause)
+[2019-08-01 13:02:06,181] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 276, in reraise
+[2019-08-01 13:02:06,182] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     raise value.with_traceback(tb)
+[2019-08-01 13:02:06,182] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 753, in _commit_impl
+[2019-08-01 13:02:06,182] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     self.engine.dialect.do_commit(self.connection)
+[2019-08-01 13:02:06,182] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules   File "/home/aprao/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 489, in do_commit
+[2019-08-01 13:02:06,182] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules     dbapi_connection.commit()
+[2019-08-01 13:02:06,182] {base_task_runner.py:101} INFO - Job 67: Subtask check_rules sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error (Background on this error at: http://sqlalche.me/e/e3q8)
+[2019-08-01 13:02:08,087] {logging_mixin.py:95} INFO - [2019-08-01 13:02:08,084] {jobs.py:2562} INFO - Task exited with return code 1

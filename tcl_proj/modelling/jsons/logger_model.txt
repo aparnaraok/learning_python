@@ -1,0 +1,15 @@
+# logging.getLogger().setLevel(logging.DEBUG)
+# logging.basicConfig(level=logging.DEBUG,
+#                     format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+#                     datefmt='%m-%d %H:%M',
+#                     filename='myapp.log',
+#                     filemode='w')
+# # define a Handler which writes INFO messages or higher to the sys.stderr
+# console = logging.StreamHandler()
+# console.setLevel(logging.INFO)
+# add the handler to the root logger
+# logging.getLogger('').addHandler(console)
+# print(dir(logging))
+
+
+https://www.tutorialspoint.com/machine_learning_with_python/machine_learning_with_python_understanding_data_with_statistics.htm

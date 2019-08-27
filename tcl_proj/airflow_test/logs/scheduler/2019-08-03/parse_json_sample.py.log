@@ -1,0 +1,790 @@
+[2019-08-03 08:40:43,180] {jobs.py:398} INFO - Started process (PID=6746) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:40:43,184] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:40:43,185] {logging_mixin.py:95} INFO - [2019-08-03 08:40:43,185] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:40:43,200] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:40:43,237] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.057 seconds
+[2019-08-03 08:41:33,195] {jobs.py:398} INFO - Started process (PID=6812) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:41:33,201] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:41:33,202] {logging_mixin.py:95} INFO - [2019-08-03 08:41:33,202] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:41:33,215] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:41:33,250] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.055 seconds
+[2019-08-03 08:42:23,280] {jobs.py:398} INFO - Started process (PID=6870) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:42:23,292] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:42:23,293] {logging_mixin.py:95} INFO - [2019-08-03 08:42:23,293] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:42:23,332] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:42:23,402] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.122 seconds
+[2019-08-03 08:43:13,327] {jobs.py:398} INFO - Started process (PID=6936) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:43:13,338] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:43:13,339] {logging_mixin.py:95} INFO - [2019-08-03 08:43:13,339] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:43:13,377] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:43:13,467] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.140 seconds
+[2019-08-03 08:44:03,362] {jobs.py:398} INFO - Started process (PID=6994) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:44:03,378] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:44:03,379] {logging_mixin.py:95} INFO - [2019-08-03 08:44:03,379] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:44:03,413] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:44:03,490] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.128 seconds
+[2019-08-03 08:44:53,388] {jobs.py:398} INFO - Started process (PID=7060) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:44:53,399] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:44:53,400] {logging_mixin.py:95} INFO - [2019-08-03 08:44:53,400] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:44:53,440] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:44:53,515] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.127 seconds
+[2019-08-03 08:45:43,501] {jobs.py:398} INFO - Started process (PID=7118) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:45:43,511] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:45:43,513] {logging_mixin.py:95} INFO - [2019-08-03 08:45:43,512] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:45:43,551] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:45:43,621] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.121 seconds
+[2019-08-03 08:46:33,471] {jobs.py:398} INFO - Started process (PID=7184) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:46:33,482] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:46:33,484] {logging_mixin.py:95} INFO - [2019-08-03 08:46:33,483] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:46:33,523] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:46:33,597] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.127 seconds
+[2019-08-03 08:47:23,503] {jobs.py:398} INFO - Started process (PID=7242) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:47:23,520] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:47:23,521] {logging_mixin.py:95} INFO - [2019-08-03 08:47:23,521] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:47:23,556] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:47:23,629] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.126 seconds
+[2019-08-03 08:48:13,543] {jobs.py:398} INFO - Started process (PID=7308) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:48:13,554] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:48:13,555] {logging_mixin.py:95} INFO - [2019-08-03 08:48:13,555] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:48:13,594] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:48:13,681] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.139 seconds
+[2019-08-03 08:49:03,577] {jobs.py:398} INFO - Started process (PID=7374) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:49:03,589] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:49:03,590] {logging_mixin.py:95} INFO - [2019-08-03 08:49:03,590] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:49:03,632] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:49:03,712] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.136 seconds
+[2019-08-03 08:49:53,615] {jobs.py:398} INFO - Started process (PID=7432) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:49:53,632] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:49:53,633] {logging_mixin.py:95} INFO - [2019-08-03 08:49:53,633] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:49:53,668] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:49:53,746] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.131 seconds
+[2019-08-03 08:50:43,703] {jobs.py:398} INFO - Started process (PID=7498) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:50:43,714] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:50:43,715] {logging_mixin.py:95} INFO - [2019-08-03 08:50:43,715] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:50:43,749] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:50:43,819] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.116 seconds
+[2019-08-03 08:51:33,672] {jobs.py:398} INFO - Started process (PID=7556) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:51:33,681] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:51:33,682] {logging_mixin.py:95} INFO - [2019-08-03 08:51:33,682] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:51:33,707] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:51:33,774] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.102 seconds
+[2019-08-03 08:52:23,688] {jobs.py:398} INFO - Started process (PID=7622) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:52:23,698] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:52:23,699] {logging_mixin.py:95} INFO - [2019-08-03 08:52:23,699] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:52:23,744] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:52:23,820] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.132 seconds
+[2019-08-03 08:53:13,717] {jobs.py:398} INFO - Started process (PID=7680) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:53:13,725] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:53:13,727] {logging_mixin.py:95} INFO - [2019-08-03 08:53:13,727] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:53:13,763] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:53:13,845] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.129 seconds
+[2019-08-03 08:54:03,772] {jobs.py:398} INFO - Started process (PID=7746) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:54:03,784] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:54:03,785] {logging_mixin.py:95} INFO - [2019-08-03 08:54:03,785] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:54:03,821] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:54:03,889] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.117 seconds
+[2019-08-03 08:54:53,802] {jobs.py:398} INFO - Started process (PID=7804) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:54:53,812] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:54:53,813] {logging_mixin.py:95} INFO - [2019-08-03 08:54:53,813] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:54:53,853] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:54:53,931] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.129 seconds
+[2019-08-03 08:55:43,846] {jobs.py:398} INFO - Started process (PID=7870) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:55:43,854] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:55:43,855] {logging_mixin.py:95} INFO - [2019-08-03 08:55:43,855] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:55:43,886] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:55:43,944] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.098 seconds
+[2019-08-03 08:56:33,860] {jobs.py:398} INFO - Started process (PID=7928) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:56:33,872] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:56:33,873] {logging_mixin.py:95} INFO - [2019-08-03 08:56:33,873] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:56:33,911] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:56:33,985] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.126 seconds
+[2019-08-03 08:57:23,912] {jobs.py:398} INFO - Started process (PID=7994) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:57:23,924] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:57:23,925] {logging_mixin.py:95} INFO - [2019-08-03 08:57:23,925] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:57:23,964] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:57:24,039] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.127 seconds
+[2019-08-03 08:58:13,943] {jobs.py:398} INFO - Started process (PID=8052) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:58:13,955] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:58:13,956] {logging_mixin.py:95} INFO - [2019-08-03 08:58:13,956] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:58:13,995] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:58:14,079] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.137 seconds
+[2019-08-03 08:59:03,977] {jobs.py:398} INFO - Started process (PID=8118) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:59:03,988] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:59:03,990] {logging_mixin.py:95} INFO - [2019-08-03 08:59:03,990] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:59:04,027] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:59:04,104] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.127 seconds
+[2019-08-03 08:59:54,019] {jobs.py:398} INFO - Started process (PID=8184) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:59:54,032] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 08:59:54,034] {logging_mixin.py:95} INFO - [2019-08-03 08:59:54,033] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:59:54,075] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 08:59:54,150] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.131 seconds
+[2019-08-03 09:00:44,005] {jobs.py:398} INFO - Started process (PID=8242) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:00:44,011] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:00:44,011] {logging_mixin.py:95} INFO - [2019-08-03 09:00:44,011] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:00:44,023] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:00:44,058] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.053 seconds
+[2019-08-03 09:17:16,500] {jobs.py:398} INFO - Started process (PID=8332) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:17:16,504] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:17:16,504] {logging_mixin.py:95} INFO - [2019-08-03 09:17:16,504] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:17:16,519] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:17:16,554] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.054 seconds
+[2019-08-03 09:18:22,642] {jobs.py:398} INFO - Started process (PID=8390) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:18:22,647] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:18:22,647] {logging_mixin.py:95} INFO - [2019-08-03 09:18:22,647] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:18:22,664] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:18:22,708] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.066 seconds
+[2019-08-03 09:19:12,692] {jobs.py:398} INFO - Started process (PID=8456) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:19:12,701] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:19:12,702] {logging_mixin.py:95} INFO - [2019-08-03 09:19:12,702] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:19:12,728] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:19:12,790] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.098 seconds
+[2019-08-03 09:20:02,733] {jobs.py:398} INFO - Started process (PID=8514) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:20:02,743] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:20:02,744] {logging_mixin.py:95} INFO - [2019-08-03 09:20:02,744] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:20:02,781] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:20:02,843] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.110 seconds
+[2019-08-03 09:20:52,800] {jobs.py:398} INFO - Started process (PID=8580) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:20:52,807] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:20:52,808] {logging_mixin.py:95} INFO - [2019-08-03 09:20:52,808] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:20:52,837] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:20:52,898] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.098 seconds
+[2019-08-03 09:21:42,815] {jobs.py:398} INFO - Started process (PID=8646) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:21:42,827] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:21:42,828] {logging_mixin.py:95} INFO - [2019-08-03 09:21:42,828] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:21:42,856] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:21:42,933] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.118 seconds
+[2019-08-03 09:45:56,715] {jobs.py:398} INFO - Started process (PID=8736) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:45:56,721] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:45:56,722] {logging_mixin.py:95} INFO - [2019-08-03 09:45:56,722] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:45:56,741] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:45:56,792] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.078 seconds
+[2019-08-03 09:46:46,745] {jobs.py:398} INFO - Started process (PID=8802) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:46:46,750] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:46:46,751] {logging_mixin.py:95} INFO - [2019-08-03 09:46:46,751] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:46:46,769] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:46:46,816] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.071 seconds
+[2019-08-03 09:47:36,813] {jobs.py:398} INFO - Started process (PID=8860) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:47:36,821] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:47:36,822] {logging_mixin.py:95} INFO - [2019-08-03 09:47:36,822] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:47:36,863] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:47:36,941] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.129 seconds
+[2019-08-03 09:48:26,913] {jobs.py:398} INFO - Started process (PID=8926) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:48:26,923] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:48:26,925] {logging_mixin.py:95} INFO - [2019-08-03 09:48:26,924] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:48:26,954] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:48:27,049] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.137 seconds
+[2019-08-03 09:49:16,881] {jobs.py:398} INFO - Started process (PID=8984) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:49:16,892] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:49:16,893] {logging_mixin.py:95} INFO - [2019-08-03 09:49:16,893] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:49:16,931] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:49:17,004] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.123 seconds
+[2019-08-03 09:50:06,991] {jobs.py:398} INFO - Started process (PID=9050) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:50:07,008] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:50:07,010] {logging_mixin.py:95} INFO - [2019-08-03 09:50:07,010] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:50:07,046] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:50:07,121] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.130 seconds
+[2019-08-03 09:50:56,954] {jobs.py:398} INFO - Started process (PID=9108) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:50:56,971] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:50:56,973] {logging_mixin.py:95} INFO - [2019-08-03 09:50:56,972] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:50:57,007] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:50:57,094] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.140 seconds
+[2019-08-03 09:51:47,015] {jobs.py:398} INFO - Started process (PID=9174) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:51:47,027] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:51:47,029] {logging_mixin.py:95} INFO - [2019-08-03 09:51:47,028] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:51:47,067] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:51:47,144] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.129 seconds
+[2019-08-03 09:52:37,040] {jobs.py:398} INFO - Started process (PID=9240) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:52:37,054] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:52:37,055] {logging_mixin.py:95} INFO - [2019-08-03 09:52:37,055] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:52:37,093] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:52:37,169] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.129 seconds
+[2019-08-03 09:53:27,055] {jobs.py:398} INFO - Started process (PID=9298) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:53:27,067] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:53:27,068] {logging_mixin.py:95} INFO - [2019-08-03 09:53:27,068] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:53:27,107] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:53:27,189] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.134 seconds
+[2019-08-03 09:54:17,087] {jobs.py:398} INFO - Started process (PID=9364) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:54:17,099] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:54:17,100] {logging_mixin.py:95} INFO - [2019-08-03 09:54:17,100] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:54:17,141] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:54:17,218] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.131 seconds
+[2019-08-03 09:55:07,151] {jobs.py:398} INFO - Started process (PID=9422) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:55:07,162] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:55:07,163] {logging_mixin.py:95} INFO - [2019-08-03 09:55:07,163] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:55:07,201] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:55:07,269] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.119 seconds
+[2019-08-03 09:55:57,196] {jobs.py:398} INFO - Started process (PID=9488) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:55:57,208] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:55:57,209] {logging_mixin.py:95} INFO - [2019-08-03 09:55:57,209] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:55:57,248] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:55:57,340] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.144 seconds
+[2019-08-03 09:56:47,183] {jobs.py:398} INFO - Started process (PID=9546) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:56:47,194] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:56:47,195] {logging_mixin.py:95} INFO - [2019-08-03 09:56:47,195] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:56:47,240] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:56:47,316] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.134 seconds
+[2019-08-03 09:57:37,315] {jobs.py:398} INFO - Started process (PID=9612) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:57:37,343] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:57:37,347] {logging_mixin.py:95} INFO - [2019-08-03 09:57:37,346] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:57:37,412] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:57:37,490] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.176 seconds
+[2019-08-03 09:58:27,258] {jobs.py:398} INFO - Started process (PID=9670) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:58:27,270] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:58:27,272] {logging_mixin.py:95} INFO - [2019-08-03 09:58:27,271] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:58:27,313] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:58:27,402] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.144 seconds
+[2019-08-03 09:59:17,280] {jobs.py:398} INFO - Started process (PID=9736) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:59:17,292] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 09:59:17,293] {logging_mixin.py:95} INFO - [2019-08-03 09:59:17,293] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:59:17,331] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 09:59:17,408] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.128 seconds
+[2019-08-03 10:00:07,355] {jobs.py:398} INFO - Started process (PID=9794) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:00:07,371] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:00:07,373] {logging_mixin.py:95} INFO - [2019-08-03 10:00:07,372] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:00:07,407] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:00:07,481] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.127 seconds
+[2019-08-03 10:00:57,360] {jobs.py:398} INFO - Started process (PID=9860) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:00:57,379] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:00:57,380] {logging_mixin.py:95} INFO - [2019-08-03 10:00:57,380] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:00:57,416] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:00:57,505] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.145 seconds
+[2019-08-03 10:01:47,382] {jobs.py:398} INFO - Started process (PID=9918) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:01:47,394] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:01:47,395] {logging_mixin.py:95} INFO - [2019-08-03 10:01:47,395] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:01:47,435] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:01:47,512] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.131 seconds
+[2019-08-03 10:02:37,415] {jobs.py:398} INFO - Started process (PID=9984) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:02:37,427] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:02:37,428] {logging_mixin.py:95} INFO - [2019-08-03 10:02:37,428] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:02:37,468] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:02:37,542] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.127 seconds
+[2019-08-03 10:03:27,463] {jobs.py:398} INFO - Started process (PID=10050) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:03:27,478] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:03:27,479] {logging_mixin.py:95} INFO - [2019-08-03 10:03:27,479] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:03:27,528] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:03:27,611] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.149 seconds
+[2019-08-03 10:04:17,481] {jobs.py:398} INFO - Started process (PID=10108) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:04:17,493] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:04:17,494] {logging_mixin.py:95} INFO - [2019-08-03 10:04:17,494] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:04:17,532] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:04:17,609] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.128 seconds
+[2019-08-03 10:05:07,544] {jobs.py:398} INFO - Started process (PID=10174) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:05:07,555] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:05:07,557] {logging_mixin.py:95} INFO - [2019-08-03 10:05:07,556] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:05:07,594] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:05:07,662] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.118 seconds
+[2019-08-03 10:05:57,554] {jobs.py:398} INFO - Started process (PID=10232) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:05:57,566] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:05:57,567] {logging_mixin.py:95} INFO - [2019-08-03 10:05:57,567] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:05:57,606] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:05:57,706] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.153 seconds
+[2019-08-03 10:06:47,684] {jobs.py:398} INFO - Started process (PID=10298) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:06:47,710] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:06:47,713] {logging_mixin.py:95} INFO - [2019-08-03 10:06:47,712] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:06:47,793] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:06:47,874] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.191 seconds
+[2019-08-03 10:07:37,632] {jobs.py:398} INFO - Started process (PID=10356) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:07:37,643] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:07:37,645] {logging_mixin.py:95} INFO - [2019-08-03 10:07:37,645] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:07:37,685] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:07:37,762] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.130 seconds
+[2019-08-03 10:08:27,676] {jobs.py:398} INFO - Started process (PID=10422) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:08:27,689] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:08:27,690] {logging_mixin.py:95} INFO - [2019-08-03 10:08:27,690] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:08:27,728] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:08:27,818] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.142 seconds
+[2019-08-03 10:09:17,711] {jobs.py:398} INFO - Started process (PID=10480) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:09:17,723] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:09:17,724] {logging_mixin.py:95} INFO - [2019-08-03 10:09:17,724] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:09:17,763] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:09:17,836] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.125 seconds
+[2019-08-03 10:10:07,881] {jobs.py:398} INFO - Started process (PID=10546) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:10:07,910] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:10:07,913] {logging_mixin.py:95} INFO - [2019-08-03 10:10:07,913] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:10:07,980] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:10:08,072] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.192 seconds
+[2019-08-03 10:10:57,778] {jobs.py:398} INFO - Started process (PID=10604) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:10:57,790] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:10:57,791] {logging_mixin.py:95} INFO - [2019-08-03 10:10:57,791] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:10:57,829] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:10:57,920] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.142 seconds
+[2019-08-03 10:11:47,811] {jobs.py:398} INFO - Started process (PID=10670) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:11:47,823] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:11:47,824] {logging_mixin.py:95} INFO - [2019-08-03 10:11:47,824] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:11:47,866] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:11:47,938] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.127 seconds
+[2019-08-03 10:12:37,834] {jobs.py:398} INFO - Started process (PID=10728) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:12:37,846] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:12:37,847] {logging_mixin.py:95} INFO - [2019-08-03 10:12:37,847] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:12:37,892] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:12:37,966] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.132 seconds
+[2019-08-03 10:13:27,893] {jobs.py:398} INFO - Started process (PID=10794) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:13:27,904] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:13:27,906] {logging_mixin.py:95} INFO - [2019-08-03 10:13:27,905] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:13:27,945] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:13:28,030] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.137 seconds
+[2019-08-03 10:14:17,922] {jobs.py:398} INFO - Started process (PID=10860) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:14:17,934] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:14:17,936] {logging_mixin.py:95} INFO - [2019-08-03 10:14:17,935] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:14:17,982] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:14:18,049] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.127 seconds
+[2019-08-03 10:15:07,986] {jobs.py:398} INFO - Started process (PID=10918) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:15:07,997] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:15:07,999] {logging_mixin.py:95} INFO - [2019-08-03 10:15:07,998] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:15:08,037] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:15:08,111] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.126 seconds
+[2019-08-03 10:15:58,003] {jobs.py:398} INFO - Started process (PID=10984) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:15:58,014] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:15:58,016] {logging_mixin.py:95} INFO - [2019-08-03 10:15:58,016] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:15:58,051] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:15:58,140] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.137 seconds
+[2019-08-03 10:16:48,021] {jobs.py:398} INFO - Started process (PID=11042) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:16:48,033] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:16:48,034] {logging_mixin.py:95} INFO - [2019-08-03 10:16:48,034] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:16:48,074] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:16:48,153] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.132 seconds
+[2019-08-03 10:17:38,059] {jobs.py:398} INFO - Started process (PID=11108) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:17:38,070] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:17:38,071] {logging_mixin.py:95} INFO - [2019-08-03 10:17:38,071] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:17:38,111] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:17:38,197] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.139 seconds
+[2019-08-03 10:18:28,084] {jobs.py:398} INFO - Started process (PID=11166) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:18:28,102] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:18:28,103] {logging_mixin.py:95} INFO - [2019-08-03 10:18:28,103] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:18:28,138] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:18:28,234] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.151 seconds
+[2019-08-03 10:19:18,134] {jobs.py:398} INFO - Started process (PID=11232) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:19:18,145] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:19:18,147] {logging_mixin.py:95} INFO - [2019-08-03 10:19:18,147] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:19:18,193] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:19:18,274] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.141 seconds
+[2019-08-03 10:20:08,178] {jobs.py:398} INFO - Started process (PID=11290) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:20:08,190] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:20:08,192] {logging_mixin.py:95} INFO - [2019-08-03 10:20:08,191] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:20:08,232] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:20:08,308] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.130 seconds
+[2019-08-03 10:20:58,199] {jobs.py:398} INFO - Started process (PID=11356) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:20:58,211] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:20:58,213] {logging_mixin.py:95} INFO - [2019-08-03 10:20:58,213] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:20:58,252] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:20:58,349] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.150 seconds
+[2019-08-03 10:21:48,244] {jobs.py:398} INFO - Started process (PID=11414) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:21:48,262] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:21:48,264] {logging_mixin.py:95} INFO - [2019-08-03 10:21:48,264] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:21:48,300] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:21:48,374] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.131 seconds
+[2019-08-03 10:22:38,271] {jobs.py:398} INFO - Started process (PID=11483) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:22:38,284] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:22:38,285] {logging_mixin.py:95} INFO - [2019-08-03 10:22:38,285] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:22:38,325] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:22:38,403] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.132 seconds
+[2019-08-03 10:23:28,308] {jobs.py:398} INFO - Started process (PID=11541) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:23:28,320] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:23:28,322] {logging_mixin.py:95} INFO - [2019-08-03 10:23:28,321] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:23:28,364] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:23:28,454] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.147 seconds
+[2019-08-03 10:24:18,341] {jobs.py:398} INFO - Started process (PID=11607) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:24:18,359] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:24:18,360] {logging_mixin.py:95} INFO - [2019-08-03 10:24:18,360] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:24:18,395] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:24:18,473] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.133 seconds
+[2019-08-03 10:25:08,392] {jobs.py:398} INFO - Started process (PID=11666) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:25:08,403] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:25:08,405] {logging_mixin.py:95} INFO - [2019-08-03 10:25:08,404] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:25:08,443] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:25:08,525] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.133 seconds
+[2019-08-03 10:25:58,416] {jobs.py:398} INFO - Started process (PID=11731) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:25:58,427] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:25:58,429] {logging_mixin.py:95} INFO - [2019-08-03 10:25:58,429] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:25:58,473] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:25:58,563] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.148 seconds
+[2019-08-03 10:26:48,435] {jobs.py:398} INFO - Started process (PID=11797) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:26:48,447] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:26:48,448] {logging_mixin.py:95} INFO - [2019-08-03 10:26:48,448] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:26:48,489] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:26:48,565] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.130 seconds
+[2019-08-03 10:27:38,487] {jobs.py:398} INFO - Started process (PID=11855) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:27:38,500] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:27:38,501] {logging_mixin.py:95} INFO - [2019-08-03 10:27:38,501] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:27:38,540] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:27:38,620] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.134 seconds
+[2019-08-03 10:28:28,520] {jobs.py:398} INFO - Started process (PID=11921) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:28:28,531] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:28:28,533] {logging_mixin.py:95} INFO - [2019-08-03 10:28:28,532] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:28:28,579] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:28:28,666] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.147 seconds
+[2019-08-03 10:29:18,559] {jobs.py:398} INFO - Started process (PID=11979) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:29:18,571] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:29:18,572] {logging_mixin.py:95} INFO - [2019-08-03 10:29:18,572] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:29:18,614] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:29:18,694] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.135 seconds
+[2019-08-03 10:30:08,619] {jobs.py:398} INFO - Started process (PID=12045) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:30:08,630] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:30:08,631] {logging_mixin.py:95} INFO - [2019-08-03 10:30:08,631] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:30:08,670] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:30:08,744] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.125 seconds
+[2019-08-03 10:30:58,632] {jobs.py:398} INFO - Started process (PID=12103) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:30:58,644] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:30:58,646] {logging_mixin.py:95} INFO - [2019-08-03 10:30:58,645] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:30:58,685] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:30:58,761] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.129 seconds
+[2019-08-03 10:31:48,672] {jobs.py:398} INFO - Started process (PID=12169) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:31:48,684] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:31:48,686] {logging_mixin.py:95} INFO - [2019-08-03 10:31:48,686] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:31:48,727] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:31:48,807] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.136 seconds
+[2019-08-03 10:32:38,708] {jobs.py:398} INFO - Started process (PID=12227) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:32:38,721] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:32:38,723] {logging_mixin.py:95} INFO - [2019-08-03 10:32:38,722] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:32:38,763] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:32:38,841] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.134 seconds
+[2019-08-03 10:33:28,745] {jobs.py:398} INFO - Started process (PID=12293) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:33:28,757] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:33:28,758] {logging_mixin.py:95} INFO - [2019-08-03 10:33:28,758] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:33:28,801] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:33:28,897] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.152 seconds
+[2019-08-03 10:34:18,770] {jobs.py:398} INFO - Started process (PID=12351) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:34:18,782] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:34:18,784] {logging_mixin.py:95} INFO - [2019-08-03 10:34:18,783] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:34:18,823] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:34:18,898] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.128 seconds
+[2019-08-03 10:35:08,841] {jobs.py:398} INFO - Started process (PID=12417) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:35:08,852] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:35:08,853] {logging_mixin.py:95} INFO - [2019-08-03 10:35:08,853] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:35:08,901] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:35:08,975] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.135 seconds
+[2019-08-03 10:35:58,899] {jobs.py:398} INFO - Started process (PID=12476) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:35:58,914] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:35:58,916] {logging_mixin.py:95} INFO - [2019-08-03 10:35:58,916] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:35:58,961] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:35:59,067] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.168 seconds
+[2019-08-03 10:36:48,897] {jobs.py:398} INFO - Started process (PID=12541) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:36:48,909] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:36:48,910] {logging_mixin.py:95} INFO - [2019-08-03 10:36:48,910] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:36:48,950] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:36:49,029] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.133 seconds
+[2019-08-03 10:37:38,928] {jobs.py:398} INFO - Started process (PID=12607) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:37:38,941] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:37:38,943] {logging_mixin.py:95} INFO - [2019-08-03 10:37:38,943] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:37:38,988] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:37:39,077] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.150 seconds
+[2019-08-03 10:38:28,964] {jobs.py:398} INFO - Started process (PID=12665) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:38:28,976] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:38:28,977] {logging_mixin.py:95} INFO - [2019-08-03 10:38:28,977] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:38:29,017] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:38:29,109] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.145 seconds
+[2019-08-03 10:39:19,001] {jobs.py:398} INFO - Started process (PID=12731) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:39:19,013] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:39:19,014] {logging_mixin.py:95} INFO - [2019-08-03 10:39:19,014] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:39:19,057] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:39:19,135] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.135 seconds
+[2019-08-03 10:40:09,065] {jobs.py:398} INFO - Started process (PID=12789) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:40:09,076] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:40:09,077] {logging_mixin.py:95} INFO - [2019-08-03 10:40:09,077] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:40:09,114] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:40:09,187] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.123 seconds
+[2019-08-03 10:40:59,067] {jobs.py:398} INFO - Started process (PID=12855) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:40:59,079] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:40:59,080] {logging_mixin.py:95} INFO - [2019-08-03 10:40:59,080] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:40:59,119] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:40:59,210] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.143 seconds
+[2019-08-03 10:41:49,106] {jobs.py:398} INFO - Started process (PID=12913) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:41:49,118] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:41:49,119] {logging_mixin.py:95} INFO - [2019-08-03 10:41:49,119] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:41:49,160] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:41:49,238] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.132 seconds
+[2019-08-03 10:42:39,138] {jobs.py:398} INFO - Started process (PID=12979) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:42:39,152] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:42:39,153] {logging_mixin.py:95} INFO - [2019-08-03 10:42:39,153] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:42:39,200] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:42:39,284] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.146 seconds
+[2019-08-03 10:43:29,175] {jobs.py:398} INFO - Started process (PID=13037) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:43:29,193] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:43:29,194] {logging_mixin.py:95} INFO - [2019-08-03 10:43:29,194] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:43:29,229] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:43:29,326] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.151 seconds
+[2019-08-03 10:44:19,209] {jobs.py:398} INFO - Started process (PID=13103) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:44:19,222] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:44:19,223] {logging_mixin.py:95} INFO - [2019-08-03 10:44:19,223] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:44:19,270] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:44:19,344] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.136 seconds
+[2019-08-03 10:45:09,272] {jobs.py:398} INFO - Started process (PID=13161) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:45:09,284] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:45:09,285] {logging_mixin.py:95} INFO - [2019-08-03 10:45:09,285] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:45:09,324] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:45:09,405] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.134 seconds
+[2019-08-03 10:45:59,278] {jobs.py:398} INFO - Started process (PID=13227) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:45:59,291] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:45:59,293] {logging_mixin.py:95} INFO - [2019-08-03 10:45:59,293] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:45:59,340] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:45:59,441] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.163 seconds
+[2019-08-03 10:46:49,301] {jobs.py:398} INFO - Started process (PID=13285) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:46:49,318] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:46:49,319] {logging_mixin.py:95} INFO - [2019-08-03 10:46:49,319] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:46:49,360] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:46:49,440] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.140 seconds
+[2019-08-03 10:47:39,330] {jobs.py:398} INFO - Started process (PID=13351) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:47:39,338] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:47:39,339] {logging_mixin.py:95} INFO - [2019-08-03 10:47:39,339] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:47:39,382] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:47:39,464] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.134 seconds
+[2019-08-03 10:48:29,357] {jobs.py:398} INFO - Started process (PID=13417) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:48:29,369] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:48:29,371] {logging_mixin.py:95} INFO - [2019-08-03 10:48:29,370] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:48:29,412] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:48:29,486] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.129 seconds
+[2019-08-03 10:49:19,385] {jobs.py:398} INFO - Started process (PID=13475) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:49:19,404] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:49:19,406] {logging_mixin.py:95} INFO - [2019-08-03 10:49:19,405] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:49:19,442] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:49:19,525] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.140 seconds
+[2019-08-03 10:50:09,459] {jobs.py:398} INFO - Started process (PID=13541) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:50:09,471] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:50:09,472] {logging_mixin.py:95} INFO - [2019-08-03 10:50:09,472] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:50:09,512] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:50:09,584] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.125 seconds
+[2019-08-03 10:50:59,463] {jobs.py:398} INFO - Started process (PID=13599) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:50:59,475] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:50:59,476] {logging_mixin.py:95} INFO - [2019-08-03 10:50:59,476] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:50:59,517] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:50:59,605] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.142 seconds
+[2019-08-03 10:51:49,509] {jobs.py:398} INFO - Started process (PID=13665) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:51:49,521] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:51:49,523] {logging_mixin.py:95} INFO - [2019-08-03 10:51:49,523] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:51:49,562] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:51:49,641] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.132 seconds
+[2019-08-03 10:52:39,529] {jobs.py:398} INFO - Started process (PID=13723) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:52:39,546] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:52:39,548] {logging_mixin.py:95} INFO - [2019-08-03 10:52:39,547] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:52:39,583] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:52:39,662] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.134 seconds
+[2019-08-03 10:53:29,565] {jobs.py:398} INFO - Started process (PID=13789) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:53:29,577] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:53:29,579] {logging_mixin.py:95} INFO - [2019-08-03 10:53:29,578] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:53:29,622] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:53:29,714] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.149 seconds
+[2019-08-03 10:54:19,612] {jobs.py:398} INFO - Started process (PID=13847) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:54:19,625] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:54:19,626] {logging_mixin.py:95} INFO - [2019-08-03 10:54:19,626] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:54:19,666] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:54:19,742] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.130 seconds
+[2019-08-03 10:55:09,664] {jobs.py:398} INFO - Started process (PID=13913) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:55:09,676] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:55:09,677] {logging_mixin.py:95} INFO - [2019-08-03 10:55:09,677] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:55:09,717] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:55:09,790] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.126 seconds
+[2019-08-03 10:55:59,690] {jobs.py:398} INFO - Started process (PID=13971) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:55:59,701] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:55:59,703] {logging_mixin.py:95} INFO - [2019-08-03 10:55:59,703] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:55:59,739] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:55:59,833] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.144 seconds
+[2019-08-03 10:56:49,722] {jobs.py:398} INFO - Started process (PID=14037) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:56:49,734] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:56:49,736] {logging_mixin.py:95} INFO - [2019-08-03 10:56:49,735] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:56:49,774] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:56:49,852] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.130 seconds
+[2019-08-03 10:57:39,771] {jobs.py:398} INFO - Started process (PID=14095) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:57:39,783] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:57:39,784] {logging_mixin.py:95} INFO - [2019-08-03 10:57:39,784] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:57:39,824] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:57:39,896] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.126 seconds
+[2019-08-03 10:58:29,798] {jobs.py:398} INFO - Started process (PID=14161) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:58:29,816] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:58:29,817] {logging_mixin.py:95} INFO - [2019-08-03 10:58:29,817] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:58:29,852] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:58:29,941] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.144 seconds
+[2019-08-03 10:59:19,824] {jobs.py:398} INFO - Started process (PID=14227) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:59:19,836] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 10:59:19,837] {logging_mixin.py:95} INFO - [2019-08-03 10:59:19,837] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:59:19,883] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 10:59:19,969] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.145 seconds
+[2019-08-03 11:00:09,881] {jobs.py:398} INFO - Started process (PID=14285) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:00:09,893] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:00:09,895] {logging_mixin.py:95} INFO - [2019-08-03 11:00:09,894] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:00:09,934] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:00:10,011] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.130 seconds
+[2019-08-03 11:00:59,877] {jobs.py:398} INFO - Started process (PID=14351) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:00:59,886] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:00:59,887] {logging_mixin.py:95} INFO - [2019-08-03 11:00:59,887] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:00:59,921] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:01:00,016] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.139 seconds
+[2019-08-03 11:01:50,350] {jobs.py:398} INFO - Started process (PID=14409) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:01:50,368] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:01:50,369] {logging_mixin.py:95} INFO - [2019-08-03 11:01:50,369] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:01:50,407] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:01:50,485] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.135 seconds
+[2019-08-03 11:02:40,406] {jobs.py:398} INFO - Started process (PID=14475) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:02:40,419] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:02:40,421] {logging_mixin.py:95} INFO - [2019-08-03 11:02:40,421] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:02:40,464] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:02:40,541] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.135 seconds
+[2019-08-03 11:03:30,439] {jobs.py:398} INFO - Started process (PID=14533) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:03:30,451] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:03:30,453] {logging_mixin.py:95} INFO - [2019-08-03 11:03:30,453] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:03:30,492] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:03:30,588] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.150 seconds
+[2019-08-03 11:04:20,493] {jobs.py:398} INFO - Started process (PID=14599) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:04:20,505] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:04:20,506] {logging_mixin.py:95} INFO - [2019-08-03 11:04:20,506] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:04:20,544] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:04:20,619] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.126 seconds
+[2019-08-03 11:05:10,499] {jobs.py:398} INFO - Started process (PID=14657) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:05:10,505] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:05:10,506] {logging_mixin.py:95} INFO - [2019-08-03 11:05:10,506] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:05:10,533] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:05:10,611] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.112 seconds
+[2019-08-03 11:06:00,540] {jobs.py:398} INFO - Started process (PID=14723) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:06:00,552] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:06:00,554] {logging_mixin.py:95} INFO - [2019-08-03 11:06:00,553] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:06:00,594] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:06:00,679] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.139 seconds
+[2019-08-03 11:06:50,582] {jobs.py:398} INFO - Started process (PID=14781) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:06:50,593] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:06:50,595] {logging_mixin.py:95} INFO - [2019-08-03 11:06:50,595] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:06:50,638] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:06:50,716] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.135 seconds
+[2019-08-03 11:07:40,618] {jobs.py:398} INFO - Started process (PID=14847) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:07:40,630] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:07:40,631] {logging_mixin.py:95} INFO - [2019-08-03 11:07:40,631] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:07:40,672] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:07:40,748] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.131 seconds
+[2019-08-03 11:08:30,656] {jobs.py:398} INFO - Started process (PID=14905) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:08:30,673] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:08:30,674] {logging_mixin.py:95} INFO - [2019-08-03 11:08:30,674] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:08:30,710] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:08:30,795] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.140 seconds
+[2019-08-03 11:09:20,709] {jobs.py:398} INFO - Started process (PID=14971) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:09:20,720] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:09:20,722] {logging_mixin.py:95} INFO - [2019-08-03 11:09:20,721] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:09:20,762] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:09:20,834] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.126 seconds
+[2019-08-03 11:10:10,707] {jobs.py:398} INFO - Started process (PID=15037) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:10:10,719] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:10:10,721] {logging_mixin.py:95} INFO - [2019-08-03 11:10:10,721] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:10:10,763] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:10:10,842] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.135 seconds
+[2019-08-03 11:11:00,761] {jobs.py:398} INFO - Started process (PID=15095) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:11:00,773] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:11:00,774] {logging_mixin.py:95} INFO - [2019-08-03 11:11:00,774] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:11:00,813] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:11:00,901] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.141 seconds
+[2019-08-03 11:11:50,788] {jobs.py:398} INFO - Started process (PID=15161) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:11:50,805] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:11:50,807] {logging_mixin.py:95} INFO - [2019-08-03 11:11:50,806] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:11:50,843] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:11:50,924] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.136 seconds
+[2019-08-03 11:12:40,827] {jobs.py:398} INFO - Started process (PID=15219) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:12:40,840] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:12:40,841] {logging_mixin.py:95} INFO - [2019-08-03 11:12:40,841] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:12:40,884] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:12:40,964] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.137 seconds
+[2019-08-03 11:13:30,875] {jobs.py:398} INFO - Started process (PID=15285) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:13:30,887] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:13:30,889] {logging_mixin.py:95} INFO - [2019-08-03 11:13:30,888] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:13:30,930] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:13:31,030] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.155 seconds
+[2019-08-03 11:14:20,940] {jobs.py:398} INFO - Started process (PID=15343) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:14:20,948] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:14:20,949] {logging_mixin.py:95} INFO - [2019-08-03 11:14:20,949] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:14:20,982] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:14:21,058] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.118 seconds
+[2019-08-03 11:15:10,945] {jobs.py:398} INFO - Started process (PID=15409) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:15:10,957] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:15:10,959] {logging_mixin.py:95} INFO - [2019-08-03 11:15:10,959] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:15:11,001] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:15:11,081] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.136 seconds
+[2019-08-03 11:16:00,978] {jobs.py:398} INFO - Started process (PID=15467) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:16:00,991] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:16:00,993] {logging_mixin.py:95} INFO - [2019-08-03 11:16:00,992] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:16:01,035] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:16:01,125] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.147 seconds
+[2019-08-03 11:16:51,007] {jobs.py:398} INFO - Started process (PID=15533) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:16:51,020] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:16:51,022] {logging_mixin.py:95} INFO - [2019-08-03 11:16:51,022] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:16:51,066] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:16:51,148] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.141 seconds
+[2019-08-03 11:17:41,048] {jobs.py:398} INFO - Started process (PID=15591) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:17:41,066] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:17:41,067] {logging_mixin.py:95} INFO - [2019-08-03 11:17:41,067] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:17:41,103] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:17:41,185] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.137 seconds
+[2019-08-03 11:18:31,068] {jobs.py:398} INFO - Started process (PID=15657) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:18:31,080] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:18:31,082] {logging_mixin.py:95} INFO - [2019-08-03 11:18:31,082] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:18:31,125] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:18:31,216] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.149 seconds
+[2019-08-03 11:19:21,128] {jobs.py:398} INFO - Started process (PID=15715) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:19:21,140] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:19:21,141] {logging_mixin.py:95} INFO - [2019-08-03 11:19:21,141] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:19:21,180] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:19:21,256] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.127 seconds
+[2019-08-03 11:20:11,185] {jobs.py:398} INFO - Started process (PID=15781) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:20:11,193] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:20:11,194] {logging_mixin.py:95} INFO - [2019-08-03 11:20:11,194] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:20:11,227] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:20:11,279] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.094 seconds
+[2019-08-03 11:21:01,169] {jobs.py:398} INFO - Started process (PID=15840) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:21:01,180] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:21:01,181] {logging_mixin.py:95} INFO - [2019-08-03 11:21:01,181] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:21:01,221] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:21:01,295] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.127 seconds
+[2019-08-03 11:21:51,232] {jobs.py:398} INFO - Started process (PID=15905) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:21:51,249] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:21:51,252] {logging_mixin.py:95} INFO - [2019-08-03 11:21:51,251] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:21:51,301] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:21:51,380] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.148 seconds
+[2019-08-03 11:22:41,268] {jobs.py:398} INFO - Started process (PID=15971) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:22:41,280] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:22:41,281] {logging_mixin.py:95} INFO - [2019-08-03 11:22:41,281] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:22:41,321] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:22:41,398] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.130 seconds
+[2019-08-03 11:23:31,306] {jobs.py:398} INFO - Started process (PID=16029) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:23:31,320] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:23:31,321] {logging_mixin.py:95} INFO - [2019-08-03 11:23:31,321] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:23:31,363] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:23:31,449] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.143 seconds
+[2019-08-03 11:24:21,470] {jobs.py:398} INFO - Started process (PID=16095) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:24:21,493] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:24:21,495] {logging_mixin.py:95} INFO - [2019-08-03 11:24:21,495] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:24:21,538] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:24:21,633] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.164 seconds
+[2019-08-03 11:25:11,360] {jobs.py:398} INFO - Started process (PID=16153) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:25:11,372] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:25:11,374] {logging_mixin.py:95} INFO - [2019-08-03 11:25:11,373] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:25:11,416] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:25:11,497] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.137 seconds
+[2019-08-03 11:26:01,404] {jobs.py:398} INFO - Started process (PID=16219) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:26:01,415] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:26:01,416] {logging_mixin.py:95} INFO - [2019-08-03 11:26:01,416] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:26:01,457] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:26:01,541] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.138 seconds
+[2019-08-03 11:26:51,450] {jobs.py:398} INFO - Started process (PID=16277) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:26:51,462] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:26:51,463] {logging_mixin.py:95} INFO - [2019-08-03 11:26:51,463] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:26:51,501] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:26:51,578] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.129 seconds
+[2019-08-03 11:27:41,466] {jobs.py:398} INFO - Started process (PID=16343) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:27:41,478] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:27:41,479] {logging_mixin.py:95} INFO - [2019-08-03 11:27:41,479] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:27:41,519] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:27:41,606] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.141 seconds
+[2019-08-03 11:28:31,514] {jobs.py:398} INFO - Started process (PID=16401) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:28:31,526] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:28:31,527] {logging_mixin.py:95} INFO - [2019-08-03 11:28:31,527] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:28:31,567] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:28:31,654] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.140 seconds
+[2019-08-03 11:29:21,627] {jobs.py:398} INFO - Started process (PID=16467) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:29:21,640] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:29:21,642] {logging_mixin.py:95} INFO - [2019-08-03 11:29:21,641] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:29:21,680] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:29:21,748] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.122 seconds
+[2019-08-03 11:30:11,584] {jobs.py:398} INFO - Started process (PID=16525) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:30:11,602] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:30:11,603] {logging_mixin.py:95} INFO - [2019-08-03 11:30:11,603] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:30:11,639] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:30:11,717] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.134 seconds
+[2019-08-03 11:31:01,621] {jobs.py:398} INFO - Started process (PID=16591) to work on /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:31:01,639] {jobs.py:1711} INFO - Processing file /home/aprao/airflow_test/dags/parse_json_sample.py for tasks to queue
+[2019-08-03 11:31:01,640] {logging_mixin.py:95} INFO - [2019-08-03 11:31:01,640] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:31:01,675] {jobs.py:1723} INFO - DAG(s) dict_keys(['example_json_rule_dag']) retrieved from /home/aprao/airflow_test/dags/parse_json_sample.py
+[2019-08-03 11:31:01,765] {jobs.py:406} INFO - Processing /home/aprao/airflow_test/dags/parse_json_sample.py took 0.144 seconds

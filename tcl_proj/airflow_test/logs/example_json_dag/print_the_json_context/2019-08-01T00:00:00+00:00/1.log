@@ -1,0 +1,26 @@
+[2019-08-01 12:47:54,932] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_json_dag.print_the_json_context 2019-08-01T00:00:00+00:00 [queued]>
+[2019-08-01 12:47:54,940] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_json_dag.print_the_json_context 2019-08-01T00:00:00+00:00 [queued]>
+[2019-08-01 12:47:54,941] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-08-01 12:47:54,941] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-08-01 12:47:54,941] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-08-01 12:47:54,971] {__init__.py:1374} INFO - Executing <Task(PythonOperator): print_the_json_context> on 2019-08-01T00:00:00+00:00
+[2019-08-01 12:47:54,972] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'example_json_dag', 'print_the_json_context', '2019-08-01T00:00:00+00:00', '--job_id', '57', '--raw', '-sd', 'DAGS_FOLDER/dag_parse_json.py', '--cfg_path', '/tmp/tmpai5kxu1n']
+[2019-08-01 12:47:56,249] {base_task_runner.py:101} INFO - Job 57: Subtask print_the_json_context /home/aprao/.local/lib/python3.6/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /home/aprao/airflow/airflow.cfg and /home/aprao/airflow_test/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/aprao/airflow_test/airflow.cfg, and you should remove the other file
+[2019-08-01 12:47:56,249] {base_task_runner.py:101} INFO - Job 57: Subtask print_the_json_context   category=DeprecationWarning,
+[2019-08-01 12:47:56,933] {base_task_runner.py:101} INFO - Job 57: Subtask print_the_json_context [2019-08-01 12:47:56,932] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-08-01 12:47:57,681] {base_task_runner.py:101} INFO - Job 57: Subtask print_the_json_context [2019-08-01 12:47:57,679] {__init__.py:305} INFO - Filling up the DagBag from /home/aprao/airflow_test/dags/dag_parse_json.py
+[2019-08-01 12:47:57,737] {base_task_runner.py:101} INFO - Job 57: Subtask print_the_json_context [2019-08-01 12:47:57,736] {cli.py:517} INFO - Running <TaskInstance: example_json_dag.print_the_json_context 2019-08-01T00:00:00+00:00 [running]> on host BYOD-APRAO.localdomain
+[2019-08-01 12:47:57,786] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=example_json_dag
+AIRFLOW_CTX_TASK_ID=print_the_json_context
+AIRFLOW_CTX_EXECUTION_DATE=2019-08-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill_2019-08-01T00:00:00+00:00
+[2019-08-01 12:47:57,786] {logging_mixin.py:95} INFO - Entering into the Print JSON context.....
+[2019-08-01 12:47:57,787] {logging_mixin.py:95} INFO - Current working dir >>>> /home/aprao/airflow_test/dags
+[2019-08-01 12:47:57,787] {logging_mixin.py:95} INFO - ['__pycache__', 'dag_1.py', 'dag_2.py', 'dag_3.py', 'dag_parse_json.py', 'dag_sample_rules.py', 'input.json', 'output.json']
+[2019-08-01 12:47:57,788] {logging_mixin.py:95} INFO - Initializing the rules engine ......
+[2019-08-01 12:47:57,788] {logging_mixin.py:95} INFO - Test rules is >>>>> ['int_flag', 'int_flag', 'float_flag', 'int_flag', 'string']
+[2019-08-01 12:47:57,790] {python_operator.py:113} INFO - Done. Returned value was: {'a': 10, 'b': 20, 'c': 30.0, 'd': 40, 'e': 'fifty', 'tr': ['int_flag', 'int_flag', 'float_flag', 'int_flag', 'string']}
+[2019-08-01 12:47:59,931] {logging_mixin.py:95} INFO - [2019-08-01 12:47:59,928] {jobs.py:2562} INFO - Task exited with return code 0

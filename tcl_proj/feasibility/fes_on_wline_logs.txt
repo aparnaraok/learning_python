@@ -1,0 +1,385 @@
+
+> library(jsonlite)
+
+> library(dplyr)
+
+> path_py <- "D://fp_project//feasibility//optimus-machine-learning-feasibility//optimus-machine-learning-feasibility//feasibility//feasibility_onnet_ ..." ... [TRUNCATED] 
+
+> setwd(path_py) 
+
+> JSON_filename <- "input_json_10.json"
+
+> bm_data <- dplyr::bind_rows(fromJSON(JSON_filename))
+
+> mydb_abstract_db = dbConnect(MySQL(),
++                              user='optimus_user', 
++                              password='Tata123', 
++     .... [TRUNCATED] 
+Error in dbConnect(MySQL(), user = "optimus_user", password = "Tata123",  : 
+  could not find function "dbConnect"
+  
+  
+  
+  
+> bm_data
+   bw_mbps            customer_segment  sales_org product_name local_loop_interface last_mile_contract_term           site_id prospect_name
+1        2 Enterprise ? Government/PSU Enterprise   Global VPN          100-Base-TX                  1 Year 1011720|77.1|28.6          Temp
+2        2 Enterprise ? Government/PSU Enterprise   Global VPN          100-Base-TX                  1 Year 1011722|77.2|28.6          Temp
+3        2 Enterprise ? Government/PSU Enterprise   Global VPN          100-Base-TX                  1 Year 1011724|77.2|28.6          Temp
+4        2 Enterprise ? Government/PSU Enterprise   Global VPN          100-Base-TX                  1 Year 1011725|75.8|26.8          Temp
+5        2 Enterprise ? Government/PSU Enterprise   Global VPN          100-Base-TX                  1 Year 1011726|80.9|26.8          Temp
+6        2 Enterprise ? Government/PSU Enterprise   Global VPN          100-Base-TX                  1 Year 1011727|82.9|25.4          Temp
+7        2 Enterprise ? Government/PSU Enterprise   Global VPN          100-Base-TX                  1 Year 1011729|77.2|31.9          Temp
+8        2 Enterprise ? Government/PSU Enterprise   Global VPN          100-Base-TX                  1 Year 1011731|73.9|24.6          Temp
+9        2 Enterprise ? Government/PSU Enterprise   Global VPN          100-Base-TX                  1 Year 1011733|78.2|26.3          Temp
+10       2 Enterprise ? Government/PSU Enterprise   Global VPN          100-Base-TX                  1 Year 1011735|77.1|28.6          Temp
+   burstable_bw resp_city account_id_with_18_digit opportunity_term quotetype_quote connection_type sum_no_of_sites_uni_len cpe_variant
+1             2     DELHI       0012000000GSDzVAAX               12       New Order        Standard                       1  C867VAE-K9
+2             2     DELHI       0012000000GSDzVAAX               12       New Order        Standard                       1  C867VAE-K9
+3             2     DELHI       0012000000GSDzVAAX               12       New Order        Standard                       1  C867VAE-K9
+4             2     DELHI       0012000000GSDzVAAX               12       New Order        Standard                       1  C867VAE-K9
+5             2     DELHI       0012000000GSDzVAAX               12       New Order        Standard                       1  C867VAE-K9
+6             2     DELHI       0012000000GSDzVAAX               12       New Order        Standard                       1  C867VAE-K9
+7             2     DELHI       0012000000GSDzVAAX               12       New Order        Standard                       1  C867VAE-K9
+8             2     DELHI       0012000000GSDzVAAX               12       New Order        Standard                       1  C867VAE-K9
+9             2     DELHI       0012000000GSDzVAAX               12       New Order        Standard                       1  C867VAE-K9
+10            2     DELHI       0012000000GSDzVAAX               12       New Order        Standard                       1  C867VAE-K9
+   cpe_management_type cpe_supply_type       topology pool_size additional_ip latitude_final longitude_final feasibility_response_created_date
+1         full_managed          rental primary_active        29             4       28.55831        77.09434                        2018-07-12
+2         full_managed          rental primary_active        29             4       28.58655        77.21067                        2018-07-12
+3         full_managed          rental primary_active        29             4       28.58308        77.21316                        2018-07-12
+4         full_managed          rental primary_active        29             4       26.82801        75.80605                        2018-07-12
+5         full_managed          rental primary_active        29             4       26.76174        80.88567                        2018-07-12
+6         full_managed          rental primary_active        29             4       25.44847        82.85608                        2018-07-12
+7         full_managed          rental primary_active        29             4       31.87710        77.15189                        2018-07-12
+8         full_managed          rental primary_active        29             4       24.61999        73.89041                        2018-07-12
+9         full_managed          rental primary_active        29             4       26.28565        78.21685                        2018-07-12
+10        full_managed          rental primary_active        29             4       28.55831        77.09434                        2018-07-12
+> path_py
+[1] "D://fp_project//feasibility//optimus-machine-learning-feasibility//optimus-machine-learning-feasibility//feasibility//feasibility_onnet_wireline"
+> 
+> source('D:/fp_project/feasibility/optimus-machine-learning-feasibility/optimus-machine-learning-feasibility/feasibility/feasibility_onnet_wireline/scripts/onnet_wireline_score_api.R', echo=TRUE)
+
+> score <-    function(input_data, path_py){
++   setwd(path_py)
++   input_json_data <- input_data
++ 
++ 
++   # set error parameter
++   err <- FALSE
++ 
+ .... [TRUNCATED] 
+> score_res <- score(bm_data, path_py)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+You have loaded plyr after dplyr - this is likely to cause problems.
+If you need functions from both plyr and dplyr, please load plyr first, then dplyr:
+library(plyr); library(dplyr)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Attaching package: ‘plyr’
+
+The following objects are masked from ‘package:dplyr’:
+
+    arrange, count, desc, failwith, id, mutate, rename, summarise, summarize
+
+
+Attaching package: ‘lubridate’
+
+The following object is masked from ‘package:plyr’:
+
+    here
+
+The following object is masked from ‘package:base’:
+
+    date
+
+data.table 1.12.2 using 4 threads (see ?getDTthreads).  Latest news: r-datatable.com
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week, yday, year
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Loading required package: gsubfn
+Loading required package: proto
+Loading required package: RSQLite
+randomForest 4.6-14
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: ‘randomForest’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Loading required package: DBI
+Loading required package: ff
+Loading required package: bit
+Attaching package bit
+package:bit (c) 2008-2012 Jens Oehlschlaegel (GPL-2)
+creators: bit bitwhich
+coercion: as.logical as.integer as.bit as.bitwhich which
+operator: ! & | xor != ==
+querying: print length any all min max range sum summary
+bit access: length<- [ [<- [[ [[<-
+for more help type ?bit
+
+Attaching package: ‘bit’
+
+The following object is masked from ‘package:data.table’:
+
+    setattr
+
+The following object is masked from ‘package:base’:
+
+    xor
+
+Attaching package ff
+- getOption("fftempdir")=="C:/Users/IT/AppData/Local/Temp/RtmpyabKL8"
+
+- getOption("ffextension")=="ff"
+
+- getOption("ffdrop")==TRUE
+
+- getOption("fffinonexit")==TRUE
+
+- getOption("ffpagesize")==65536
+
+- getOption("ffcaching")=="mmnoflush"  -- consider "ffeachflush" if your system stalls on large writes
+
+- getOption("ffbatchbytes")==170288742.4 -- consider a different value for tuning your system
+
+- getOption("ffmaxbytes")==8514437120 -- consider a different value for tuning your system
+
+
+Attaching package: ‘ff’
+
+The following objects are masked from ‘package:bit’:
+
+    clone, clone.default, clone.list
+
+The following objects are masked from ‘package:utils’:
+
+    write.csv, write.csv2
+
+The following objects are masked from ‘package:base’:
+
+    is.factor, is.ordered
+
+Loading required package: ffbase
+
+Attaching package: ‘ffbase’
+
+The following objects are masked from ‘package:ff’:
+
+    [.ff, [.ffdf, [<-.ff, [<-.ffdf
+
+The following objects are masked from ‘package:base’:
+
+    %in%, table
+
+RecordLinkage library
+[c] IMBEI Mainz
+
+
+Attaching package: ‘RecordLinkage’
+
+The following object is masked from ‘package:ff’:
+
+    clone
+
+The following object is masked from ‘package:bit’:
+
+    clone
+
+The following object is masked from ‘package:base’:
+
+    isFALSE
+
+
+Attaching package: ‘RMySQL’
+
+The following object is masked from ‘package:RSQLite’:
+
+    isIdCurrent
+
+
+Attaching package: ‘reshape2’
+
+The following objects are masked from ‘package:data.table’:
+
+    dcast, melt
+
+
+
+
+> score_res$error_msg
+ [1] "No error" "No error" "No error" "No error" "No error" "No error" "No error" "No error" "No error" "No error"
+> 
+> score_res
+            site_id POP_DIST_KM_SERVICE_MOD Product.Name                               pop_name pop_network_loc_id
+1 1011720|77.1|28.6                      10   Global VPN       Udyog Vihar Phase-4 PoP-31341906 TINDHYGURGDLFT0057
+2 1011722|77.2|28.6                      10   Global VPN             TCL  VSB, DELHI-1-11641110 TINDDLNDELCNPL0030
+3 1011724|77.2|28.6                      10   Global VPN NEXT GEN TOWER GK 1 NEW BLDG-641819886 TINDDLNDELGRTK0057
+4 1011725|75.8|26.8                      15   Global VPN           TINDRJJAIPURAT0001-660903372 TINDRJJAPRURAT0002
+5 1011726|80.9|26.8                      15   Global VPN           TINDUPLUCKDMRO0001-660902812 TINDUPLUKNLSOC0001
+6 1011727|82.9|25.4                       5   Global VPN                                     NA                 NA
+7 1011729|77.2|31.9                     115   Global VPN           TINDHPSHIMHPSE0001-660903332 TINDHPSMLABEOL0001
+                                                            pop_address    pop_long     pop_lat   POP_DIST_KM POP_DIST_KM_SERVICE
+1                Plot_No_:_178,_Phase_4,_1st_floor,Udyog_Vihar,_Gurgaon 77.08003554 28.49550953  2.0113400326         7129.807926
+2     TCL,_Videsh_Sanchar_Bhavan,_Banglasaheb_Road,_New_Delhi_-_110_001 77.20774270 28.63095826  0.8793194635         4951.648110
+3 Wireless Transmitting Station, TCL Bhavan, G.K-1, New Delhi - 110 048 77.23761693 28.54341499  0.4738644443         5021.318218
+4  TCL,_2nd_Floor,_Dharma_Heights,_10_Motilal_Atal_Road,_Jaipur_-302001 75.79858800 26.91942100  2.1944224506        10203.085725
+5        TCL,_406/411_,Chintels_House,_16-Station_road_,_Lucknow-226006 80.93358300 26.83719400  2.9410644020         9654.478715
+6                                                                    NA  0.00000000  0.00000000 18.5091280810            0.000000
+7                                          TTSL,_MSC_Hari_Villa,_Shimla 77.18277800 31.07852800 64.8709992069        88945.081959
+  POP_Network_Location_Type POP_Construction_Status POP_Building_Type            POP_Category POP_TCL_Access   FATG_DIST_KM
+1                  Mega POP              In Service        Commercial     Metro Service Ready            Yes  2011.34003265
+2                  Mega POP              In Service        Government     Metro Service Ready            Yes    46.07126856
+3                 Major POP              In Service               POP     Metro Service Ready            Yes   473.86444427
+4                  Mega POP              In Service        Commercial Non Metro Service Ready            Yes  1268.47696111
+5                  Mega POP              In Service        Commercial Non Metro Service Ready            Yes  1645.01999251
+6                       xxx                     xxx               xxx                     xxx            xxx 18509.12808098
+7                  Mega POP              In Service        Commercial Non Metro Service Ready             No 64870.99920690
+  FATG_Network_Location_Type FATG_Building_Type           FATG_Category FATG_TCL_Access FATG_PROW FATG_Ring_type                     hh_name
+1                   Mega POP         Commercial              Wimax Site             Yes        No            SDH   HH-DEL-MHP-0006-240232082
+2        Access/Customer POP                POP     Metro Service Ready              No        No            SDH HH-DEL-RJG BHAWAN-657888149
+3                   Mega POP         Commercial              Wimax Site             Yes        No            SDH   HH-DEL-AMB-0101-240440511
+4                   Customer         Commercial     Metro Service Ready             Yes        No            SDH  6966-ST Near Police Chowki
+5                   Customer         Commercial     Metro Service Ready             Yes        No            SDH         Abbott Laboratories
+6                   Mega POP         Commercial              Wimax Site             Yes       xxx            SDH                Near Temple 
+7                   Mega POP         Commercial Non Metro Service Ready              No       xxx            SDH                      CHb004
+  HH_DIST_KM X0.5km_cust_count X0.5km_min_dist X0.5km_avg_dist X0.5km_min_bw X0.5km_max_bw X0.5km_avg_bw X2km_cust_count   X2km_min_dist
+1       2933                 2 8.575774925e+01     196.0211206             2            30            16              13 8.575774925e+01
+2        253                 3 2.284176370e+00     116.3510670             2           200            68             108 2.284176370e+00
+3        137                 3 2.034184243e+02     371.0737772             2           200            68              83 2.034184243e+02
+4        919                 0 9.999999000e+06 9999999.0000000       9999999       9999999       9999999              13 1.292056165e+03
+5       2056                 0 9.999999000e+06 9999999.0000000       9999999       9999999       9999999              10 1.850366779e+03
+6      24966                 0 9.999999000e+06 9999999.0000000       9999999       9999999       9999999               0 9.999999000e+06
+7      89755                 0 9.999999000e+06 9999999.0000000       9999999       9999999       9999999               0 9.999999000e+06
+    X2km_avg_dist X2km_min_bw X2km_max_bw     X2km_avg_bw X5km_cust_count   X5km_min_dist  X5km_avg_dist X5km_min_bw X5km_max_bw     X5km_avg_bw
+1     695.0725616       2.000          30 4.307692308e+00             108 8.575774925e+01    3761.231746       1.000         155 5.842592593e+00
+2    1613.0555174       0.002         200 7.736240741e+00            1862 2.284176370e+00    4139.521098       0.001       10240 3.992633996e+01
+3    1520.9477327       0.002         200 9.283301205e+00             993 2.034184243e+02    3543.099689       0.001       10240 7.739762236e+01
+4    1631.1715411       2.000         190 1.976923077e+01             118 1.292056165e+03    3292.535672       2.000        1000 1.646610169e+01
+5    1939.4845015       0.001           2 1.800100000e+00              39 1.850366779e+03    3019.548937       0.001           4 1.952025641e+00
+6 9999999.0000000 9999999.000     9999999 9.999999000e+06               0 9.999999000e+06 9999999.000000 9999999.000     9999999 9.999999000e+06
+7 9999999.0000000 9999999.000     9999999 9.999999000e+06               0 9.999999000e+06 9999999.000000 9999999.000     9999999 9.999999000e+06
+  X0.5km_prospect_count X0.5km_prospect_min_dist X0.5km_prospect_avg_dist X0.5km_prospect_min_bw X0.5km_prospect_avg_bw X0.5km_prospect_max_bw
+1                    34          8.453592864e+01          2.393315306e+02                      2        6.000000000e+00                     30
+2                    22          2.284176370e+00          2.506256172e+02                      2        7.636363636e+00                     20
+3                    17          1.211176408e+02          3.353796667e+02                      2        7.764705882e+00                     20
+4                    10          0.000000000e+00          1.424871798e+02                      2        3.800000000e+00                     12
+5                    15          2.209337321e+00          5.994405173e+01                      2        2.133333333e+00                      4
+6                     6          6.994762309e+01          7.594777362e+01                      2        7.666666667e+00                     12
+7                     0          9.999999000e+06          9.999999000e+06                9999999        9.999999000e+06                9999999
+  X0.5km_prospect_num_feasible X0.5km_prospect_perc_feasible X2km_prospect_count X2km_prospect_min_dist X2km_prospect_avg_dist X2km_prospect_min_bw
+1                           31                  0.9117647059                 161        8.453592864e+01            778.7096562                2.000
+2                           22                  1.0000000000                 255        2.284176370e+00           1485.3804667                2.000
+3                           17                  1.0000000000                 295        1.211176408e+02           1495.4025151                2.000
+4                            3                  0.3000000000                  32        0.000000000e+00           1136.3872111                2.000
+5                           11                  0.7333333333                  38        2.209337321e+00           1057.6666871                0.512
+6                            1                  0.1666666667                   7        6.994762309e+01            161.1552497                2.000
+7                            0                  0.0000000000                   0        9.999999000e+06        9999999.0000000          9999999.000
+  X2km_prospect_avg_bw X2km_prospect_max_bw X2km_prospect_num_feasible X2km_prospect_perc_feasible X5km_prospect_count X5km_prospect_min_dist
+1      1.524223602e+01                 1000                        155                0.9627329193                 801        8.453592864e+01
+2      2.002352941e+01                  300                        255                1.0000000000                3279        2.284176370e+00
+3      2.284745763e+01                 1000                        295                1.0000000000                2544        1.211176408e+02
+4      2.106250000e+01                  200                         15                0.4687500000                 257        0.000000000e+00
+5      6.013473684e+00                   32                         25                0.6578947368                 124        2.209337321e+00
+6      6.857142857e+00                   12                          1                0.1428571429                   9        6.994762309e+01
+7      9.999999000e+06              9999999                          0                0.0000000000                   0        9.999999000e+06
+  X5km_prospect_avg_dist X5km_prospect_min_bw X5km_prospect_avg_bw X5km_prospect_max_bw X5km_prospect_num_feasible X5km_prospect_perc_feasible
+1            3036.465445                2.000      5.684144819e+01                 3072                        795                0.9925093633
+2            3766.903955                0.128      9.282835499e+01                10240                       3275                0.9987801159
+3            3395.434511                0.128      1.073444088e+02                10240                       2544                1.0000000000
+4            3119.727670                0.512      7.774147860e+01                10240                        117                0.4552529183
+5            2909.786380                0.512      1.000058065e+01                  155                         82                0.6612903226
+6            1217.566092                2.000      6.000000000e+00                   12                          1                0.1111111111
+7         9999999.000000          9999999.000      9.999999000e+06              9999999                          0                0.0000000000
+  OnnetCity_tag Probabililty_Access_Feasibility Predicted_Access_Feasibility lm_arc_bw_onwl          SERVICE_ID num_connected_cust
+1             1                            0.96                 Not Feasible              0                  NA                  0
+2             1                            1.00                 Not Feasible              0 091DELH623029295624                  0
+3             1                            1.00                 Not Feasible              0                  NA                  0
+4             1                            0.17                 Not Feasible              0                  NA                  0
+5             1                            0.27                 Not Feasible              0                  NA                  0
+6             1                            0.03                 Not Feasible              0                  NA                  0
+7             1                            0.00                 Not Feasible              0                  NA                  0
+  num_connected_building connected_cust_tag connected_building_tag lm_nrc_mux_onwl lm_nrc_inbldg_onwl lm_nrc_nerental_onwl lm_nrc_bw_onwl
+1                      0                  0                      0           58810              40000                    0              0
+2                      7                  0                      1           58810              40000                    0              0
+3                      0                  0                      0           58810              40000                    0              0
+4                      0                  0                      0           58810              40000                    0              0
+5                      0                  0                      0           58810              40000                    0              0
+6                      0                  0                      0           58810              40000                    0              0
+7                      0                  0                      0           58810              40000                    0              0
+  cost_permeter min_hh_fatg lm_nrc_ospcapex_onwl total_cost city_tier scenario_1 scenario_2 net_pre_feasible_flag access_check_CC core_check_CC mux
+1           650        2933              1906450    2005260     Tier1          1          0                     1              NA            NA  NA
+2           650           0                    0      98810     Tier1          1          0                     1              NA            NA  NA
+3           650         137                89050     187860     Tier1          1          0                     1              NA            NA  NA
+4           650         919               597350     696160     Tier1          1          0                     1              NA            NA  NA
+5           650        2056              1336400    1435210     Tier1          1          0                     1              NA            NA  NA
+6           650       24966             16227900   16326710     Tier1          1          0                     1              NA            NA  NA
+7           650       89755             58340750   58439560     Tier1          1          0                     1              NA            NA  NA
+  mux_ip mux_port mux_access_ring Network_F_NF_CC_Flag Network_F_NF_CC HH_0_5km hh_flag       Network_F_NF_HH       access_check_hh
+1     NA       NA              NA                    0     No CC Found       NA       0 No HH/core ring found No HH/core ring found
+2     NA       NA              NA                    0     No CC Found       NA       0 No HH/core ring found No HH/core ring found
+3     NA       NA              NA                    0     No CC Found       NA       0 No HH/core ring found No HH/core ring found
+4     NA       NA              NA                    0     No CC Found       NA       0 No HH/core ring found No HH/core ring found
+5     NA       NA              NA                    0     No CC Found       NA       0 No HH/core ring found No HH/core ring found
+6     NA       NA              NA                    0     No CC Found       NA       0 No HH/core ring found No HH/core ring found
+7     NA       NA              NA                    0     No CC Found       NA       0 No HH/core ring found No HH/core ring found
+          core_check_hh       access_rings_hh Network_F_NF_HH_Flag selected_access_ring Network_Feasibility_Check Orch_LM_Type Orch_Connection
+1 No HH/core ring found No HH/core ring found                    0                   NA                  Feasible        Onnet        Wireline
+2 No HH/core ring found No HH/core ring found                    0                   NA                  Feasible        Onnet        Wireline
+3 No HH/core ring found No HH/core ring found                    0                   NA                  Feasible        Onnet        Wireline
+4 No HH/core ring found No HH/core ring found                    0                   NA                  Feasible        Onnet        Wireline
+5 No HH/core ring found No HH/core ring found                    0                   NA                  Feasible        Onnet        Wireline
+6 No HH/core ring found No HH/core ring found                    0                   NA                  Feasible        Onnet        Wireline
+7 No HH/core ring found No HH/core ring found                    0                   NA                  Feasible        Onnet        Wireline
+            Orch_Category Orch_BW solution_type                         Predicted_Feasibility_Comment bw_mbps            customer_segment  sales_org
+1 Capex greater than 175m       2           MAN                 Access_Feasible, Invalid_LL_Interface       2 Enterprise ? Government/PSU Enterprise
+2      Connected Building       2           MAN                 Access_Feasible, Invalid_LL_Interface       2 Enterprise ? Government/PSU Enterprise
+3    Capex less than 175m       2           MAN                 Access_Feasible, Invalid_LL_Interface       2 Enterprise ? Government/PSU Enterprise
+4 Capex greater than 175m       2           MAN             Access_Not_Feasible, Invalid_LL_Interface       2 Enterprise ? Government/PSU Enterprise
+5 Capex greater than 175m       2           MAN             Access_Not_Feasible, Invalid_LL_Interface       2 Enterprise ? Government/PSU Enterprise
+6 Capex greater than 175m       2           MAN             Access_Not_Feasible, Invalid_LL_Interface       2 Enterprise ? Government/PSU Enterprise
+7 Capex greater than 175m       2           MAN Access_Not_Feasible, Invalid_LL_Interface, CD > 50 Km       2 Enterprise ? Government/PSU Enterprise
+  product_name local_loop_interface last_mile_contract_term prospect_name burstable_bw resp_city account_id_with_18_digit opportunity_term
+1   Global VPN          100-Base-TX                  1 Year          Temp            2     DELHI       0012000000GSDzVAAX               12
+2   Global VPN          100-Base-TX                  1 Year          Temp            2     DELHI       0012000000GSDzVAAX               12
+3   Global VPN          100-Base-TX                  1 Year          Temp            2     DELHI       0012000000GSDzVAAX               12
+4   Global VPN          100-Base-TX                  1 Year          Temp            2     DELHI       0012000000GSDzVAAX               12
+5   Global VPN          100-Base-TX                  1 Year          Temp            2     DELHI       0012000000GSDzVAAX               12
+6   Global VPN          100-Base-TX                  1 Year          Temp            2     DELHI       0012000000GSDzVAAX               12
+7   Global VPN          100-Base-TX                  1 Year          Temp            2     DELHI       0012000000GSDzVAAX               12
+  quotetype_quote connection_type sum_no_of_sites_uni_len cpe_variant cpe_management_type cpe_supply_type       topology pool_size additional_ip
+1       New Order        Standard                       1  C867VAE-K9        full_managed          rental primary_active        29             4
+2       New Order        Standard                       1  C867VAE-K9        full_managed          rental primary_active        29             4
+3       New Order        Standard                       1  C867VAE-K9        full_managed          rental primary_active        29             4
+4       New Order        Standard                       1  C867VAE-K9        full_managed          rental primary_active        29             4
+5       New Order        Standard                       1  C867VAE-K9        full_managed          rental primary_active        29             4
+6       New Order        Standard                       1  C867VAE-K9        full_managed          rental primary_active        29             4
+7       New Order        Standard                       1  C867VAE-K9        full_managed          rental primary_active        29             4
+  latitude_final longitude_final feasibility_response_created_date lm_arc_bw_prov_ofrf lm_nrc_bw_prov_ofrf lm_nrc_mast_ofrf lm_arc_bw_onrf
+1      28.558312       77.094343                        2018-07-12                   0                   0                0              0
+2      28.586551       77.210667                        2018-07-12                   0                   0                0              0
+3      28.583077       77.213155                        2018-07-12                   0                   0                0              0
+4      26.828007       75.806048                        2018-07-12                   0                   0                0              0
+5      26.761742       80.885674                        2018-07-12                   0                   0                0              0
+6      25.448473       82.856077                        2018-07-12                   0                   0                0              0
+7      31.877101       77.151893                        2018-07-12                   0                   0                0              0
+  lm_nrc_bw_onrf lm_nrc_mast_onrf error_code error_flag error_msg
+1              0                0         NA          0  No error
+2              0                0         NA          0  No error
+3              0                0         NA          0  No error
+4              0                0         NA          0  No error
+5              0                0         NA          0  No error
+6              0                0         NA          0  No error
+7              0                0         NA          0  No error
+ [ reached 'max' / getOption("max.print") -- omitted 3 rows ]

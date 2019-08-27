@@ -1,0 +1,145 @@
+Skip to content
+Why GitHub? 
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+20 18 14 project-open-data/json-validator
+ Code  Issues 4  Pull requests 0  Projects 0  Security  Insights
+Join GitHub today
+GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.
+
+json-validator/index.html
+@cew821 cew821 forgot a comma
+3d27e11 on Nov 18, 2013
+@cew821 @benbalter
+Executable File  113 lines (101 sloc)  4.97 KB
+    
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="js/codemirror/lib/codemirror.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+          body {margin-top: 20px; }
+          #input { width: 100%; height: 250px; }
+          #feedback { color: red; font-size: 20px; }
+          #feedback.valid {color: green; font-weight: bold; }
+          label { font-weight: bold; }
+          .CodeMirror-scroll { height: 400px; }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <div class="container">
+
+<h2>Check your data file</h2>
+
+<label for="input">Enter data file:</label>
+<textarea id="input">[
+    {
+        "title": "Data Catalog",
+        "description": "Version 1.0",
+        "keyword": "catalog",
+        "modified": "2013-05-09",
+        "publisher": "US Department of X",
+        "contactPoint": "Rebecca Lane, Chief Data Officer",
+        "mbox": "contact.person@agency.gov",
+        "identifier": "1",
+        "accessLevel": "public",
+        "distribution": [{
+            "accessURL": "http://agency.gov/data.json",
+            "format": "json"
+            }]
+    },
+    {
+        "title": "Public Elementary/Secondary Listing",
+        "description": "The purpose of the CCD nonfiscal surveys is to provide a listing of all schools and agencies providing free public elementary and secondary education, along with basic descriptive statistical information on each school and agency listed. Penalties apply for misuse, seehttp://nces.ed.gov/ncesglobal/data_usage_agreement.aspfor more details.",
+        "keyword": ["education", "schools"],
+        "modified": "2011-11-19",
+        "publisher": "U.S. Department of Education",
+        "contactPoint": "Open Data Initiative",
+        "mbox": "opendata@ed.gov",
+        "identifier": "ykv5-fn9t",
+        "accessLevel": "public",
+        "bureauCode": "019:20",
+        "programCode": "019:05",
+        "dataDictionary": "http://nces.ed.gov/ccd/pdf/INsc09101a.pdf",
+        "distribution": [{
+            "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD",
+            "format": "csv"},
+        {
+            "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.json?accessType=DOWNLOAD",
+            "format": "json"
+        },{
+            "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.xml?accessType=DOWNLOAD",
+            "format": "xml"
+        }],
+        "webService": "http://explore.data.gov/api/views/ykv5-fn9t/rows.json",
+        "license": "Public Domain",
+        "spatial": "United States",
+        "temporal": "2009-09-01/2010-05-31",
+        "frequency": "Annual",
+        "language": ["en-US"],
+        "dataQuality": true,
+        "theme": "education",
+        "references": "http://nces.ed.gov/ccd/data/txt/psu091alay.txt",
+        "landingPage": "http://ed.gov/developer",
+        "systemOfRecords": "http://nces.ed.gov/ccd/"
+    }]</textarea>
+
+<input type="checkbox" id="require_if_available" name="require_if_available" value="true" onchange="window.rebuild_schema();project_open_data_validator.validate()"> Require "Required if Applicable" Fields<br>
+<input type="checkbox" id="require_extended" name="require_extended" value="true" onchange="window.rebuild_schema();project_open_data_validator.validate()"> Require all Extended Fields<br>
+
+
+<h3>Status</h3>
+
+<div id="feedback"></div>
+
+<h3>Additional Resources</h3>
+<ul>
+  <li><a href="https://gist.github.com/3952577">JSON 101</a></li>
+  <li><a href="http://jsonlint.com/">JSON Validator</a> (useful for your JSON not properly parsing)</li>
+  <li><a href="http://project-open-data.github.io/schema/">Schema Definition</a>
+
+</ul>
+        </div> <!-- /container -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="js/amanda/releases/latest/amanda.min.js"></script>
+        <script src="js/codemirror/lib/codemirror.js"></script>
+        <script src="js/codemirror/mode/javascript/javascript.js"></script>
+        <script src="js/schema.js"></script>
+        <script src="js/validate.js"></script>
+        
+    </body>
+</html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
