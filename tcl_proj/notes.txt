@@ -1,0 +1,64 @@
+https://optimus-uat.tatacommunications.com/optimus/ 
+
+Normal user :  optimus_trent
+pass : welcome123
+
+Root oms user : root
+pass : root123
+
+python workflows:
+https://libraries.io/search?keywords=workflow&languages=Python&sort=stars
+
+https://github.com/apache/airflow/
+
+https://forge.autodesk.com/blog/sample-scripts-basic-workflow-translating-model-python
+
+Airflow:
+
+pip install apache-airflow
+airflow initdb
+airflow webserver -p 8080
+airflow scheduler
+
+ctrl + b + \ ----> tmux vertical split
+ctrl + b _ - -----> tmux horizontal split
+
+airflow list_dags
+airflow backfill example_python_operator -s 2019-7-31
+
+airflow test example_dag_2 print_the_context 2019-8-1
+
+curl https://api.github.com
+
+Add the path in ~/.bashrc
+export AIRFLOW_PATH='/home/aprao/airflow_test'
+source ~/.bashrc
+airflow version
+airflow webserver
+
+python3 -i <script.py>
+
+
+Acronymns:
+
+FATG : Fibre at the gate
+HH : hand hold
+OTC : One Time Charges
+hh < pop
+df.fillna(0)
+df.replace(np.nan,0)
+
+scroll in tmux
+ctrl + B
+[
+shift +(pageup/pagedown)
+ctrl+ c(exits off scroll mode)
+
+source('D:/fp_project/pricing/ill_pricing_code.R', echo=TRUE)
+Ctrl + shift+enter (to load the R code)
+library(jsonlite)
+ctrl+shift+r  (to clear the cache)
+
+https://medium.com/@yaelg/product-manager-guide-part-3-developing-a-machine-learning-model-from-start-to-finish-c3e12fd835e4
+> bm_data <- dplyr::bind_rows(fromJSON("input_json_for_pricing_pool_size.json"))
+> run_ILL_pricing(bm_data, getwd())
